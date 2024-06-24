@@ -46,7 +46,7 @@ def paramns_check(df:pd.DataFrame, target_col:str, columns:list, pvalue:float) -
 
 def eval_model(target, predictions, problem_type, metrics):
         
-import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error, accuracy_score, precision_score, recall_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 
