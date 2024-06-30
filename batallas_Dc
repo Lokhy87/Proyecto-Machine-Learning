@@ -1,0 +1,1226 @@
+,Heroe_1,Fuerza_Heroe_1,Heroe_2,Fuerza_Heroe_2,Resultado,Heroe_1_Intelligence,Heroe_1_Strength,Heroe_1_Speed,Heroe_1_Durability,Heroe_1_Power,Heroe_1_Combat,Heroe_2_Intelligence,Heroe_2_Strength,Heroe_2_Speed,Heroe_2_Durability,Heroe_2_Power,Heroe_2_Combat,Resultado_Numerico
+0,Alfred,93,Amanda Waller,112,Pierde,65,1,1,5,1,20,65,1,1,5,10,30,0
+1,Alfred,93,Anthea,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+2,Alfred,93,Aquaman,295,Pierde,65,1,1,5,1,20,65,50,25,30,45,80,0
+3,Alfred,93,Ares,460,Pierde,65,1,1,5,1,20,90,100,50,50,70,100,0
+4,Alfred,93,Atom Smasher,200,Pierde,65,1,1,5,1,20,60,30,25,25,40,20,0
+5,Alfred,93,Batman,234,Pierde,65,1,1,5,1,20,80,13,11,15,20,95,0
+6,Alfred,93,Black Adam,435,Pierde,65,1,1,5,1,20,65,100,75,45,75,75,0
+7,Alfred,93,Black Canary,142,Pierde,65,1,1,5,1,20,55,1,6,5,35,40,0
+8,Alfred,93,Black Manta,240,Pierde,65,1,1,5,1,20,70,25,25,20,40,60,0
+9,Alfred,93,Black Mask,107,Pierde,65,1,1,5,1,20,60,1,6,5,5,30,0
+10,Alfred,93,Bloodsport,199,Pierde,65,1,1,5,1,20,70,1,8,15,20,85,0
+11,Alfred,93,Captain Boomerang,109,Pierde,65,1,1,5,1,20,45,1,6,7,10,40,0
+12,Alfred,93,Cassandra Cain,79,Gana,65,1,1,5,1,20,45,1,1,1,1,30,1
+13,Alfred,93,Cheetah,234,Pierde,65,1,1,5,1,20,60,50,14,15,30,65,0
+14,Alfred,93,Cyborg,290,Pierde,65,1,1,5,1,20,70,40,30,35,65,50,0
+15,Alfred,93,Cyclone,211,Pierde,65,1,1,5,1,20,80,1,25,15,50,40,0
+16,Alfred,93,Dark Flash,375,Pierde,65,1,1,5,1,20,80,25,100,35,85,50,0
+17,Alfred,93,Darkseid,465,Pierde,65,1,1,5,1,20,95,100,30,55,90,95,0
+18,Alfred,93,Darla Dudley,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+19,Alfred,93,Deadshot,136,Pierde,65,1,1,5,1,20,60,1,6,7,17,45,0
+20,Alfred,93,Deathstroke,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+21,Alfred,93,Doctor Fate,420,Pierde,65,1,1,5,1,20,85,75,60,45,85,70,0
+22,Alfred,93,Doctor Sivana,390,Pierde,65,1,1,5,1,20,70,95,60,40,70,55,0
+23,Alfred,93,Doomsday,325,Pierde,65,1,1,5,1,20,35,100,45,45,75,25,0
+24,Alfred,93,Dr. Maru,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+25,Alfred,93,El Diablo,176,Pierde,65,1,1,5,1,20,55,25,6,10,35,45,0
+26,Alfred,93,Emilia Harcourt,155,Pierde,65,1,1,5,1,20,65,1,1,8,10,70,0
+27,Alfred,93,Enchantress,328,Pierde,65,1,1,5,1,20,80,70,20,18,70,70,0
+28,Alfred,93,Envy,360,Pierde,65,1,1,5,1,20,65,65,65,40,60,65,0
+29,Alfred,93,Faora,425,Pierde,65,1,1,5,1,20,70,95,60,45,70,85,0
+30,Alfred,93,Freddy Freeman,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+31,Alfred,93,General Zod,420,Pierde,65,1,1,5,1,20,70,100,50,40,75,85,0
+32,Alfred,93,Gluttony,360,Pierde,65,1,1,5,1,20,65,65,65,40,60,65,0
+33,Alfred,93,Green Lantern,340,Pierde,65,1,1,5,1,20,65,75,25,40,65,70,0
+34,Alfred,93,Harley Quinn,173,Pierde,65,1,1,5,1,20,60,5,8,10,10,80,0
+35,Alfred,93,Hawkman,275,Pierde,65,1,1,5,1,20,65,30,25,25,50,80,0
+36,Alfred,93,Hespera,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+37,Alfred,93,Huntress,112,Pierde,65,1,1,5,1,20,50,1,1,5,5,50,0
+38,Alfred,93,Incubus,201,Pierde,65,1,1,5,1,20,55,30,6,30,50,30,0
+39,Alfred,93,Joker,133,Pierde,65,1,1,5,1,20,65,1,7,5,10,45,0
+40,Alfred,93,Jor-El,187,Pierde,65,1,1,5,1,20,80,1,6,10,10,80,0
+41,Alfred,93,Judomaster,192,Pierde,65,1,1,5,1,20,60,1,6,15,10,100,0
+42,Alfred,93,Kalypso,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+43,Alfred,93,Karathen,335,Pierde,65,1,1,5,1,20,75,95,25,50,60,30,0
+44,Alfred,93,Katana,167,Pierde,65,1,1,5,1,20,55,1,7,9,15,80,0
+45,Alfred,93,Killer Croc,174,Pierde,65,1,1,5,1,20,45,25,14,20,30,40,0
+46,Alfred,93,King Nereus,290,Pierde,65,1,1,5,1,20,70,45,30,25,45,75,0
+47,Alfred,93,King Shark,202,Pierde,65,1,1,5,1,20,50,30,17,25,40,40,0
+48,Alfred,93,Ladon,0,Gana,65,1,1,5,1,20,0,0,0,0,0,0,1
+49,Amanda Waller,112,Anthea,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+50,Amanda Waller,112,Aquaman,295,Pierde,65,1,1,5,10,30,65,50,25,30,45,80,0
+51,Amanda Waller,112,Ares,460,Pierde,65,1,1,5,10,30,90,100,50,50,70,100,0
+52,Amanda Waller,112,Atom Smasher,200,Pierde,65,1,1,5,10,30,60,30,25,25,40,20,0
+53,Amanda Waller,112,Batman,234,Pierde,65,1,1,5,10,30,80,13,11,15,20,95,0
+54,Amanda Waller,112,Black Adam,435,Pierde,65,1,1,5,10,30,65,100,75,45,75,75,0
+55,Amanda Waller,112,Black Canary,142,Pierde,65,1,1,5,10,30,55,1,6,5,35,40,0
+56,Amanda Waller,112,Black Manta,240,Pierde,65,1,1,5,10,30,70,25,25,20,40,60,0
+57,Amanda Waller,112,Black Mask,107,Gana,65,1,1,5,10,30,60,1,6,5,5,30,1
+58,Amanda Waller,112,Bloodsport,199,Pierde,65,1,1,5,10,30,70,1,8,15,20,85,0
+59,Amanda Waller,112,Captain Boomerang,109,Gana,65,1,1,5,10,30,45,1,6,7,10,40,1
+60,Amanda Waller,112,Cassandra Cain,79,Gana,65,1,1,5,10,30,45,1,1,1,1,30,1
+61,Amanda Waller,112,Cheetah,234,Pierde,65,1,1,5,10,30,60,50,14,15,30,65,0
+62,Amanda Waller,112,Cyborg,290,Pierde,65,1,1,5,10,30,70,40,30,35,65,50,0
+63,Amanda Waller,112,Cyclone,211,Pierde,65,1,1,5,10,30,80,1,25,15,50,40,0
+64,Amanda Waller,112,Dark Flash,375,Pierde,65,1,1,5,10,30,80,25,100,35,85,50,0
+65,Amanda Waller,112,Darkseid,465,Pierde,65,1,1,5,10,30,95,100,30,55,90,95,0
+66,Amanda Waller,112,Darla Dudley,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+67,Amanda Waller,112,Deadshot,136,Pierde,65,1,1,5,10,30,60,1,6,7,17,45,0
+68,Amanda Waller,112,Deathstroke,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+69,Amanda Waller,112,Doctor Fate,420,Pierde,65,1,1,5,10,30,85,75,60,45,85,70,0
+70,Amanda Waller,112,Doctor Sivana,390,Pierde,65,1,1,5,10,30,70,95,60,40,70,55,0
+71,Amanda Waller,112,Doomsday,325,Pierde,65,1,1,5,10,30,35,100,45,45,75,25,0
+72,Amanda Waller,112,Dr. Maru,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+73,Amanda Waller,112,El Diablo,176,Pierde,65,1,1,5,10,30,55,25,6,10,35,45,0
+74,Amanda Waller,112,Emilia Harcourt,155,Pierde,65,1,1,5,10,30,65,1,1,8,10,70,0
+75,Amanda Waller,112,Enchantress,328,Pierde,65,1,1,5,10,30,80,70,20,18,70,70,0
+76,Amanda Waller,112,Envy,360,Pierde,65,1,1,5,10,30,65,65,65,40,60,65,0
+77,Amanda Waller,112,Faora,425,Pierde,65,1,1,5,10,30,70,95,60,45,70,85,0
+78,Amanda Waller,112,Freddy Freeman,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+79,Amanda Waller,112,General Zod,420,Pierde,65,1,1,5,10,30,70,100,50,40,75,85,0
+80,Amanda Waller,112,Gluttony,360,Pierde,65,1,1,5,10,30,65,65,65,40,60,65,0
+81,Amanda Waller,112,Green Lantern,340,Pierde,65,1,1,5,10,30,65,75,25,40,65,70,0
+82,Amanda Waller,112,Harley Quinn,173,Pierde,65,1,1,5,10,30,60,5,8,10,10,80,0
+83,Amanda Waller,112,Hawkman,275,Pierde,65,1,1,5,10,30,65,30,25,25,50,80,0
+84,Amanda Waller,112,Hespera,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+85,Amanda Waller,112,Huntress,112,Empata,65,1,1,5,10,30,50,1,1,5,5,50,2
+86,Amanda Waller,112,Incubus,201,Pierde,65,1,1,5,10,30,55,30,6,30,50,30,0
+87,Amanda Waller,112,Joker,133,Pierde,65,1,1,5,10,30,65,1,7,5,10,45,0
+88,Amanda Waller,112,Jor-El,187,Pierde,65,1,1,5,10,30,80,1,6,10,10,80,0
+89,Amanda Waller,112,Judomaster,192,Pierde,65,1,1,5,10,30,60,1,6,15,10,100,0
+90,Amanda Waller,112,Kalypso,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+91,Amanda Waller,112,Karathen,335,Pierde,65,1,1,5,10,30,75,95,25,50,60,30,0
+92,Amanda Waller,112,Katana,167,Pierde,65,1,1,5,10,30,55,1,7,9,15,80,0
+93,Amanda Waller,112,Killer Croc,174,Pierde,65,1,1,5,10,30,45,25,14,20,30,40,0
+94,Amanda Waller,112,King Nereus,290,Pierde,65,1,1,5,10,30,70,45,30,25,45,75,0
+95,Amanda Waller,112,King Shark,202,Pierde,65,1,1,5,10,30,50,30,17,25,40,40,0
+96,Amanda Waller,112,Ladon,0,Gana,65,1,1,5,10,30,0,0,0,0,0,0,1
+97,Anthea,0,Aquaman,295,Pierde,0,0,0,0,0,0,65,50,25,30,45,80,0
+98,Anthea,0,Ares,460,Pierde,0,0,0,0,0,0,90,100,50,50,70,100,0
+99,Anthea,0,Atom Smasher,200,Pierde,0,0,0,0,0,0,60,30,25,25,40,20,0
+100,Anthea,0,Batman,234,Pierde,0,0,0,0,0,0,80,13,11,15,20,95,0
+101,Anthea,0,Black Adam,435,Pierde,0,0,0,0,0,0,65,100,75,45,75,75,0
+102,Anthea,0,Black Canary,142,Pierde,0,0,0,0,0,0,55,1,6,5,35,40,0
+103,Anthea,0,Black Manta,240,Pierde,0,0,0,0,0,0,70,25,25,20,40,60,0
+104,Anthea,0,Black Mask,107,Pierde,0,0,0,0,0,0,60,1,6,5,5,30,0
+105,Anthea,0,Bloodsport,199,Pierde,0,0,0,0,0,0,70,1,8,15,20,85,0
+106,Anthea,0,Captain Boomerang,109,Pierde,0,0,0,0,0,0,45,1,6,7,10,40,0
+107,Anthea,0,Cassandra Cain,79,Pierde,0,0,0,0,0,0,45,1,1,1,1,30,0
+108,Anthea,0,Cheetah,234,Pierde,0,0,0,0,0,0,60,50,14,15,30,65,0
+109,Anthea,0,Cyborg,290,Pierde,0,0,0,0,0,0,70,40,30,35,65,50,0
+110,Anthea,0,Cyclone,211,Pierde,0,0,0,0,0,0,80,1,25,15,50,40,0
+111,Anthea,0,Dark Flash,375,Pierde,0,0,0,0,0,0,80,25,100,35,85,50,0
+112,Anthea,0,Darkseid,465,Pierde,0,0,0,0,0,0,95,100,30,55,90,95,0
+113,Anthea,0,Darla Dudley,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+114,Anthea,0,Deadshot,136,Pierde,0,0,0,0,0,0,60,1,6,7,17,45,0
+115,Anthea,0,Deathstroke,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+116,Anthea,0,Doctor Fate,420,Pierde,0,0,0,0,0,0,85,75,60,45,85,70,0
+117,Anthea,0,Doctor Sivana,390,Pierde,0,0,0,0,0,0,70,95,60,40,70,55,0
+118,Anthea,0,Doomsday,325,Pierde,0,0,0,0,0,0,35,100,45,45,75,25,0
+119,Anthea,0,Dr. Maru,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+120,Anthea,0,El Diablo,176,Pierde,0,0,0,0,0,0,55,25,6,10,35,45,0
+121,Anthea,0,Emilia Harcourt,155,Pierde,0,0,0,0,0,0,65,1,1,8,10,70,0
+122,Anthea,0,Enchantress,328,Pierde,0,0,0,0,0,0,80,70,20,18,70,70,0
+123,Anthea,0,Envy,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+124,Anthea,0,Faora,425,Pierde,0,0,0,0,0,0,70,95,60,45,70,85,0
+125,Anthea,0,Freddy Freeman,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+126,Anthea,0,General Zod,420,Pierde,0,0,0,0,0,0,70,100,50,40,75,85,0
+127,Anthea,0,Gluttony,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+128,Anthea,0,Green Lantern,340,Pierde,0,0,0,0,0,0,65,75,25,40,65,70,0
+129,Anthea,0,Harley Quinn,173,Pierde,0,0,0,0,0,0,60,5,8,10,10,80,0
+130,Anthea,0,Hawkman,275,Pierde,0,0,0,0,0,0,65,30,25,25,50,80,0
+131,Anthea,0,Hespera,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+132,Anthea,0,Huntress,112,Pierde,0,0,0,0,0,0,50,1,1,5,5,50,0
+133,Anthea,0,Incubus,201,Pierde,0,0,0,0,0,0,55,30,6,30,50,30,0
+134,Anthea,0,Joker,133,Pierde,0,0,0,0,0,0,65,1,7,5,10,45,0
+135,Anthea,0,Jor-El,187,Pierde,0,0,0,0,0,0,80,1,6,10,10,80,0
+136,Anthea,0,Judomaster,192,Pierde,0,0,0,0,0,0,60,1,6,15,10,100,0
+137,Anthea,0,Kalypso,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+138,Anthea,0,Karathen,335,Pierde,0,0,0,0,0,0,75,95,25,50,60,30,0
+139,Anthea,0,Katana,167,Pierde,0,0,0,0,0,0,55,1,7,9,15,80,0
+140,Anthea,0,Killer Croc,174,Pierde,0,0,0,0,0,0,45,25,14,20,30,40,0
+141,Anthea,0,King Nereus,290,Pierde,0,0,0,0,0,0,70,45,30,25,45,75,0
+142,Anthea,0,King Shark,202,Pierde,0,0,0,0,0,0,50,30,17,25,40,40,0
+143,Anthea,0,Ladon,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+144,Aquaman,295,Ares,460,Pierde,65,50,25,30,45,80,90,100,50,50,70,100,0
+145,Aquaman,295,Atom Smasher,200,Gana,65,50,25,30,45,80,60,30,25,25,40,20,1
+146,Aquaman,295,Batman,234,Gana,65,50,25,30,45,80,80,13,11,15,20,95,1
+147,Aquaman,295,Black Adam,435,Pierde,65,50,25,30,45,80,65,100,75,45,75,75,0
+148,Aquaman,295,Black Canary,142,Gana,65,50,25,30,45,80,55,1,6,5,35,40,1
+149,Aquaman,295,Black Manta,240,Gana,65,50,25,30,45,80,70,25,25,20,40,60,1
+150,Aquaman,295,Black Mask,107,Gana,65,50,25,30,45,80,60,1,6,5,5,30,1
+151,Aquaman,295,Bloodsport,199,Gana,65,50,25,30,45,80,70,1,8,15,20,85,1
+152,Aquaman,295,Captain Boomerang,109,Gana,65,50,25,30,45,80,45,1,6,7,10,40,1
+153,Aquaman,295,Cassandra Cain,79,Gana,65,50,25,30,45,80,45,1,1,1,1,30,1
+154,Aquaman,295,Cheetah,234,Gana,65,50,25,30,45,80,60,50,14,15,30,65,1
+155,Aquaman,295,Cyborg,290,Gana,65,50,25,30,45,80,70,40,30,35,65,50,1
+156,Aquaman,295,Cyclone,211,Gana,65,50,25,30,45,80,80,1,25,15,50,40,1
+157,Aquaman,295,Dark Flash,375,Pierde,65,50,25,30,45,80,80,25,100,35,85,50,0
+158,Aquaman,295,Darkseid,465,Pierde,65,50,25,30,45,80,95,100,30,55,90,95,0
+159,Aquaman,295,Darla Dudley,0,Gana,65,50,25,30,45,80,0,0,0,0,0,0,1
+160,Aquaman,295,Deadshot,136,Gana,65,50,25,30,45,80,60,1,6,7,17,45,1
+161,Aquaman,295,Deathstroke,0,Gana,65,50,25,30,45,80,0,0,0,0,0,0,1
+162,Aquaman,295,Doctor Fate,420,Pierde,65,50,25,30,45,80,85,75,60,45,85,70,0
+163,Aquaman,295,Doctor Sivana,390,Pierde,65,50,25,30,45,80,70,95,60,40,70,55,0
+164,Aquaman,295,Doomsday,325,Pierde,65,50,25,30,45,80,35,100,45,45,75,25,0
+165,Aquaman,295,Dr. Maru,0,Gana,65,50,25,30,45,80,0,0,0,0,0,0,1
+166,Aquaman,295,El Diablo,176,Gana,65,50,25,30,45,80,55,25,6,10,35,45,1
+167,Aquaman,295,Emilia Harcourt,155,Gana,65,50,25,30,45,80,65,1,1,8,10,70,1
+168,Aquaman,295,Enchantress,328,Pierde,65,50,25,30,45,80,80,70,20,18,70,70,0
+169,Aquaman,295,Envy,360,Pierde,65,50,25,30,45,80,65,65,65,40,60,65,0
+170,Aquaman,295,Faora,425,Pierde,65,50,25,30,45,80,70,95,60,45,70,85,0
+171,Aquaman,295,Freddy Freeman,0,Gana,65,50,25,30,45,80,0,0,0,0,0,0,1
+172,Aquaman,295,General Zod,420,Pierde,65,50,25,30,45,80,70,100,50,40,75,85,0
+173,Aquaman,295,Gluttony,360,Pierde,65,50,25,30,45,80,65,65,65,40,60,65,0
+174,Aquaman,295,Green Lantern,340,Pierde,65,50,25,30,45,80,65,75,25,40,65,70,0
+175,Aquaman,295,Harley Quinn,173,Gana,65,50,25,30,45,80,60,5,8,10,10,80,1
+176,Aquaman,295,Hawkman,275,Gana,65,50,25,30,45,80,65,30,25,25,50,80,1
+177,Aquaman,295,Hespera,0,Gana,65,50,25,30,45,80,0,0,0,0,0,0,1
+178,Aquaman,295,Huntress,112,Gana,65,50,25,30,45,80,50,1,1,5,5,50,1
+179,Aquaman,295,Incubus,201,Gana,65,50,25,30,45,80,55,30,6,30,50,30,1
+180,Aquaman,295,Joker,133,Gana,65,50,25,30,45,80,65,1,7,5,10,45,1
+181,Aquaman,295,Jor-El,187,Gana,65,50,25,30,45,80,80,1,6,10,10,80,1
+182,Aquaman,295,Judomaster,192,Gana,65,50,25,30,45,80,60,1,6,15,10,100,1
+183,Aquaman,295,Kalypso,0,Gana,65,50,25,30,45,80,0,0,0,0,0,0,1
+184,Aquaman,295,Karathen,335,Pierde,65,50,25,30,45,80,75,95,25,50,60,30,0
+185,Aquaman,295,Katana,167,Gana,65,50,25,30,45,80,55,1,7,9,15,80,1
+186,Aquaman,295,Killer Croc,174,Gana,65,50,25,30,45,80,45,25,14,20,30,40,1
+187,Aquaman,295,King Nereus,290,Gana,65,50,25,30,45,80,70,45,30,25,45,75,1
+188,Aquaman,295,King Shark,202,Gana,65,50,25,30,45,80,50,30,17,25,40,40,1
+189,Aquaman,295,Ladon,0,Gana,65,50,25,30,45,80,0,0,0,0,0,0,1
+190,Ares,460,Atom Smasher,200,Gana,90,100,50,50,70,100,60,30,25,25,40,20,1
+191,Ares,460,Batman,234,Gana,90,100,50,50,70,100,80,13,11,15,20,95,1
+192,Ares,460,Black Adam,435,Gana,90,100,50,50,70,100,65,100,75,45,75,75,1
+193,Ares,460,Black Canary,142,Gana,90,100,50,50,70,100,55,1,6,5,35,40,1
+194,Ares,460,Black Manta,240,Gana,90,100,50,50,70,100,70,25,25,20,40,60,1
+195,Ares,460,Black Mask,107,Gana,90,100,50,50,70,100,60,1,6,5,5,30,1
+196,Ares,460,Bloodsport,199,Gana,90,100,50,50,70,100,70,1,8,15,20,85,1
+197,Ares,460,Captain Boomerang,109,Gana,90,100,50,50,70,100,45,1,6,7,10,40,1
+198,Ares,460,Cassandra Cain,79,Gana,90,100,50,50,70,100,45,1,1,1,1,30,1
+199,Ares,460,Cheetah,234,Gana,90,100,50,50,70,100,60,50,14,15,30,65,1
+200,Ares,460,Cyborg,290,Gana,90,100,50,50,70,100,70,40,30,35,65,50,1
+201,Ares,460,Cyclone,211,Gana,90,100,50,50,70,100,80,1,25,15,50,40,1
+202,Ares,460,Dark Flash,375,Gana,90,100,50,50,70,100,80,25,100,35,85,50,1
+203,Ares,460,Darkseid,465,Pierde,90,100,50,50,70,100,95,100,30,55,90,95,0
+204,Ares,460,Darla Dudley,0,Gana,90,100,50,50,70,100,0,0,0,0,0,0,1
+205,Ares,460,Deadshot,136,Gana,90,100,50,50,70,100,60,1,6,7,17,45,1
+206,Ares,460,Deathstroke,0,Gana,90,100,50,50,70,100,0,0,0,0,0,0,1
+207,Ares,460,Doctor Fate,420,Gana,90,100,50,50,70,100,85,75,60,45,85,70,1
+208,Ares,460,Doctor Sivana,390,Gana,90,100,50,50,70,100,70,95,60,40,70,55,1
+209,Ares,460,Doomsday,325,Gana,90,100,50,50,70,100,35,100,45,45,75,25,1
+210,Ares,460,Dr. Maru,0,Gana,90,100,50,50,70,100,0,0,0,0,0,0,1
+211,Ares,460,El Diablo,176,Gana,90,100,50,50,70,100,55,25,6,10,35,45,1
+212,Ares,460,Emilia Harcourt,155,Gana,90,100,50,50,70,100,65,1,1,8,10,70,1
+213,Ares,460,Enchantress,328,Gana,90,100,50,50,70,100,80,70,20,18,70,70,1
+214,Ares,460,Envy,360,Gana,90,100,50,50,70,100,65,65,65,40,60,65,1
+215,Ares,460,Faora,425,Gana,90,100,50,50,70,100,70,95,60,45,70,85,1
+216,Ares,460,Freddy Freeman,0,Gana,90,100,50,50,70,100,0,0,0,0,0,0,1
+217,Ares,460,General Zod,420,Gana,90,100,50,50,70,100,70,100,50,40,75,85,1
+218,Ares,460,Gluttony,360,Gana,90,100,50,50,70,100,65,65,65,40,60,65,1
+219,Ares,460,Green Lantern,340,Gana,90,100,50,50,70,100,65,75,25,40,65,70,1
+220,Ares,460,Harley Quinn,173,Gana,90,100,50,50,70,100,60,5,8,10,10,80,1
+221,Ares,460,Hawkman,275,Gana,90,100,50,50,70,100,65,30,25,25,50,80,1
+222,Ares,460,Hespera,0,Gana,90,100,50,50,70,100,0,0,0,0,0,0,1
+223,Ares,460,Huntress,112,Gana,90,100,50,50,70,100,50,1,1,5,5,50,1
+224,Ares,460,Incubus,201,Gana,90,100,50,50,70,100,55,30,6,30,50,30,1
+225,Ares,460,Joker,133,Gana,90,100,50,50,70,100,65,1,7,5,10,45,1
+226,Ares,460,Jor-El,187,Gana,90,100,50,50,70,100,80,1,6,10,10,80,1
+227,Ares,460,Judomaster,192,Gana,90,100,50,50,70,100,60,1,6,15,10,100,1
+228,Ares,460,Kalypso,0,Gana,90,100,50,50,70,100,0,0,0,0,0,0,1
+229,Ares,460,Karathen,335,Gana,90,100,50,50,70,100,75,95,25,50,60,30,1
+230,Ares,460,Katana,167,Gana,90,100,50,50,70,100,55,1,7,9,15,80,1
+231,Ares,460,Killer Croc,174,Gana,90,100,50,50,70,100,45,25,14,20,30,40,1
+232,Ares,460,King Nereus,290,Gana,90,100,50,50,70,100,70,45,30,25,45,75,1
+233,Ares,460,King Shark,202,Gana,90,100,50,50,70,100,50,30,17,25,40,40,1
+234,Ares,460,Ladon,0,Gana,90,100,50,50,70,100,0,0,0,0,0,0,1
+235,Atom Smasher,200,Batman,234,Pierde,60,30,25,25,40,20,80,13,11,15,20,95,0
+236,Atom Smasher,200,Black Adam,435,Pierde,60,30,25,25,40,20,65,100,75,45,75,75,0
+237,Atom Smasher,200,Black Canary,142,Gana,60,30,25,25,40,20,55,1,6,5,35,40,1
+238,Atom Smasher,200,Black Manta,240,Pierde,60,30,25,25,40,20,70,25,25,20,40,60,0
+239,Atom Smasher,200,Black Mask,107,Gana,60,30,25,25,40,20,60,1,6,5,5,30,1
+240,Atom Smasher,200,Bloodsport,199,Gana,60,30,25,25,40,20,70,1,8,15,20,85,1
+241,Atom Smasher,200,Captain Boomerang,109,Gana,60,30,25,25,40,20,45,1,6,7,10,40,1
+242,Atom Smasher,200,Cassandra Cain,79,Gana,60,30,25,25,40,20,45,1,1,1,1,30,1
+243,Atom Smasher,200,Cheetah,234,Pierde,60,30,25,25,40,20,60,50,14,15,30,65,0
+244,Atom Smasher,200,Cyborg,290,Pierde,60,30,25,25,40,20,70,40,30,35,65,50,0
+245,Atom Smasher,200,Cyclone,211,Pierde,60,30,25,25,40,20,80,1,25,15,50,40,0
+246,Atom Smasher,200,Dark Flash,375,Pierde,60,30,25,25,40,20,80,25,100,35,85,50,0
+247,Atom Smasher,200,Darkseid,465,Pierde,60,30,25,25,40,20,95,100,30,55,90,95,0
+248,Atom Smasher,200,Darla Dudley,0,Gana,60,30,25,25,40,20,0,0,0,0,0,0,1
+249,Atom Smasher,200,Deadshot,136,Gana,60,30,25,25,40,20,60,1,6,7,17,45,1
+250,Atom Smasher,200,Deathstroke,0,Gana,60,30,25,25,40,20,0,0,0,0,0,0,1
+251,Atom Smasher,200,Doctor Fate,420,Pierde,60,30,25,25,40,20,85,75,60,45,85,70,0
+252,Atom Smasher,200,Doctor Sivana,390,Pierde,60,30,25,25,40,20,70,95,60,40,70,55,0
+253,Atom Smasher,200,Doomsday,325,Pierde,60,30,25,25,40,20,35,100,45,45,75,25,0
+254,Atom Smasher,200,Dr. Maru,0,Gana,60,30,25,25,40,20,0,0,0,0,0,0,1
+255,Atom Smasher,200,El Diablo,176,Gana,60,30,25,25,40,20,55,25,6,10,35,45,1
+256,Atom Smasher,200,Emilia Harcourt,155,Gana,60,30,25,25,40,20,65,1,1,8,10,70,1
+257,Atom Smasher,200,Enchantress,328,Pierde,60,30,25,25,40,20,80,70,20,18,70,70,0
+258,Atom Smasher,200,Envy,360,Pierde,60,30,25,25,40,20,65,65,65,40,60,65,0
+259,Atom Smasher,200,Faora,425,Pierde,60,30,25,25,40,20,70,95,60,45,70,85,0
+260,Atom Smasher,200,Freddy Freeman,0,Gana,60,30,25,25,40,20,0,0,0,0,0,0,1
+261,Atom Smasher,200,General Zod,420,Pierde,60,30,25,25,40,20,70,100,50,40,75,85,0
+262,Atom Smasher,200,Gluttony,360,Pierde,60,30,25,25,40,20,65,65,65,40,60,65,0
+263,Atom Smasher,200,Green Lantern,340,Pierde,60,30,25,25,40,20,65,75,25,40,65,70,0
+264,Atom Smasher,200,Harley Quinn,173,Gana,60,30,25,25,40,20,60,5,8,10,10,80,1
+265,Atom Smasher,200,Hawkman,275,Pierde,60,30,25,25,40,20,65,30,25,25,50,80,0
+266,Atom Smasher,200,Hespera,0,Gana,60,30,25,25,40,20,0,0,0,0,0,0,1
+267,Atom Smasher,200,Huntress,112,Gana,60,30,25,25,40,20,50,1,1,5,5,50,1
+268,Atom Smasher,200,Incubus,201,Pierde,60,30,25,25,40,20,55,30,6,30,50,30,0
+269,Atom Smasher,200,Joker,133,Gana,60,30,25,25,40,20,65,1,7,5,10,45,1
+270,Atom Smasher,200,Jor-El,187,Gana,60,30,25,25,40,20,80,1,6,10,10,80,1
+271,Atom Smasher,200,Judomaster,192,Gana,60,30,25,25,40,20,60,1,6,15,10,100,1
+272,Atom Smasher,200,Kalypso,0,Gana,60,30,25,25,40,20,0,0,0,0,0,0,1
+273,Atom Smasher,200,Karathen,335,Pierde,60,30,25,25,40,20,75,95,25,50,60,30,0
+274,Atom Smasher,200,Katana,167,Gana,60,30,25,25,40,20,55,1,7,9,15,80,1
+275,Atom Smasher,200,Killer Croc,174,Gana,60,30,25,25,40,20,45,25,14,20,30,40,1
+276,Atom Smasher,200,King Nereus,290,Pierde,60,30,25,25,40,20,70,45,30,25,45,75,0
+277,Atom Smasher,200,King Shark,202,Pierde,60,30,25,25,40,20,50,30,17,25,40,40,0
+278,Atom Smasher,200,Ladon,0,Gana,60,30,25,25,40,20,0,0,0,0,0,0,1
+279,Batman,234,Black Adam,435,Pierde,80,13,11,15,20,95,65,100,75,45,75,75,0
+280,Batman,234,Black Canary,142,Gana,80,13,11,15,20,95,55,1,6,5,35,40,1
+281,Batman,234,Black Manta,240,Pierde,80,13,11,15,20,95,70,25,25,20,40,60,0
+282,Batman,234,Black Mask,107,Gana,80,13,11,15,20,95,60,1,6,5,5,30,1
+283,Batman,234,Bloodsport,199,Gana,80,13,11,15,20,95,70,1,8,15,20,85,1
+284,Batman,234,Captain Boomerang,109,Gana,80,13,11,15,20,95,45,1,6,7,10,40,1
+285,Batman,234,Cassandra Cain,79,Gana,80,13,11,15,20,95,45,1,1,1,1,30,1
+286,Batman,234,Cheetah,234,Empata,80,13,11,15,20,95,60,50,14,15,30,65,2
+287,Batman,234,Cyborg,290,Pierde,80,13,11,15,20,95,70,40,30,35,65,50,0
+288,Batman,234,Cyclone,211,Gana,80,13,11,15,20,95,80,1,25,15,50,40,1
+289,Batman,234,Dark Flash,375,Pierde,80,13,11,15,20,95,80,25,100,35,85,50,0
+290,Batman,234,Darkseid,465,Pierde,80,13,11,15,20,95,95,100,30,55,90,95,0
+291,Batman,234,Darla Dudley,0,Gana,80,13,11,15,20,95,0,0,0,0,0,0,1
+292,Batman,234,Deadshot,136,Gana,80,13,11,15,20,95,60,1,6,7,17,45,1
+293,Batman,234,Deathstroke,0,Gana,80,13,11,15,20,95,0,0,0,0,0,0,1
+294,Batman,234,Doctor Fate,420,Pierde,80,13,11,15,20,95,85,75,60,45,85,70,0
+295,Batman,234,Doctor Sivana,390,Pierde,80,13,11,15,20,95,70,95,60,40,70,55,0
+296,Batman,234,Doomsday,325,Pierde,80,13,11,15,20,95,35,100,45,45,75,25,0
+297,Batman,234,Dr. Maru,0,Gana,80,13,11,15,20,95,0,0,0,0,0,0,1
+298,Batman,234,El Diablo,176,Gana,80,13,11,15,20,95,55,25,6,10,35,45,1
+299,Batman,234,Emilia Harcourt,155,Gana,80,13,11,15,20,95,65,1,1,8,10,70,1
+300,Batman,234,Enchantress,328,Pierde,80,13,11,15,20,95,80,70,20,18,70,70,0
+301,Batman,234,Envy,360,Pierde,80,13,11,15,20,95,65,65,65,40,60,65,0
+302,Batman,234,Faora,425,Pierde,80,13,11,15,20,95,70,95,60,45,70,85,0
+303,Batman,234,Freddy Freeman,0,Gana,80,13,11,15,20,95,0,0,0,0,0,0,1
+304,Batman,234,General Zod,420,Pierde,80,13,11,15,20,95,70,100,50,40,75,85,0
+305,Batman,234,Gluttony,360,Pierde,80,13,11,15,20,95,65,65,65,40,60,65,0
+306,Batman,234,Green Lantern,340,Pierde,80,13,11,15,20,95,65,75,25,40,65,70,0
+307,Batman,234,Harley Quinn,173,Gana,80,13,11,15,20,95,60,5,8,10,10,80,1
+308,Batman,234,Hawkman,275,Pierde,80,13,11,15,20,95,65,30,25,25,50,80,0
+309,Batman,234,Hespera,0,Gana,80,13,11,15,20,95,0,0,0,0,0,0,1
+310,Batman,234,Huntress,112,Gana,80,13,11,15,20,95,50,1,1,5,5,50,1
+311,Batman,234,Incubus,201,Gana,80,13,11,15,20,95,55,30,6,30,50,30,1
+312,Batman,234,Joker,133,Gana,80,13,11,15,20,95,65,1,7,5,10,45,1
+313,Batman,234,Jor-El,187,Gana,80,13,11,15,20,95,80,1,6,10,10,80,1
+314,Batman,234,Judomaster,192,Gana,80,13,11,15,20,95,60,1,6,15,10,100,1
+315,Batman,234,Kalypso,0,Gana,80,13,11,15,20,95,0,0,0,0,0,0,1
+316,Batman,234,Karathen,335,Pierde,80,13,11,15,20,95,75,95,25,50,60,30,0
+317,Batman,234,Katana,167,Gana,80,13,11,15,20,95,55,1,7,9,15,80,1
+318,Batman,234,Killer Croc,174,Gana,80,13,11,15,20,95,45,25,14,20,30,40,1
+319,Batman,234,King Nereus,290,Pierde,80,13,11,15,20,95,70,45,30,25,45,75,0
+320,Batman,234,King Shark,202,Gana,80,13,11,15,20,95,50,30,17,25,40,40,1
+321,Batman,234,Ladon,0,Gana,80,13,11,15,20,95,0,0,0,0,0,0,1
+322,Black Adam,435,Black Canary,142,Gana,65,100,75,45,75,75,55,1,6,5,35,40,1
+323,Black Adam,435,Black Manta,240,Gana,65,100,75,45,75,75,70,25,25,20,40,60,1
+324,Black Adam,435,Black Mask,107,Gana,65,100,75,45,75,75,60,1,6,5,5,30,1
+325,Black Adam,435,Bloodsport,199,Gana,65,100,75,45,75,75,70,1,8,15,20,85,1
+326,Black Adam,435,Captain Boomerang,109,Gana,65,100,75,45,75,75,45,1,6,7,10,40,1
+327,Black Adam,435,Cassandra Cain,79,Gana,65,100,75,45,75,75,45,1,1,1,1,30,1
+328,Black Adam,435,Cheetah,234,Gana,65,100,75,45,75,75,60,50,14,15,30,65,1
+329,Black Adam,435,Cyborg,290,Gana,65,100,75,45,75,75,70,40,30,35,65,50,1
+330,Black Adam,435,Cyclone,211,Gana,65,100,75,45,75,75,80,1,25,15,50,40,1
+331,Black Adam,435,Dark Flash,375,Gana,65,100,75,45,75,75,80,25,100,35,85,50,1
+332,Black Adam,435,Darkseid,465,Pierde,65,100,75,45,75,75,95,100,30,55,90,95,0
+333,Black Adam,435,Darla Dudley,0,Gana,65,100,75,45,75,75,0,0,0,0,0,0,1
+334,Black Adam,435,Deadshot,136,Gana,65,100,75,45,75,75,60,1,6,7,17,45,1
+335,Black Adam,435,Deathstroke,0,Gana,65,100,75,45,75,75,0,0,0,0,0,0,1
+336,Black Adam,435,Doctor Fate,420,Gana,65,100,75,45,75,75,85,75,60,45,85,70,1
+337,Black Adam,435,Doctor Sivana,390,Gana,65,100,75,45,75,75,70,95,60,40,70,55,1
+338,Black Adam,435,Doomsday,325,Gana,65,100,75,45,75,75,35,100,45,45,75,25,1
+339,Black Adam,435,Dr. Maru,0,Gana,65,100,75,45,75,75,0,0,0,0,0,0,1
+340,Black Adam,435,El Diablo,176,Gana,65,100,75,45,75,75,55,25,6,10,35,45,1
+341,Black Adam,435,Emilia Harcourt,155,Gana,65,100,75,45,75,75,65,1,1,8,10,70,1
+342,Black Adam,435,Enchantress,328,Gana,65,100,75,45,75,75,80,70,20,18,70,70,1
+343,Black Adam,435,Envy,360,Gana,65,100,75,45,75,75,65,65,65,40,60,65,1
+344,Black Adam,435,Faora,425,Gana,65,100,75,45,75,75,70,95,60,45,70,85,1
+345,Black Adam,435,Freddy Freeman,0,Gana,65,100,75,45,75,75,0,0,0,0,0,0,1
+346,Black Adam,435,General Zod,420,Gana,65,100,75,45,75,75,70,100,50,40,75,85,1
+347,Black Adam,435,Gluttony,360,Gana,65,100,75,45,75,75,65,65,65,40,60,65,1
+348,Black Adam,435,Green Lantern,340,Gana,65,100,75,45,75,75,65,75,25,40,65,70,1
+349,Black Adam,435,Harley Quinn,173,Gana,65,100,75,45,75,75,60,5,8,10,10,80,1
+350,Black Adam,435,Hawkman,275,Gana,65,100,75,45,75,75,65,30,25,25,50,80,1
+351,Black Adam,435,Hespera,0,Gana,65,100,75,45,75,75,0,0,0,0,0,0,1
+352,Black Adam,435,Huntress,112,Gana,65,100,75,45,75,75,50,1,1,5,5,50,1
+353,Black Adam,435,Incubus,201,Gana,65,100,75,45,75,75,55,30,6,30,50,30,1
+354,Black Adam,435,Joker,133,Gana,65,100,75,45,75,75,65,1,7,5,10,45,1
+355,Black Adam,435,Jor-El,187,Gana,65,100,75,45,75,75,80,1,6,10,10,80,1
+356,Black Adam,435,Judomaster,192,Gana,65,100,75,45,75,75,60,1,6,15,10,100,1
+357,Black Adam,435,Kalypso,0,Gana,65,100,75,45,75,75,0,0,0,0,0,0,1
+358,Black Adam,435,Karathen,335,Gana,65,100,75,45,75,75,75,95,25,50,60,30,1
+359,Black Adam,435,Katana,167,Gana,65,100,75,45,75,75,55,1,7,9,15,80,1
+360,Black Adam,435,Killer Croc,174,Gana,65,100,75,45,75,75,45,25,14,20,30,40,1
+361,Black Adam,435,King Nereus,290,Gana,65,100,75,45,75,75,70,45,30,25,45,75,1
+362,Black Adam,435,King Shark,202,Gana,65,100,75,45,75,75,50,30,17,25,40,40,1
+363,Black Adam,435,Ladon,0,Gana,65,100,75,45,75,75,0,0,0,0,0,0,1
+364,Black Canary,142,Black Manta,240,Pierde,55,1,6,5,35,40,70,25,25,20,40,60,0
+365,Black Canary,142,Black Mask,107,Gana,55,1,6,5,35,40,60,1,6,5,5,30,1
+366,Black Canary,142,Bloodsport,199,Pierde,55,1,6,5,35,40,70,1,8,15,20,85,0
+367,Black Canary,142,Captain Boomerang,109,Gana,55,1,6,5,35,40,45,1,6,7,10,40,1
+368,Black Canary,142,Cassandra Cain,79,Gana,55,1,6,5,35,40,45,1,1,1,1,30,1
+369,Black Canary,142,Cheetah,234,Pierde,55,1,6,5,35,40,60,50,14,15,30,65,0
+370,Black Canary,142,Cyborg,290,Pierde,55,1,6,5,35,40,70,40,30,35,65,50,0
+371,Black Canary,142,Cyclone,211,Pierde,55,1,6,5,35,40,80,1,25,15,50,40,0
+372,Black Canary,142,Dark Flash,375,Pierde,55,1,6,5,35,40,80,25,100,35,85,50,0
+373,Black Canary,142,Darkseid,465,Pierde,55,1,6,5,35,40,95,100,30,55,90,95,0
+374,Black Canary,142,Darla Dudley,0,Gana,55,1,6,5,35,40,0,0,0,0,0,0,1
+375,Black Canary,142,Deadshot,136,Gana,55,1,6,5,35,40,60,1,6,7,17,45,1
+376,Black Canary,142,Deathstroke,0,Gana,55,1,6,5,35,40,0,0,0,0,0,0,1
+377,Black Canary,142,Doctor Fate,420,Pierde,55,1,6,5,35,40,85,75,60,45,85,70,0
+378,Black Canary,142,Doctor Sivana,390,Pierde,55,1,6,5,35,40,70,95,60,40,70,55,0
+379,Black Canary,142,Doomsday,325,Pierde,55,1,6,5,35,40,35,100,45,45,75,25,0
+380,Black Canary,142,Dr. Maru,0,Gana,55,1,6,5,35,40,0,0,0,0,0,0,1
+381,Black Canary,142,El Diablo,176,Pierde,55,1,6,5,35,40,55,25,6,10,35,45,0
+382,Black Canary,142,Emilia Harcourt,155,Pierde,55,1,6,5,35,40,65,1,1,8,10,70,0
+383,Black Canary,142,Enchantress,328,Pierde,55,1,6,5,35,40,80,70,20,18,70,70,0
+384,Black Canary,142,Envy,360,Pierde,55,1,6,5,35,40,65,65,65,40,60,65,0
+385,Black Canary,142,Faora,425,Pierde,55,1,6,5,35,40,70,95,60,45,70,85,0
+386,Black Canary,142,Freddy Freeman,0,Gana,55,1,6,5,35,40,0,0,0,0,0,0,1
+387,Black Canary,142,General Zod,420,Pierde,55,1,6,5,35,40,70,100,50,40,75,85,0
+388,Black Canary,142,Gluttony,360,Pierde,55,1,6,5,35,40,65,65,65,40,60,65,0
+389,Black Canary,142,Green Lantern,340,Pierde,55,1,6,5,35,40,65,75,25,40,65,70,0
+390,Black Canary,142,Harley Quinn,173,Pierde,55,1,6,5,35,40,60,5,8,10,10,80,0
+391,Black Canary,142,Hawkman,275,Pierde,55,1,6,5,35,40,65,30,25,25,50,80,0
+392,Black Canary,142,Hespera,0,Gana,55,1,6,5,35,40,0,0,0,0,0,0,1
+393,Black Canary,142,Huntress,112,Gana,55,1,6,5,35,40,50,1,1,5,5,50,1
+394,Black Canary,142,Incubus,201,Pierde,55,1,6,5,35,40,55,30,6,30,50,30,0
+395,Black Canary,142,Joker,133,Gana,55,1,6,5,35,40,65,1,7,5,10,45,1
+396,Black Canary,142,Jor-El,187,Pierde,55,1,6,5,35,40,80,1,6,10,10,80,0
+397,Black Canary,142,Judomaster,192,Pierde,55,1,6,5,35,40,60,1,6,15,10,100,0
+398,Black Canary,142,Kalypso,0,Gana,55,1,6,5,35,40,0,0,0,0,0,0,1
+399,Black Canary,142,Karathen,335,Pierde,55,1,6,5,35,40,75,95,25,50,60,30,0
+400,Black Canary,142,Katana,167,Pierde,55,1,6,5,35,40,55,1,7,9,15,80,0
+401,Black Canary,142,Killer Croc,174,Pierde,55,1,6,5,35,40,45,25,14,20,30,40,0
+402,Black Canary,142,King Nereus,290,Pierde,55,1,6,5,35,40,70,45,30,25,45,75,0
+403,Black Canary,142,King Shark,202,Pierde,55,1,6,5,35,40,50,30,17,25,40,40,0
+404,Black Canary,142,Ladon,0,Gana,55,1,6,5,35,40,0,0,0,0,0,0,1
+405,Black Manta,240,Black Mask,107,Gana,70,25,25,20,40,60,60,1,6,5,5,30,1
+406,Black Manta,240,Bloodsport,199,Gana,70,25,25,20,40,60,70,1,8,15,20,85,1
+407,Black Manta,240,Captain Boomerang,109,Gana,70,25,25,20,40,60,45,1,6,7,10,40,1
+408,Black Manta,240,Cassandra Cain,79,Gana,70,25,25,20,40,60,45,1,1,1,1,30,1
+409,Black Manta,240,Cheetah,234,Gana,70,25,25,20,40,60,60,50,14,15,30,65,1
+410,Black Manta,240,Cyborg,290,Pierde,70,25,25,20,40,60,70,40,30,35,65,50,0
+411,Black Manta,240,Cyclone,211,Gana,70,25,25,20,40,60,80,1,25,15,50,40,1
+412,Black Manta,240,Dark Flash,375,Pierde,70,25,25,20,40,60,80,25,100,35,85,50,0
+413,Black Manta,240,Darkseid,465,Pierde,70,25,25,20,40,60,95,100,30,55,90,95,0
+414,Black Manta,240,Darla Dudley,0,Gana,70,25,25,20,40,60,0,0,0,0,0,0,1
+415,Black Manta,240,Deadshot,136,Gana,70,25,25,20,40,60,60,1,6,7,17,45,1
+416,Black Manta,240,Deathstroke,0,Gana,70,25,25,20,40,60,0,0,0,0,0,0,1
+417,Black Manta,240,Doctor Fate,420,Pierde,70,25,25,20,40,60,85,75,60,45,85,70,0
+418,Black Manta,240,Doctor Sivana,390,Pierde,70,25,25,20,40,60,70,95,60,40,70,55,0
+419,Black Manta,240,Doomsday,325,Pierde,70,25,25,20,40,60,35,100,45,45,75,25,0
+420,Black Manta,240,Dr. Maru,0,Gana,70,25,25,20,40,60,0,0,0,0,0,0,1
+421,Black Manta,240,El Diablo,176,Gana,70,25,25,20,40,60,55,25,6,10,35,45,1
+422,Black Manta,240,Emilia Harcourt,155,Gana,70,25,25,20,40,60,65,1,1,8,10,70,1
+423,Black Manta,240,Enchantress,328,Pierde,70,25,25,20,40,60,80,70,20,18,70,70,0
+424,Black Manta,240,Envy,360,Pierde,70,25,25,20,40,60,65,65,65,40,60,65,0
+425,Black Manta,240,Faora,425,Pierde,70,25,25,20,40,60,70,95,60,45,70,85,0
+426,Black Manta,240,Freddy Freeman,0,Gana,70,25,25,20,40,60,0,0,0,0,0,0,1
+427,Black Manta,240,General Zod,420,Pierde,70,25,25,20,40,60,70,100,50,40,75,85,0
+428,Black Manta,240,Gluttony,360,Pierde,70,25,25,20,40,60,65,65,65,40,60,65,0
+429,Black Manta,240,Green Lantern,340,Pierde,70,25,25,20,40,60,65,75,25,40,65,70,0
+430,Black Manta,240,Harley Quinn,173,Gana,70,25,25,20,40,60,60,5,8,10,10,80,1
+431,Black Manta,240,Hawkman,275,Pierde,70,25,25,20,40,60,65,30,25,25,50,80,0
+432,Black Manta,240,Hespera,0,Gana,70,25,25,20,40,60,0,0,0,0,0,0,1
+433,Black Manta,240,Huntress,112,Gana,70,25,25,20,40,60,50,1,1,5,5,50,1
+434,Black Manta,240,Incubus,201,Gana,70,25,25,20,40,60,55,30,6,30,50,30,1
+435,Black Manta,240,Joker,133,Gana,70,25,25,20,40,60,65,1,7,5,10,45,1
+436,Black Manta,240,Jor-El,187,Gana,70,25,25,20,40,60,80,1,6,10,10,80,1
+437,Black Manta,240,Judomaster,192,Gana,70,25,25,20,40,60,60,1,6,15,10,100,1
+438,Black Manta,240,Kalypso,0,Gana,70,25,25,20,40,60,0,0,0,0,0,0,1
+439,Black Manta,240,Karathen,335,Pierde,70,25,25,20,40,60,75,95,25,50,60,30,0
+440,Black Manta,240,Katana,167,Gana,70,25,25,20,40,60,55,1,7,9,15,80,1
+441,Black Manta,240,Killer Croc,174,Gana,70,25,25,20,40,60,45,25,14,20,30,40,1
+442,Black Manta,240,King Nereus,290,Pierde,70,25,25,20,40,60,70,45,30,25,45,75,0
+443,Black Manta,240,King Shark,202,Gana,70,25,25,20,40,60,50,30,17,25,40,40,1
+444,Black Manta,240,Ladon,0,Gana,70,25,25,20,40,60,0,0,0,0,0,0,1
+445,Black Mask,107,Bloodsport,199,Pierde,60,1,6,5,5,30,70,1,8,15,20,85,0
+446,Black Mask,107,Captain Boomerang,109,Pierde,60,1,6,5,5,30,45,1,6,7,10,40,0
+447,Black Mask,107,Cassandra Cain,79,Gana,60,1,6,5,5,30,45,1,1,1,1,30,1
+448,Black Mask,107,Cheetah,234,Pierde,60,1,6,5,5,30,60,50,14,15,30,65,0
+449,Black Mask,107,Cyborg,290,Pierde,60,1,6,5,5,30,70,40,30,35,65,50,0
+450,Black Mask,107,Cyclone,211,Pierde,60,1,6,5,5,30,80,1,25,15,50,40,0
+451,Black Mask,107,Dark Flash,375,Pierde,60,1,6,5,5,30,80,25,100,35,85,50,0
+452,Black Mask,107,Darkseid,465,Pierde,60,1,6,5,5,30,95,100,30,55,90,95,0
+453,Black Mask,107,Darla Dudley,0,Gana,60,1,6,5,5,30,0,0,0,0,0,0,1
+454,Black Mask,107,Deadshot,136,Pierde,60,1,6,5,5,30,60,1,6,7,17,45,0
+455,Black Mask,107,Deathstroke,0,Gana,60,1,6,5,5,30,0,0,0,0,0,0,1
+456,Black Mask,107,Doctor Fate,420,Pierde,60,1,6,5,5,30,85,75,60,45,85,70,0
+457,Black Mask,107,Doctor Sivana,390,Pierde,60,1,6,5,5,30,70,95,60,40,70,55,0
+458,Black Mask,107,Doomsday,325,Pierde,60,1,6,5,5,30,35,100,45,45,75,25,0
+459,Black Mask,107,Dr. Maru,0,Gana,60,1,6,5,5,30,0,0,0,0,0,0,1
+460,Black Mask,107,El Diablo,176,Pierde,60,1,6,5,5,30,55,25,6,10,35,45,0
+461,Black Mask,107,Emilia Harcourt,155,Pierde,60,1,6,5,5,30,65,1,1,8,10,70,0
+462,Black Mask,107,Enchantress,328,Pierde,60,1,6,5,5,30,80,70,20,18,70,70,0
+463,Black Mask,107,Envy,360,Pierde,60,1,6,5,5,30,65,65,65,40,60,65,0
+464,Black Mask,107,Faora,425,Pierde,60,1,6,5,5,30,70,95,60,45,70,85,0
+465,Black Mask,107,Freddy Freeman,0,Gana,60,1,6,5,5,30,0,0,0,0,0,0,1
+466,Black Mask,107,General Zod,420,Pierde,60,1,6,5,5,30,70,100,50,40,75,85,0
+467,Black Mask,107,Gluttony,360,Pierde,60,1,6,5,5,30,65,65,65,40,60,65,0
+468,Black Mask,107,Green Lantern,340,Pierde,60,1,6,5,5,30,65,75,25,40,65,70,0
+469,Black Mask,107,Harley Quinn,173,Pierde,60,1,6,5,5,30,60,5,8,10,10,80,0
+470,Black Mask,107,Hawkman,275,Pierde,60,1,6,5,5,30,65,30,25,25,50,80,0
+471,Black Mask,107,Hespera,0,Gana,60,1,6,5,5,30,0,0,0,0,0,0,1
+472,Black Mask,107,Huntress,112,Pierde,60,1,6,5,5,30,50,1,1,5,5,50,0
+473,Black Mask,107,Incubus,201,Pierde,60,1,6,5,5,30,55,30,6,30,50,30,0
+474,Black Mask,107,Joker,133,Pierde,60,1,6,5,5,30,65,1,7,5,10,45,0
+475,Black Mask,107,Jor-El,187,Pierde,60,1,6,5,5,30,80,1,6,10,10,80,0
+476,Black Mask,107,Judomaster,192,Pierde,60,1,6,5,5,30,60,1,6,15,10,100,0
+477,Black Mask,107,Kalypso,0,Gana,60,1,6,5,5,30,0,0,0,0,0,0,1
+478,Black Mask,107,Karathen,335,Pierde,60,1,6,5,5,30,75,95,25,50,60,30,0
+479,Black Mask,107,Katana,167,Pierde,60,1,6,5,5,30,55,1,7,9,15,80,0
+480,Black Mask,107,Killer Croc,174,Pierde,60,1,6,5,5,30,45,25,14,20,30,40,0
+481,Black Mask,107,King Nereus,290,Pierde,60,1,6,5,5,30,70,45,30,25,45,75,0
+482,Black Mask,107,King Shark,202,Pierde,60,1,6,5,5,30,50,30,17,25,40,40,0
+483,Black Mask,107,Ladon,0,Gana,60,1,6,5,5,30,0,0,0,0,0,0,1
+484,Bloodsport,199,Captain Boomerang,109,Gana,70,1,8,15,20,85,45,1,6,7,10,40,1
+485,Bloodsport,199,Cassandra Cain,79,Gana,70,1,8,15,20,85,45,1,1,1,1,30,1
+486,Bloodsport,199,Cheetah,234,Pierde,70,1,8,15,20,85,60,50,14,15,30,65,0
+487,Bloodsport,199,Cyborg,290,Pierde,70,1,8,15,20,85,70,40,30,35,65,50,0
+488,Bloodsport,199,Cyclone,211,Pierde,70,1,8,15,20,85,80,1,25,15,50,40,0
+489,Bloodsport,199,Dark Flash,375,Pierde,70,1,8,15,20,85,80,25,100,35,85,50,0
+490,Bloodsport,199,Darkseid,465,Pierde,70,1,8,15,20,85,95,100,30,55,90,95,0
+491,Bloodsport,199,Darla Dudley,0,Gana,70,1,8,15,20,85,0,0,0,0,0,0,1
+492,Bloodsport,199,Deadshot,136,Gana,70,1,8,15,20,85,60,1,6,7,17,45,1
+493,Bloodsport,199,Deathstroke,0,Gana,70,1,8,15,20,85,0,0,0,0,0,0,1
+494,Bloodsport,199,Doctor Fate,420,Pierde,70,1,8,15,20,85,85,75,60,45,85,70,0
+495,Bloodsport,199,Doctor Sivana,390,Pierde,70,1,8,15,20,85,70,95,60,40,70,55,0
+496,Bloodsport,199,Doomsday,325,Pierde,70,1,8,15,20,85,35,100,45,45,75,25,0
+497,Bloodsport,199,Dr. Maru,0,Gana,70,1,8,15,20,85,0,0,0,0,0,0,1
+498,Bloodsport,199,El Diablo,176,Gana,70,1,8,15,20,85,55,25,6,10,35,45,1
+499,Bloodsport,199,Emilia Harcourt,155,Gana,70,1,8,15,20,85,65,1,1,8,10,70,1
+500,Bloodsport,199,Enchantress,328,Pierde,70,1,8,15,20,85,80,70,20,18,70,70,0
+501,Bloodsport,199,Envy,360,Pierde,70,1,8,15,20,85,65,65,65,40,60,65,0
+502,Bloodsport,199,Faora,425,Pierde,70,1,8,15,20,85,70,95,60,45,70,85,0
+503,Bloodsport,199,Freddy Freeman,0,Gana,70,1,8,15,20,85,0,0,0,0,0,0,1
+504,Bloodsport,199,General Zod,420,Pierde,70,1,8,15,20,85,70,100,50,40,75,85,0
+505,Bloodsport,199,Gluttony,360,Pierde,70,1,8,15,20,85,65,65,65,40,60,65,0
+506,Bloodsport,199,Green Lantern,340,Pierde,70,1,8,15,20,85,65,75,25,40,65,70,0
+507,Bloodsport,199,Harley Quinn,173,Gana,70,1,8,15,20,85,60,5,8,10,10,80,1
+508,Bloodsport,199,Hawkman,275,Pierde,70,1,8,15,20,85,65,30,25,25,50,80,0
+509,Bloodsport,199,Hespera,0,Gana,70,1,8,15,20,85,0,0,0,0,0,0,1
+510,Bloodsport,199,Huntress,112,Gana,70,1,8,15,20,85,50,1,1,5,5,50,1
+511,Bloodsport,199,Incubus,201,Pierde,70,1,8,15,20,85,55,30,6,30,50,30,0
+512,Bloodsport,199,Joker,133,Gana,70,1,8,15,20,85,65,1,7,5,10,45,1
+513,Bloodsport,199,Jor-El,187,Gana,70,1,8,15,20,85,80,1,6,10,10,80,1
+514,Bloodsport,199,Judomaster,192,Gana,70,1,8,15,20,85,60,1,6,15,10,100,1
+515,Bloodsport,199,Kalypso,0,Gana,70,1,8,15,20,85,0,0,0,0,0,0,1
+516,Bloodsport,199,Karathen,335,Pierde,70,1,8,15,20,85,75,95,25,50,60,30,0
+517,Bloodsport,199,Katana,167,Gana,70,1,8,15,20,85,55,1,7,9,15,80,1
+518,Bloodsport,199,Killer Croc,174,Gana,70,1,8,15,20,85,45,25,14,20,30,40,1
+519,Bloodsport,199,King Nereus,290,Pierde,70,1,8,15,20,85,70,45,30,25,45,75,0
+520,Bloodsport,199,King Shark,202,Pierde,70,1,8,15,20,85,50,30,17,25,40,40,0
+521,Bloodsport,199,Ladon,0,Gana,70,1,8,15,20,85,0,0,0,0,0,0,1
+522,Captain Boomerang,109,Cassandra Cain,79,Gana,45,1,6,7,10,40,45,1,1,1,1,30,1
+523,Captain Boomerang,109,Cheetah,234,Pierde,45,1,6,7,10,40,60,50,14,15,30,65,0
+524,Captain Boomerang,109,Cyborg,290,Pierde,45,1,6,7,10,40,70,40,30,35,65,50,0
+525,Captain Boomerang,109,Cyclone,211,Pierde,45,1,6,7,10,40,80,1,25,15,50,40,0
+526,Captain Boomerang,109,Dark Flash,375,Pierde,45,1,6,7,10,40,80,25,100,35,85,50,0
+527,Captain Boomerang,109,Darkseid,465,Pierde,45,1,6,7,10,40,95,100,30,55,90,95,0
+528,Captain Boomerang,109,Darla Dudley,0,Gana,45,1,6,7,10,40,0,0,0,0,0,0,1
+529,Captain Boomerang,109,Deadshot,136,Pierde,45,1,6,7,10,40,60,1,6,7,17,45,0
+530,Captain Boomerang,109,Deathstroke,0,Gana,45,1,6,7,10,40,0,0,0,0,0,0,1
+531,Captain Boomerang,109,Doctor Fate,420,Pierde,45,1,6,7,10,40,85,75,60,45,85,70,0
+532,Captain Boomerang,109,Doctor Sivana,390,Pierde,45,1,6,7,10,40,70,95,60,40,70,55,0
+533,Captain Boomerang,109,Doomsday,325,Pierde,45,1,6,7,10,40,35,100,45,45,75,25,0
+534,Captain Boomerang,109,Dr. Maru,0,Gana,45,1,6,7,10,40,0,0,0,0,0,0,1
+535,Captain Boomerang,109,El Diablo,176,Pierde,45,1,6,7,10,40,55,25,6,10,35,45,0
+536,Captain Boomerang,109,Emilia Harcourt,155,Pierde,45,1,6,7,10,40,65,1,1,8,10,70,0
+537,Captain Boomerang,109,Enchantress,328,Pierde,45,1,6,7,10,40,80,70,20,18,70,70,0
+538,Captain Boomerang,109,Envy,360,Pierde,45,1,6,7,10,40,65,65,65,40,60,65,0
+539,Captain Boomerang,109,Faora,425,Pierde,45,1,6,7,10,40,70,95,60,45,70,85,0
+540,Captain Boomerang,109,Freddy Freeman,0,Gana,45,1,6,7,10,40,0,0,0,0,0,0,1
+541,Captain Boomerang,109,General Zod,420,Pierde,45,1,6,7,10,40,70,100,50,40,75,85,0
+542,Captain Boomerang,109,Gluttony,360,Pierde,45,1,6,7,10,40,65,65,65,40,60,65,0
+543,Captain Boomerang,109,Green Lantern,340,Pierde,45,1,6,7,10,40,65,75,25,40,65,70,0
+544,Captain Boomerang,109,Harley Quinn,173,Pierde,45,1,6,7,10,40,60,5,8,10,10,80,0
+545,Captain Boomerang,109,Hawkman,275,Pierde,45,1,6,7,10,40,65,30,25,25,50,80,0
+546,Captain Boomerang,109,Hespera,0,Gana,45,1,6,7,10,40,0,0,0,0,0,0,1
+547,Captain Boomerang,109,Huntress,112,Pierde,45,1,6,7,10,40,50,1,1,5,5,50,0
+548,Captain Boomerang,109,Incubus,201,Pierde,45,1,6,7,10,40,55,30,6,30,50,30,0
+549,Captain Boomerang,109,Joker,133,Pierde,45,1,6,7,10,40,65,1,7,5,10,45,0
+550,Captain Boomerang,109,Jor-El,187,Pierde,45,1,6,7,10,40,80,1,6,10,10,80,0
+551,Captain Boomerang,109,Judomaster,192,Pierde,45,1,6,7,10,40,60,1,6,15,10,100,0
+552,Captain Boomerang,109,Kalypso,0,Gana,45,1,6,7,10,40,0,0,0,0,0,0,1
+553,Captain Boomerang,109,Karathen,335,Pierde,45,1,6,7,10,40,75,95,25,50,60,30,0
+554,Captain Boomerang,109,Katana,167,Pierde,45,1,6,7,10,40,55,1,7,9,15,80,0
+555,Captain Boomerang,109,Killer Croc,174,Pierde,45,1,6,7,10,40,45,25,14,20,30,40,0
+556,Captain Boomerang,109,King Nereus,290,Pierde,45,1,6,7,10,40,70,45,30,25,45,75,0
+557,Captain Boomerang,109,King Shark,202,Pierde,45,1,6,7,10,40,50,30,17,25,40,40,0
+558,Captain Boomerang,109,Ladon,0,Gana,45,1,6,7,10,40,0,0,0,0,0,0,1
+559,Cassandra Cain,79,Cheetah,234,Pierde,45,1,1,1,1,30,60,50,14,15,30,65,0
+560,Cassandra Cain,79,Cyborg,290,Pierde,45,1,1,1,1,30,70,40,30,35,65,50,0
+561,Cassandra Cain,79,Cyclone,211,Pierde,45,1,1,1,1,30,80,1,25,15,50,40,0
+562,Cassandra Cain,79,Dark Flash,375,Pierde,45,1,1,1,1,30,80,25,100,35,85,50,0
+563,Cassandra Cain,79,Darkseid,465,Pierde,45,1,1,1,1,30,95,100,30,55,90,95,0
+564,Cassandra Cain,79,Darla Dudley,0,Gana,45,1,1,1,1,30,0,0,0,0,0,0,1
+565,Cassandra Cain,79,Deadshot,136,Pierde,45,1,1,1,1,30,60,1,6,7,17,45,0
+566,Cassandra Cain,79,Deathstroke,0,Gana,45,1,1,1,1,30,0,0,0,0,0,0,1
+567,Cassandra Cain,79,Doctor Fate,420,Pierde,45,1,1,1,1,30,85,75,60,45,85,70,0
+568,Cassandra Cain,79,Doctor Sivana,390,Pierde,45,1,1,1,1,30,70,95,60,40,70,55,0
+569,Cassandra Cain,79,Doomsday,325,Pierde,45,1,1,1,1,30,35,100,45,45,75,25,0
+570,Cassandra Cain,79,Dr. Maru,0,Gana,45,1,1,1,1,30,0,0,0,0,0,0,1
+571,Cassandra Cain,79,El Diablo,176,Pierde,45,1,1,1,1,30,55,25,6,10,35,45,0
+572,Cassandra Cain,79,Emilia Harcourt,155,Pierde,45,1,1,1,1,30,65,1,1,8,10,70,0
+573,Cassandra Cain,79,Enchantress,328,Pierde,45,1,1,1,1,30,80,70,20,18,70,70,0
+574,Cassandra Cain,79,Envy,360,Pierde,45,1,1,1,1,30,65,65,65,40,60,65,0
+575,Cassandra Cain,79,Faora,425,Pierde,45,1,1,1,1,30,70,95,60,45,70,85,0
+576,Cassandra Cain,79,Freddy Freeman,0,Gana,45,1,1,1,1,30,0,0,0,0,0,0,1
+577,Cassandra Cain,79,General Zod,420,Pierde,45,1,1,1,1,30,70,100,50,40,75,85,0
+578,Cassandra Cain,79,Gluttony,360,Pierde,45,1,1,1,1,30,65,65,65,40,60,65,0
+579,Cassandra Cain,79,Green Lantern,340,Pierde,45,1,1,1,1,30,65,75,25,40,65,70,0
+580,Cassandra Cain,79,Harley Quinn,173,Pierde,45,1,1,1,1,30,60,5,8,10,10,80,0
+581,Cassandra Cain,79,Hawkman,275,Pierde,45,1,1,1,1,30,65,30,25,25,50,80,0
+582,Cassandra Cain,79,Hespera,0,Gana,45,1,1,1,1,30,0,0,0,0,0,0,1
+583,Cassandra Cain,79,Huntress,112,Pierde,45,1,1,1,1,30,50,1,1,5,5,50,0
+584,Cassandra Cain,79,Incubus,201,Pierde,45,1,1,1,1,30,55,30,6,30,50,30,0
+585,Cassandra Cain,79,Joker,133,Pierde,45,1,1,1,1,30,65,1,7,5,10,45,0
+586,Cassandra Cain,79,Jor-El,187,Pierde,45,1,1,1,1,30,80,1,6,10,10,80,0
+587,Cassandra Cain,79,Judomaster,192,Pierde,45,1,1,1,1,30,60,1,6,15,10,100,0
+588,Cassandra Cain,79,Kalypso,0,Gana,45,1,1,1,1,30,0,0,0,0,0,0,1
+589,Cassandra Cain,79,Karathen,335,Pierde,45,1,1,1,1,30,75,95,25,50,60,30,0
+590,Cassandra Cain,79,Katana,167,Pierde,45,1,1,1,1,30,55,1,7,9,15,80,0
+591,Cassandra Cain,79,Killer Croc,174,Pierde,45,1,1,1,1,30,45,25,14,20,30,40,0
+592,Cassandra Cain,79,King Nereus,290,Pierde,45,1,1,1,1,30,70,45,30,25,45,75,0
+593,Cassandra Cain,79,King Shark,202,Pierde,45,1,1,1,1,30,50,30,17,25,40,40,0
+594,Cassandra Cain,79,Ladon,0,Gana,45,1,1,1,1,30,0,0,0,0,0,0,1
+595,Cheetah,234,Cyborg,290,Pierde,60,50,14,15,30,65,70,40,30,35,65,50,0
+596,Cheetah,234,Cyclone,211,Gana,60,50,14,15,30,65,80,1,25,15,50,40,1
+597,Cheetah,234,Dark Flash,375,Pierde,60,50,14,15,30,65,80,25,100,35,85,50,0
+598,Cheetah,234,Darkseid,465,Pierde,60,50,14,15,30,65,95,100,30,55,90,95,0
+599,Cheetah,234,Darla Dudley,0,Gana,60,50,14,15,30,65,0,0,0,0,0,0,1
+600,Cheetah,234,Deadshot,136,Gana,60,50,14,15,30,65,60,1,6,7,17,45,1
+601,Cheetah,234,Deathstroke,0,Gana,60,50,14,15,30,65,0,0,0,0,0,0,1
+602,Cheetah,234,Doctor Fate,420,Pierde,60,50,14,15,30,65,85,75,60,45,85,70,0
+603,Cheetah,234,Doctor Sivana,390,Pierde,60,50,14,15,30,65,70,95,60,40,70,55,0
+604,Cheetah,234,Doomsday,325,Pierde,60,50,14,15,30,65,35,100,45,45,75,25,0
+605,Cheetah,234,Dr. Maru,0,Gana,60,50,14,15,30,65,0,0,0,0,0,0,1
+606,Cheetah,234,El Diablo,176,Gana,60,50,14,15,30,65,55,25,6,10,35,45,1
+607,Cheetah,234,Emilia Harcourt,155,Gana,60,50,14,15,30,65,65,1,1,8,10,70,1
+608,Cheetah,234,Enchantress,328,Pierde,60,50,14,15,30,65,80,70,20,18,70,70,0
+609,Cheetah,234,Envy,360,Pierde,60,50,14,15,30,65,65,65,65,40,60,65,0
+610,Cheetah,234,Faora,425,Pierde,60,50,14,15,30,65,70,95,60,45,70,85,0
+611,Cheetah,234,Freddy Freeman,0,Gana,60,50,14,15,30,65,0,0,0,0,0,0,1
+612,Cheetah,234,General Zod,420,Pierde,60,50,14,15,30,65,70,100,50,40,75,85,0
+613,Cheetah,234,Gluttony,360,Pierde,60,50,14,15,30,65,65,65,65,40,60,65,0
+614,Cheetah,234,Green Lantern,340,Pierde,60,50,14,15,30,65,65,75,25,40,65,70,0
+615,Cheetah,234,Harley Quinn,173,Gana,60,50,14,15,30,65,60,5,8,10,10,80,1
+616,Cheetah,234,Hawkman,275,Pierde,60,50,14,15,30,65,65,30,25,25,50,80,0
+617,Cheetah,234,Hespera,0,Gana,60,50,14,15,30,65,0,0,0,0,0,0,1
+618,Cheetah,234,Huntress,112,Gana,60,50,14,15,30,65,50,1,1,5,5,50,1
+619,Cheetah,234,Incubus,201,Gana,60,50,14,15,30,65,55,30,6,30,50,30,1
+620,Cheetah,234,Joker,133,Gana,60,50,14,15,30,65,65,1,7,5,10,45,1
+621,Cheetah,234,Jor-El,187,Gana,60,50,14,15,30,65,80,1,6,10,10,80,1
+622,Cheetah,234,Judomaster,192,Gana,60,50,14,15,30,65,60,1,6,15,10,100,1
+623,Cheetah,234,Kalypso,0,Gana,60,50,14,15,30,65,0,0,0,0,0,0,1
+624,Cheetah,234,Karathen,335,Pierde,60,50,14,15,30,65,75,95,25,50,60,30,0
+625,Cheetah,234,Katana,167,Gana,60,50,14,15,30,65,55,1,7,9,15,80,1
+626,Cheetah,234,Killer Croc,174,Gana,60,50,14,15,30,65,45,25,14,20,30,40,1
+627,Cheetah,234,King Nereus,290,Pierde,60,50,14,15,30,65,70,45,30,25,45,75,0
+628,Cheetah,234,King Shark,202,Gana,60,50,14,15,30,65,50,30,17,25,40,40,1
+629,Cheetah,234,Ladon,0,Gana,60,50,14,15,30,65,0,0,0,0,0,0,1
+630,Cyborg,290,Cyclone,211,Gana,70,40,30,35,65,50,80,1,25,15,50,40,1
+631,Cyborg,290,Dark Flash,375,Pierde,70,40,30,35,65,50,80,25,100,35,85,50,0
+632,Cyborg,290,Darkseid,465,Pierde,70,40,30,35,65,50,95,100,30,55,90,95,0
+633,Cyborg,290,Darla Dudley,0,Gana,70,40,30,35,65,50,0,0,0,0,0,0,1
+634,Cyborg,290,Deadshot,136,Gana,70,40,30,35,65,50,60,1,6,7,17,45,1
+635,Cyborg,290,Deathstroke,0,Gana,70,40,30,35,65,50,0,0,0,0,0,0,1
+636,Cyborg,290,Doctor Fate,420,Pierde,70,40,30,35,65,50,85,75,60,45,85,70,0
+637,Cyborg,290,Doctor Sivana,390,Pierde,70,40,30,35,65,50,70,95,60,40,70,55,0
+638,Cyborg,290,Doomsday,325,Pierde,70,40,30,35,65,50,35,100,45,45,75,25,0
+639,Cyborg,290,Dr. Maru,0,Gana,70,40,30,35,65,50,0,0,0,0,0,0,1
+640,Cyborg,290,El Diablo,176,Gana,70,40,30,35,65,50,55,25,6,10,35,45,1
+641,Cyborg,290,Emilia Harcourt,155,Gana,70,40,30,35,65,50,65,1,1,8,10,70,1
+642,Cyborg,290,Enchantress,328,Pierde,70,40,30,35,65,50,80,70,20,18,70,70,0
+643,Cyborg,290,Envy,360,Pierde,70,40,30,35,65,50,65,65,65,40,60,65,0
+644,Cyborg,290,Faora,425,Pierde,70,40,30,35,65,50,70,95,60,45,70,85,0
+645,Cyborg,290,Freddy Freeman,0,Gana,70,40,30,35,65,50,0,0,0,0,0,0,1
+646,Cyborg,290,General Zod,420,Pierde,70,40,30,35,65,50,70,100,50,40,75,85,0
+647,Cyborg,290,Gluttony,360,Pierde,70,40,30,35,65,50,65,65,65,40,60,65,0
+648,Cyborg,290,Green Lantern,340,Pierde,70,40,30,35,65,50,65,75,25,40,65,70,0
+649,Cyborg,290,Harley Quinn,173,Gana,70,40,30,35,65,50,60,5,8,10,10,80,1
+650,Cyborg,290,Hawkman,275,Gana,70,40,30,35,65,50,65,30,25,25,50,80,1
+651,Cyborg,290,Hespera,0,Gana,70,40,30,35,65,50,0,0,0,0,0,0,1
+652,Cyborg,290,Huntress,112,Gana,70,40,30,35,65,50,50,1,1,5,5,50,1
+653,Cyborg,290,Incubus,201,Gana,70,40,30,35,65,50,55,30,6,30,50,30,1
+654,Cyborg,290,Joker,133,Gana,70,40,30,35,65,50,65,1,7,5,10,45,1
+655,Cyborg,290,Jor-El,187,Gana,70,40,30,35,65,50,80,1,6,10,10,80,1
+656,Cyborg,290,Judomaster,192,Gana,70,40,30,35,65,50,60,1,6,15,10,100,1
+657,Cyborg,290,Kalypso,0,Gana,70,40,30,35,65,50,0,0,0,0,0,0,1
+658,Cyborg,290,Karathen,335,Pierde,70,40,30,35,65,50,75,95,25,50,60,30,0
+659,Cyborg,290,Katana,167,Gana,70,40,30,35,65,50,55,1,7,9,15,80,1
+660,Cyborg,290,Killer Croc,174,Gana,70,40,30,35,65,50,45,25,14,20,30,40,1
+661,Cyborg,290,King Nereus,290,Empata,70,40,30,35,65,50,70,45,30,25,45,75,2
+662,Cyborg,290,King Shark,202,Gana,70,40,30,35,65,50,50,30,17,25,40,40,1
+663,Cyborg,290,Ladon,0,Gana,70,40,30,35,65,50,0,0,0,0,0,0,1
+664,Cyclone,211,Dark Flash,375,Pierde,80,1,25,15,50,40,80,25,100,35,85,50,0
+665,Cyclone,211,Darkseid,465,Pierde,80,1,25,15,50,40,95,100,30,55,90,95,0
+666,Cyclone,211,Darla Dudley,0,Gana,80,1,25,15,50,40,0,0,0,0,0,0,1
+667,Cyclone,211,Deadshot,136,Gana,80,1,25,15,50,40,60,1,6,7,17,45,1
+668,Cyclone,211,Deathstroke,0,Gana,80,1,25,15,50,40,0,0,0,0,0,0,1
+669,Cyclone,211,Doctor Fate,420,Pierde,80,1,25,15,50,40,85,75,60,45,85,70,0
+670,Cyclone,211,Doctor Sivana,390,Pierde,80,1,25,15,50,40,70,95,60,40,70,55,0
+671,Cyclone,211,Doomsday,325,Pierde,80,1,25,15,50,40,35,100,45,45,75,25,0
+672,Cyclone,211,Dr. Maru,0,Gana,80,1,25,15,50,40,0,0,0,0,0,0,1
+673,Cyclone,211,El Diablo,176,Gana,80,1,25,15,50,40,55,25,6,10,35,45,1
+674,Cyclone,211,Emilia Harcourt,155,Gana,80,1,25,15,50,40,65,1,1,8,10,70,1
+675,Cyclone,211,Enchantress,328,Pierde,80,1,25,15,50,40,80,70,20,18,70,70,0
+676,Cyclone,211,Envy,360,Pierde,80,1,25,15,50,40,65,65,65,40,60,65,0
+677,Cyclone,211,Faora,425,Pierde,80,1,25,15,50,40,70,95,60,45,70,85,0
+678,Cyclone,211,Freddy Freeman,0,Gana,80,1,25,15,50,40,0,0,0,0,0,0,1
+679,Cyclone,211,General Zod,420,Pierde,80,1,25,15,50,40,70,100,50,40,75,85,0
+680,Cyclone,211,Gluttony,360,Pierde,80,1,25,15,50,40,65,65,65,40,60,65,0
+681,Cyclone,211,Green Lantern,340,Pierde,80,1,25,15,50,40,65,75,25,40,65,70,0
+682,Cyclone,211,Harley Quinn,173,Gana,80,1,25,15,50,40,60,5,8,10,10,80,1
+683,Cyclone,211,Hawkman,275,Pierde,80,1,25,15,50,40,65,30,25,25,50,80,0
+684,Cyclone,211,Hespera,0,Gana,80,1,25,15,50,40,0,0,0,0,0,0,1
+685,Cyclone,211,Huntress,112,Gana,80,1,25,15,50,40,50,1,1,5,5,50,1
+686,Cyclone,211,Incubus,201,Gana,80,1,25,15,50,40,55,30,6,30,50,30,1
+687,Cyclone,211,Joker,133,Gana,80,1,25,15,50,40,65,1,7,5,10,45,1
+688,Cyclone,211,Jor-El,187,Gana,80,1,25,15,50,40,80,1,6,10,10,80,1
+689,Cyclone,211,Judomaster,192,Gana,80,1,25,15,50,40,60,1,6,15,10,100,1
+690,Cyclone,211,Kalypso,0,Gana,80,1,25,15,50,40,0,0,0,0,0,0,1
+691,Cyclone,211,Karathen,335,Pierde,80,1,25,15,50,40,75,95,25,50,60,30,0
+692,Cyclone,211,Katana,167,Gana,80,1,25,15,50,40,55,1,7,9,15,80,1
+693,Cyclone,211,Killer Croc,174,Gana,80,1,25,15,50,40,45,25,14,20,30,40,1
+694,Cyclone,211,King Nereus,290,Pierde,80,1,25,15,50,40,70,45,30,25,45,75,0
+695,Cyclone,211,King Shark,202,Gana,80,1,25,15,50,40,50,30,17,25,40,40,1
+696,Cyclone,211,Ladon,0,Gana,80,1,25,15,50,40,0,0,0,0,0,0,1
+697,Dark Flash,375,Darkseid,465,Pierde,80,25,100,35,85,50,95,100,30,55,90,95,0
+698,Dark Flash,375,Darla Dudley,0,Gana,80,25,100,35,85,50,0,0,0,0,0,0,1
+699,Dark Flash,375,Deadshot,136,Gana,80,25,100,35,85,50,60,1,6,7,17,45,1
+700,Dark Flash,375,Deathstroke,0,Gana,80,25,100,35,85,50,0,0,0,0,0,0,1
+701,Dark Flash,375,Doctor Fate,420,Pierde,80,25,100,35,85,50,85,75,60,45,85,70,0
+702,Dark Flash,375,Doctor Sivana,390,Pierde,80,25,100,35,85,50,70,95,60,40,70,55,0
+703,Dark Flash,375,Doomsday,325,Gana,80,25,100,35,85,50,35,100,45,45,75,25,1
+704,Dark Flash,375,Dr. Maru,0,Gana,80,25,100,35,85,50,0,0,0,0,0,0,1
+705,Dark Flash,375,El Diablo,176,Gana,80,25,100,35,85,50,55,25,6,10,35,45,1
+706,Dark Flash,375,Emilia Harcourt,155,Gana,80,25,100,35,85,50,65,1,1,8,10,70,1
+707,Dark Flash,375,Enchantress,328,Gana,80,25,100,35,85,50,80,70,20,18,70,70,1
+708,Dark Flash,375,Envy,360,Gana,80,25,100,35,85,50,65,65,65,40,60,65,1
+709,Dark Flash,375,Faora,425,Pierde,80,25,100,35,85,50,70,95,60,45,70,85,0
+710,Dark Flash,375,Freddy Freeman,0,Gana,80,25,100,35,85,50,0,0,0,0,0,0,1
+711,Dark Flash,375,General Zod,420,Pierde,80,25,100,35,85,50,70,100,50,40,75,85,0
+712,Dark Flash,375,Gluttony,360,Gana,80,25,100,35,85,50,65,65,65,40,60,65,1
+713,Dark Flash,375,Green Lantern,340,Gana,80,25,100,35,85,50,65,75,25,40,65,70,1
+714,Dark Flash,375,Harley Quinn,173,Gana,80,25,100,35,85,50,60,5,8,10,10,80,1
+715,Dark Flash,375,Hawkman,275,Gana,80,25,100,35,85,50,65,30,25,25,50,80,1
+716,Dark Flash,375,Hespera,0,Gana,80,25,100,35,85,50,0,0,0,0,0,0,1
+717,Dark Flash,375,Huntress,112,Gana,80,25,100,35,85,50,50,1,1,5,5,50,1
+718,Dark Flash,375,Incubus,201,Gana,80,25,100,35,85,50,55,30,6,30,50,30,1
+719,Dark Flash,375,Joker,133,Gana,80,25,100,35,85,50,65,1,7,5,10,45,1
+720,Dark Flash,375,Jor-El,187,Gana,80,25,100,35,85,50,80,1,6,10,10,80,1
+721,Dark Flash,375,Judomaster,192,Gana,80,25,100,35,85,50,60,1,6,15,10,100,1
+722,Dark Flash,375,Kalypso,0,Gana,80,25,100,35,85,50,0,0,0,0,0,0,1
+723,Dark Flash,375,Karathen,335,Gana,80,25,100,35,85,50,75,95,25,50,60,30,1
+724,Dark Flash,375,Katana,167,Gana,80,25,100,35,85,50,55,1,7,9,15,80,1
+725,Dark Flash,375,Killer Croc,174,Gana,80,25,100,35,85,50,45,25,14,20,30,40,1
+726,Dark Flash,375,King Nereus,290,Gana,80,25,100,35,85,50,70,45,30,25,45,75,1
+727,Dark Flash,375,King Shark,202,Gana,80,25,100,35,85,50,50,30,17,25,40,40,1
+728,Dark Flash,375,Ladon,0,Gana,80,25,100,35,85,50,0,0,0,0,0,0,1
+729,Darkseid,465,Darla Dudley,0,Gana,95,100,30,55,90,95,0,0,0,0,0,0,1
+730,Darkseid,465,Deadshot,136,Gana,95,100,30,55,90,95,60,1,6,7,17,45,1
+731,Darkseid,465,Deathstroke,0,Gana,95,100,30,55,90,95,0,0,0,0,0,0,1
+732,Darkseid,465,Doctor Fate,420,Gana,95,100,30,55,90,95,85,75,60,45,85,70,1
+733,Darkseid,465,Doctor Sivana,390,Gana,95,100,30,55,90,95,70,95,60,40,70,55,1
+734,Darkseid,465,Doomsday,325,Gana,95,100,30,55,90,95,35,100,45,45,75,25,1
+735,Darkseid,465,Dr. Maru,0,Gana,95,100,30,55,90,95,0,0,0,0,0,0,1
+736,Darkseid,465,El Diablo,176,Gana,95,100,30,55,90,95,55,25,6,10,35,45,1
+737,Darkseid,465,Emilia Harcourt,155,Gana,95,100,30,55,90,95,65,1,1,8,10,70,1
+738,Darkseid,465,Enchantress,328,Gana,95,100,30,55,90,95,80,70,20,18,70,70,1
+739,Darkseid,465,Envy,360,Gana,95,100,30,55,90,95,65,65,65,40,60,65,1
+740,Darkseid,465,Faora,425,Gana,95,100,30,55,90,95,70,95,60,45,70,85,1
+741,Darkseid,465,Freddy Freeman,0,Gana,95,100,30,55,90,95,0,0,0,0,0,0,1
+742,Darkseid,465,General Zod,420,Gana,95,100,30,55,90,95,70,100,50,40,75,85,1
+743,Darkseid,465,Gluttony,360,Gana,95,100,30,55,90,95,65,65,65,40,60,65,1
+744,Darkseid,465,Green Lantern,340,Gana,95,100,30,55,90,95,65,75,25,40,65,70,1
+745,Darkseid,465,Harley Quinn,173,Gana,95,100,30,55,90,95,60,5,8,10,10,80,1
+746,Darkseid,465,Hawkman,275,Gana,95,100,30,55,90,95,65,30,25,25,50,80,1
+747,Darkseid,465,Hespera,0,Gana,95,100,30,55,90,95,0,0,0,0,0,0,1
+748,Darkseid,465,Huntress,112,Gana,95,100,30,55,90,95,50,1,1,5,5,50,1
+749,Darkseid,465,Incubus,201,Gana,95,100,30,55,90,95,55,30,6,30,50,30,1
+750,Darkseid,465,Joker,133,Gana,95,100,30,55,90,95,65,1,7,5,10,45,1
+751,Darkseid,465,Jor-El,187,Gana,95,100,30,55,90,95,80,1,6,10,10,80,1
+752,Darkseid,465,Judomaster,192,Gana,95,100,30,55,90,95,60,1,6,15,10,100,1
+753,Darkseid,465,Kalypso,0,Gana,95,100,30,55,90,95,0,0,0,0,0,0,1
+754,Darkseid,465,Karathen,335,Gana,95,100,30,55,90,95,75,95,25,50,60,30,1
+755,Darkseid,465,Katana,167,Gana,95,100,30,55,90,95,55,1,7,9,15,80,1
+756,Darkseid,465,Killer Croc,174,Gana,95,100,30,55,90,95,45,25,14,20,30,40,1
+757,Darkseid,465,King Nereus,290,Gana,95,100,30,55,90,95,70,45,30,25,45,75,1
+758,Darkseid,465,King Shark,202,Gana,95,100,30,55,90,95,50,30,17,25,40,40,1
+759,Darkseid,465,Ladon,0,Gana,95,100,30,55,90,95,0,0,0,0,0,0,1
+760,Darla Dudley,0,Deadshot,136,Pierde,0,0,0,0,0,0,60,1,6,7,17,45,0
+761,Darla Dudley,0,Deathstroke,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+762,Darla Dudley,0,Doctor Fate,420,Pierde,0,0,0,0,0,0,85,75,60,45,85,70,0
+763,Darla Dudley,0,Doctor Sivana,390,Pierde,0,0,0,0,0,0,70,95,60,40,70,55,0
+764,Darla Dudley,0,Doomsday,325,Pierde,0,0,0,0,0,0,35,100,45,45,75,25,0
+765,Darla Dudley,0,Dr. Maru,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+766,Darla Dudley,0,El Diablo,176,Pierde,0,0,0,0,0,0,55,25,6,10,35,45,0
+767,Darla Dudley,0,Emilia Harcourt,155,Pierde,0,0,0,0,0,0,65,1,1,8,10,70,0
+768,Darla Dudley,0,Enchantress,328,Pierde,0,0,0,0,0,0,80,70,20,18,70,70,0
+769,Darla Dudley,0,Envy,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+770,Darla Dudley,0,Faora,425,Pierde,0,0,0,0,0,0,70,95,60,45,70,85,0
+771,Darla Dudley,0,Freddy Freeman,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+772,Darla Dudley,0,General Zod,420,Pierde,0,0,0,0,0,0,70,100,50,40,75,85,0
+773,Darla Dudley,0,Gluttony,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+774,Darla Dudley,0,Green Lantern,340,Pierde,0,0,0,0,0,0,65,75,25,40,65,70,0
+775,Darla Dudley,0,Harley Quinn,173,Pierde,0,0,0,0,0,0,60,5,8,10,10,80,0
+776,Darla Dudley,0,Hawkman,275,Pierde,0,0,0,0,0,0,65,30,25,25,50,80,0
+777,Darla Dudley,0,Hespera,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+778,Darla Dudley,0,Huntress,112,Pierde,0,0,0,0,0,0,50,1,1,5,5,50,0
+779,Darla Dudley,0,Incubus,201,Pierde,0,0,0,0,0,0,55,30,6,30,50,30,0
+780,Darla Dudley,0,Joker,133,Pierde,0,0,0,0,0,0,65,1,7,5,10,45,0
+781,Darla Dudley,0,Jor-El,187,Pierde,0,0,0,0,0,0,80,1,6,10,10,80,0
+782,Darla Dudley,0,Judomaster,192,Pierde,0,0,0,0,0,0,60,1,6,15,10,100,0
+783,Darla Dudley,0,Kalypso,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+784,Darla Dudley,0,Karathen,335,Pierde,0,0,0,0,0,0,75,95,25,50,60,30,0
+785,Darla Dudley,0,Katana,167,Pierde,0,0,0,0,0,0,55,1,7,9,15,80,0
+786,Darla Dudley,0,Killer Croc,174,Pierde,0,0,0,0,0,0,45,25,14,20,30,40,0
+787,Darla Dudley,0,King Nereus,290,Pierde,0,0,0,0,0,0,70,45,30,25,45,75,0
+788,Darla Dudley,0,King Shark,202,Pierde,0,0,0,0,0,0,50,30,17,25,40,40,0
+789,Darla Dudley,0,Ladon,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+790,Deadshot,136,Deathstroke,0,Gana,60,1,6,7,17,45,0,0,0,0,0,0,1
+791,Deadshot,136,Doctor Fate,420,Pierde,60,1,6,7,17,45,85,75,60,45,85,70,0
+792,Deadshot,136,Doctor Sivana,390,Pierde,60,1,6,7,17,45,70,95,60,40,70,55,0
+793,Deadshot,136,Doomsday,325,Pierde,60,1,6,7,17,45,35,100,45,45,75,25,0
+794,Deadshot,136,Dr. Maru,0,Gana,60,1,6,7,17,45,0,0,0,0,0,0,1
+795,Deadshot,136,El Diablo,176,Pierde,60,1,6,7,17,45,55,25,6,10,35,45,0
+796,Deadshot,136,Emilia Harcourt,155,Pierde,60,1,6,7,17,45,65,1,1,8,10,70,0
+797,Deadshot,136,Enchantress,328,Pierde,60,1,6,7,17,45,80,70,20,18,70,70,0
+798,Deadshot,136,Envy,360,Pierde,60,1,6,7,17,45,65,65,65,40,60,65,0
+799,Deadshot,136,Faora,425,Pierde,60,1,6,7,17,45,70,95,60,45,70,85,0
+800,Deadshot,136,Freddy Freeman,0,Gana,60,1,6,7,17,45,0,0,0,0,0,0,1
+801,Deadshot,136,General Zod,420,Pierde,60,1,6,7,17,45,70,100,50,40,75,85,0
+802,Deadshot,136,Gluttony,360,Pierde,60,1,6,7,17,45,65,65,65,40,60,65,0
+803,Deadshot,136,Green Lantern,340,Pierde,60,1,6,7,17,45,65,75,25,40,65,70,0
+804,Deadshot,136,Harley Quinn,173,Pierde,60,1,6,7,17,45,60,5,8,10,10,80,0
+805,Deadshot,136,Hawkman,275,Pierde,60,1,6,7,17,45,65,30,25,25,50,80,0
+806,Deadshot,136,Hespera,0,Gana,60,1,6,7,17,45,0,0,0,0,0,0,1
+807,Deadshot,136,Huntress,112,Gana,60,1,6,7,17,45,50,1,1,5,5,50,1
+808,Deadshot,136,Incubus,201,Pierde,60,1,6,7,17,45,55,30,6,30,50,30,0
+809,Deadshot,136,Joker,133,Gana,60,1,6,7,17,45,65,1,7,5,10,45,1
+810,Deadshot,136,Jor-El,187,Pierde,60,1,6,7,17,45,80,1,6,10,10,80,0
+811,Deadshot,136,Judomaster,192,Pierde,60,1,6,7,17,45,60,1,6,15,10,100,0
+812,Deadshot,136,Kalypso,0,Gana,60,1,6,7,17,45,0,0,0,0,0,0,1
+813,Deadshot,136,Karathen,335,Pierde,60,1,6,7,17,45,75,95,25,50,60,30,0
+814,Deadshot,136,Katana,167,Pierde,60,1,6,7,17,45,55,1,7,9,15,80,0
+815,Deadshot,136,Killer Croc,174,Pierde,60,1,6,7,17,45,45,25,14,20,30,40,0
+816,Deadshot,136,King Nereus,290,Pierde,60,1,6,7,17,45,70,45,30,25,45,75,0
+817,Deadshot,136,King Shark,202,Pierde,60,1,6,7,17,45,50,30,17,25,40,40,0
+818,Deadshot,136,Ladon,0,Gana,60,1,6,7,17,45,0,0,0,0,0,0,1
+819,Deathstroke,0,Doctor Fate,420,Pierde,0,0,0,0,0,0,85,75,60,45,85,70,0
+820,Deathstroke,0,Doctor Sivana,390,Pierde,0,0,0,0,0,0,70,95,60,40,70,55,0
+821,Deathstroke,0,Doomsday,325,Pierde,0,0,0,0,0,0,35,100,45,45,75,25,0
+822,Deathstroke,0,Dr. Maru,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+823,Deathstroke,0,El Diablo,176,Pierde,0,0,0,0,0,0,55,25,6,10,35,45,0
+824,Deathstroke,0,Emilia Harcourt,155,Pierde,0,0,0,0,0,0,65,1,1,8,10,70,0
+825,Deathstroke,0,Enchantress,328,Pierde,0,0,0,0,0,0,80,70,20,18,70,70,0
+826,Deathstroke,0,Envy,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+827,Deathstroke,0,Faora,425,Pierde,0,0,0,0,0,0,70,95,60,45,70,85,0
+828,Deathstroke,0,Freddy Freeman,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+829,Deathstroke,0,General Zod,420,Pierde,0,0,0,0,0,0,70,100,50,40,75,85,0
+830,Deathstroke,0,Gluttony,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+831,Deathstroke,0,Green Lantern,340,Pierde,0,0,0,0,0,0,65,75,25,40,65,70,0
+832,Deathstroke,0,Harley Quinn,173,Pierde,0,0,0,0,0,0,60,5,8,10,10,80,0
+833,Deathstroke,0,Hawkman,275,Pierde,0,0,0,0,0,0,65,30,25,25,50,80,0
+834,Deathstroke,0,Hespera,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+835,Deathstroke,0,Huntress,112,Pierde,0,0,0,0,0,0,50,1,1,5,5,50,0
+836,Deathstroke,0,Incubus,201,Pierde,0,0,0,0,0,0,55,30,6,30,50,30,0
+837,Deathstroke,0,Joker,133,Pierde,0,0,0,0,0,0,65,1,7,5,10,45,0
+838,Deathstroke,0,Jor-El,187,Pierde,0,0,0,0,0,0,80,1,6,10,10,80,0
+839,Deathstroke,0,Judomaster,192,Pierde,0,0,0,0,0,0,60,1,6,15,10,100,0
+840,Deathstroke,0,Kalypso,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+841,Deathstroke,0,Karathen,335,Pierde,0,0,0,0,0,0,75,95,25,50,60,30,0
+842,Deathstroke,0,Katana,167,Pierde,0,0,0,0,0,0,55,1,7,9,15,80,0
+843,Deathstroke,0,Killer Croc,174,Pierde,0,0,0,0,0,0,45,25,14,20,30,40,0
+844,Deathstroke,0,King Nereus,290,Pierde,0,0,0,0,0,0,70,45,30,25,45,75,0
+845,Deathstroke,0,King Shark,202,Pierde,0,0,0,0,0,0,50,30,17,25,40,40,0
+846,Deathstroke,0,Ladon,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+847,Doctor Fate,420,Doctor Sivana,390,Gana,85,75,60,45,85,70,70,95,60,40,70,55,1
+848,Doctor Fate,420,Doomsday,325,Gana,85,75,60,45,85,70,35,100,45,45,75,25,1
+849,Doctor Fate,420,Dr. Maru,0,Gana,85,75,60,45,85,70,0,0,0,0,0,0,1
+850,Doctor Fate,420,El Diablo,176,Gana,85,75,60,45,85,70,55,25,6,10,35,45,1
+851,Doctor Fate,420,Emilia Harcourt,155,Gana,85,75,60,45,85,70,65,1,1,8,10,70,1
+852,Doctor Fate,420,Enchantress,328,Gana,85,75,60,45,85,70,80,70,20,18,70,70,1
+853,Doctor Fate,420,Envy,360,Gana,85,75,60,45,85,70,65,65,65,40,60,65,1
+854,Doctor Fate,420,Faora,425,Pierde,85,75,60,45,85,70,70,95,60,45,70,85,0
+855,Doctor Fate,420,Freddy Freeman,0,Gana,85,75,60,45,85,70,0,0,0,0,0,0,1
+856,Doctor Fate,420,General Zod,420,Empata,85,75,60,45,85,70,70,100,50,40,75,85,2
+857,Doctor Fate,420,Gluttony,360,Gana,85,75,60,45,85,70,65,65,65,40,60,65,1
+858,Doctor Fate,420,Green Lantern,340,Gana,85,75,60,45,85,70,65,75,25,40,65,70,1
+859,Doctor Fate,420,Harley Quinn,173,Gana,85,75,60,45,85,70,60,5,8,10,10,80,1
+860,Doctor Fate,420,Hawkman,275,Gana,85,75,60,45,85,70,65,30,25,25,50,80,1
+861,Doctor Fate,420,Hespera,0,Gana,85,75,60,45,85,70,0,0,0,0,0,0,1
+862,Doctor Fate,420,Huntress,112,Gana,85,75,60,45,85,70,50,1,1,5,5,50,1
+863,Doctor Fate,420,Incubus,201,Gana,85,75,60,45,85,70,55,30,6,30,50,30,1
+864,Doctor Fate,420,Joker,133,Gana,85,75,60,45,85,70,65,1,7,5,10,45,1
+865,Doctor Fate,420,Jor-El,187,Gana,85,75,60,45,85,70,80,1,6,10,10,80,1
+866,Doctor Fate,420,Judomaster,192,Gana,85,75,60,45,85,70,60,1,6,15,10,100,1
+867,Doctor Fate,420,Kalypso,0,Gana,85,75,60,45,85,70,0,0,0,0,0,0,1
+868,Doctor Fate,420,Karathen,335,Gana,85,75,60,45,85,70,75,95,25,50,60,30,1
+869,Doctor Fate,420,Katana,167,Gana,85,75,60,45,85,70,55,1,7,9,15,80,1
+870,Doctor Fate,420,Killer Croc,174,Gana,85,75,60,45,85,70,45,25,14,20,30,40,1
+871,Doctor Fate,420,King Nereus,290,Gana,85,75,60,45,85,70,70,45,30,25,45,75,1
+872,Doctor Fate,420,King Shark,202,Gana,85,75,60,45,85,70,50,30,17,25,40,40,1
+873,Doctor Fate,420,Ladon,0,Gana,85,75,60,45,85,70,0,0,0,0,0,0,1
+874,Doctor Sivana,390,Doomsday,325,Gana,70,95,60,40,70,55,35,100,45,45,75,25,1
+875,Doctor Sivana,390,Dr. Maru,0,Gana,70,95,60,40,70,55,0,0,0,0,0,0,1
+876,Doctor Sivana,390,El Diablo,176,Gana,70,95,60,40,70,55,55,25,6,10,35,45,1
+877,Doctor Sivana,390,Emilia Harcourt,155,Gana,70,95,60,40,70,55,65,1,1,8,10,70,1
+878,Doctor Sivana,390,Enchantress,328,Gana,70,95,60,40,70,55,80,70,20,18,70,70,1
+879,Doctor Sivana,390,Envy,360,Gana,70,95,60,40,70,55,65,65,65,40,60,65,1
+880,Doctor Sivana,390,Faora,425,Pierde,70,95,60,40,70,55,70,95,60,45,70,85,0
+881,Doctor Sivana,390,Freddy Freeman,0,Gana,70,95,60,40,70,55,0,0,0,0,0,0,1
+882,Doctor Sivana,390,General Zod,420,Pierde,70,95,60,40,70,55,70,100,50,40,75,85,0
+883,Doctor Sivana,390,Gluttony,360,Gana,70,95,60,40,70,55,65,65,65,40,60,65,1
+884,Doctor Sivana,390,Green Lantern,340,Gana,70,95,60,40,70,55,65,75,25,40,65,70,1
+885,Doctor Sivana,390,Harley Quinn,173,Gana,70,95,60,40,70,55,60,5,8,10,10,80,1
+886,Doctor Sivana,390,Hawkman,275,Gana,70,95,60,40,70,55,65,30,25,25,50,80,1
+887,Doctor Sivana,390,Hespera,0,Gana,70,95,60,40,70,55,0,0,0,0,0,0,1
+888,Doctor Sivana,390,Huntress,112,Gana,70,95,60,40,70,55,50,1,1,5,5,50,1
+889,Doctor Sivana,390,Incubus,201,Gana,70,95,60,40,70,55,55,30,6,30,50,30,1
+890,Doctor Sivana,390,Joker,133,Gana,70,95,60,40,70,55,65,1,7,5,10,45,1
+891,Doctor Sivana,390,Jor-El,187,Gana,70,95,60,40,70,55,80,1,6,10,10,80,1
+892,Doctor Sivana,390,Judomaster,192,Gana,70,95,60,40,70,55,60,1,6,15,10,100,1
+893,Doctor Sivana,390,Kalypso,0,Gana,70,95,60,40,70,55,0,0,0,0,0,0,1
+894,Doctor Sivana,390,Karathen,335,Gana,70,95,60,40,70,55,75,95,25,50,60,30,1
+895,Doctor Sivana,390,Katana,167,Gana,70,95,60,40,70,55,55,1,7,9,15,80,1
+896,Doctor Sivana,390,Killer Croc,174,Gana,70,95,60,40,70,55,45,25,14,20,30,40,1
+897,Doctor Sivana,390,King Nereus,290,Gana,70,95,60,40,70,55,70,45,30,25,45,75,1
+898,Doctor Sivana,390,King Shark,202,Gana,70,95,60,40,70,55,50,30,17,25,40,40,1
+899,Doctor Sivana,390,Ladon,0,Gana,70,95,60,40,70,55,0,0,0,0,0,0,1
+900,Doomsday,325,Dr. Maru,0,Gana,35,100,45,45,75,25,0,0,0,0,0,0,1
+901,Doomsday,325,El Diablo,176,Gana,35,100,45,45,75,25,55,25,6,10,35,45,1
+902,Doomsday,325,Emilia Harcourt,155,Gana,35,100,45,45,75,25,65,1,1,8,10,70,1
+903,Doomsday,325,Enchantress,328,Pierde,35,100,45,45,75,25,80,70,20,18,70,70,0
+904,Doomsday,325,Envy,360,Pierde,35,100,45,45,75,25,65,65,65,40,60,65,0
+905,Doomsday,325,Faora,425,Pierde,35,100,45,45,75,25,70,95,60,45,70,85,0
+906,Doomsday,325,Freddy Freeman,0,Gana,35,100,45,45,75,25,0,0,0,0,0,0,1
+907,Doomsday,325,General Zod,420,Pierde,35,100,45,45,75,25,70,100,50,40,75,85,0
+908,Doomsday,325,Gluttony,360,Pierde,35,100,45,45,75,25,65,65,65,40,60,65,0
+909,Doomsday,325,Green Lantern,340,Pierde,35,100,45,45,75,25,65,75,25,40,65,70,0
+910,Doomsday,325,Harley Quinn,173,Gana,35,100,45,45,75,25,60,5,8,10,10,80,1
+911,Doomsday,325,Hawkman,275,Gana,35,100,45,45,75,25,65,30,25,25,50,80,1
+912,Doomsday,325,Hespera,0,Gana,35,100,45,45,75,25,0,0,0,0,0,0,1
+913,Doomsday,325,Huntress,112,Gana,35,100,45,45,75,25,50,1,1,5,5,50,1
+914,Doomsday,325,Incubus,201,Gana,35,100,45,45,75,25,55,30,6,30,50,30,1
+915,Doomsday,325,Joker,133,Gana,35,100,45,45,75,25,65,1,7,5,10,45,1
+916,Doomsday,325,Jor-El,187,Gana,35,100,45,45,75,25,80,1,6,10,10,80,1
+917,Doomsday,325,Judomaster,192,Gana,35,100,45,45,75,25,60,1,6,15,10,100,1
+918,Doomsday,325,Kalypso,0,Gana,35,100,45,45,75,25,0,0,0,0,0,0,1
+919,Doomsday,325,Karathen,335,Pierde,35,100,45,45,75,25,75,95,25,50,60,30,0
+920,Doomsday,325,Katana,167,Gana,35,100,45,45,75,25,55,1,7,9,15,80,1
+921,Doomsday,325,Killer Croc,174,Gana,35,100,45,45,75,25,45,25,14,20,30,40,1
+922,Doomsday,325,King Nereus,290,Gana,35,100,45,45,75,25,70,45,30,25,45,75,1
+923,Doomsday,325,King Shark,202,Gana,35,100,45,45,75,25,50,30,17,25,40,40,1
+924,Doomsday,325,Ladon,0,Gana,35,100,45,45,75,25,0,0,0,0,0,0,1
+925,Dr. Maru,0,El Diablo,176,Pierde,0,0,0,0,0,0,55,25,6,10,35,45,0
+926,Dr. Maru,0,Emilia Harcourt,155,Pierde,0,0,0,0,0,0,65,1,1,8,10,70,0
+927,Dr. Maru,0,Enchantress,328,Pierde,0,0,0,0,0,0,80,70,20,18,70,70,0
+928,Dr. Maru,0,Envy,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+929,Dr. Maru,0,Faora,425,Pierde,0,0,0,0,0,0,70,95,60,45,70,85,0
+930,Dr. Maru,0,Freddy Freeman,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+931,Dr. Maru,0,General Zod,420,Pierde,0,0,0,0,0,0,70,100,50,40,75,85,0
+932,Dr. Maru,0,Gluttony,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+933,Dr. Maru,0,Green Lantern,340,Pierde,0,0,0,0,0,0,65,75,25,40,65,70,0
+934,Dr. Maru,0,Harley Quinn,173,Pierde,0,0,0,0,0,0,60,5,8,10,10,80,0
+935,Dr. Maru,0,Hawkman,275,Pierde,0,0,0,0,0,0,65,30,25,25,50,80,0
+936,Dr. Maru,0,Hespera,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+937,Dr. Maru,0,Huntress,112,Pierde,0,0,0,0,0,0,50,1,1,5,5,50,0
+938,Dr. Maru,0,Incubus,201,Pierde,0,0,0,0,0,0,55,30,6,30,50,30,0
+939,Dr. Maru,0,Joker,133,Pierde,0,0,0,0,0,0,65,1,7,5,10,45,0
+940,Dr. Maru,0,Jor-El,187,Pierde,0,0,0,0,0,0,80,1,6,10,10,80,0
+941,Dr. Maru,0,Judomaster,192,Pierde,0,0,0,0,0,0,60,1,6,15,10,100,0
+942,Dr. Maru,0,Kalypso,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+943,Dr. Maru,0,Karathen,335,Pierde,0,0,0,0,0,0,75,95,25,50,60,30,0
+944,Dr. Maru,0,Katana,167,Pierde,0,0,0,0,0,0,55,1,7,9,15,80,0
+945,Dr. Maru,0,Killer Croc,174,Pierde,0,0,0,0,0,0,45,25,14,20,30,40,0
+946,Dr. Maru,0,King Nereus,290,Pierde,0,0,0,0,0,0,70,45,30,25,45,75,0
+947,Dr. Maru,0,King Shark,202,Pierde,0,0,0,0,0,0,50,30,17,25,40,40,0
+948,Dr. Maru,0,Ladon,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+949,El Diablo,176,Emilia Harcourt,155,Gana,55,25,6,10,35,45,65,1,1,8,10,70,1
+950,El Diablo,176,Enchantress,328,Pierde,55,25,6,10,35,45,80,70,20,18,70,70,0
+951,El Diablo,176,Envy,360,Pierde,55,25,6,10,35,45,65,65,65,40,60,65,0
+952,El Diablo,176,Faora,425,Pierde,55,25,6,10,35,45,70,95,60,45,70,85,0
+953,El Diablo,176,Freddy Freeman,0,Gana,55,25,6,10,35,45,0,0,0,0,0,0,1
+954,El Diablo,176,General Zod,420,Pierde,55,25,6,10,35,45,70,100,50,40,75,85,0
+955,El Diablo,176,Gluttony,360,Pierde,55,25,6,10,35,45,65,65,65,40,60,65,0
+956,El Diablo,176,Green Lantern,340,Pierde,55,25,6,10,35,45,65,75,25,40,65,70,0
+957,El Diablo,176,Harley Quinn,173,Gana,55,25,6,10,35,45,60,5,8,10,10,80,1
+958,El Diablo,176,Hawkman,275,Pierde,55,25,6,10,35,45,65,30,25,25,50,80,0
+959,El Diablo,176,Hespera,0,Gana,55,25,6,10,35,45,0,0,0,0,0,0,1
+960,El Diablo,176,Huntress,112,Gana,55,25,6,10,35,45,50,1,1,5,5,50,1
+961,El Diablo,176,Incubus,201,Pierde,55,25,6,10,35,45,55,30,6,30,50,30,0
+962,El Diablo,176,Joker,133,Gana,55,25,6,10,35,45,65,1,7,5,10,45,1
+963,El Diablo,176,Jor-El,187,Pierde,55,25,6,10,35,45,80,1,6,10,10,80,0
+964,El Diablo,176,Judomaster,192,Pierde,55,25,6,10,35,45,60,1,6,15,10,100,0
+965,El Diablo,176,Kalypso,0,Gana,55,25,6,10,35,45,0,0,0,0,0,0,1
+966,El Diablo,176,Karathen,335,Pierde,55,25,6,10,35,45,75,95,25,50,60,30,0
+967,El Diablo,176,Katana,167,Gana,55,25,6,10,35,45,55,1,7,9,15,80,1
+968,El Diablo,176,Killer Croc,174,Gana,55,25,6,10,35,45,45,25,14,20,30,40,1
+969,El Diablo,176,King Nereus,290,Pierde,55,25,6,10,35,45,70,45,30,25,45,75,0
+970,El Diablo,176,King Shark,202,Pierde,55,25,6,10,35,45,50,30,17,25,40,40,0
+971,El Diablo,176,Ladon,0,Gana,55,25,6,10,35,45,0,0,0,0,0,0,1
+972,Emilia Harcourt,155,Enchantress,328,Pierde,65,1,1,8,10,70,80,70,20,18,70,70,0
+973,Emilia Harcourt,155,Envy,360,Pierde,65,1,1,8,10,70,65,65,65,40,60,65,0
+974,Emilia Harcourt,155,Faora,425,Pierde,65,1,1,8,10,70,70,95,60,45,70,85,0
+975,Emilia Harcourt,155,Freddy Freeman,0,Gana,65,1,1,8,10,70,0,0,0,0,0,0,1
+976,Emilia Harcourt,155,General Zod,420,Pierde,65,1,1,8,10,70,70,100,50,40,75,85,0
+977,Emilia Harcourt,155,Gluttony,360,Pierde,65,1,1,8,10,70,65,65,65,40,60,65,0
+978,Emilia Harcourt,155,Green Lantern,340,Pierde,65,1,1,8,10,70,65,75,25,40,65,70,0
+979,Emilia Harcourt,155,Harley Quinn,173,Pierde,65,1,1,8,10,70,60,5,8,10,10,80,0
+980,Emilia Harcourt,155,Hawkman,275,Pierde,65,1,1,8,10,70,65,30,25,25,50,80,0
+981,Emilia Harcourt,155,Hespera,0,Gana,65,1,1,8,10,70,0,0,0,0,0,0,1
+982,Emilia Harcourt,155,Huntress,112,Gana,65,1,1,8,10,70,50,1,1,5,5,50,1
+983,Emilia Harcourt,155,Incubus,201,Pierde,65,1,1,8,10,70,55,30,6,30,50,30,0
+984,Emilia Harcourt,155,Joker,133,Gana,65,1,1,8,10,70,65,1,7,5,10,45,1
+985,Emilia Harcourt,155,Jor-El,187,Pierde,65,1,1,8,10,70,80,1,6,10,10,80,0
+986,Emilia Harcourt,155,Judomaster,192,Pierde,65,1,1,8,10,70,60,1,6,15,10,100,0
+987,Emilia Harcourt,155,Kalypso,0,Gana,65,1,1,8,10,70,0,0,0,0,0,0,1
+988,Emilia Harcourt,155,Karathen,335,Pierde,65,1,1,8,10,70,75,95,25,50,60,30,0
+989,Emilia Harcourt,155,Katana,167,Pierde,65,1,1,8,10,70,55,1,7,9,15,80,0
+990,Emilia Harcourt,155,Killer Croc,174,Pierde,65,1,1,8,10,70,45,25,14,20,30,40,0
+991,Emilia Harcourt,155,King Nereus,290,Pierde,65,1,1,8,10,70,70,45,30,25,45,75,0
+992,Emilia Harcourt,155,King Shark,202,Pierde,65,1,1,8,10,70,50,30,17,25,40,40,0
+993,Emilia Harcourt,155,Ladon,0,Gana,65,1,1,8,10,70,0,0,0,0,0,0,1
+994,Enchantress,328,Envy,360,Pierde,80,70,20,18,70,70,65,65,65,40,60,65,0
+995,Enchantress,328,Faora,425,Pierde,80,70,20,18,70,70,70,95,60,45,70,85,0
+996,Enchantress,328,Freddy Freeman,0,Gana,80,70,20,18,70,70,0,0,0,0,0,0,1
+997,Enchantress,328,General Zod,420,Pierde,80,70,20,18,70,70,70,100,50,40,75,85,0
+998,Enchantress,328,Gluttony,360,Pierde,80,70,20,18,70,70,65,65,65,40,60,65,0
+999,Enchantress,328,Green Lantern,340,Pierde,80,70,20,18,70,70,65,75,25,40,65,70,0
+1000,Enchantress,328,Harley Quinn,173,Gana,80,70,20,18,70,70,60,5,8,10,10,80,1
+1001,Enchantress,328,Hawkman,275,Gana,80,70,20,18,70,70,65,30,25,25,50,80,1
+1002,Enchantress,328,Hespera,0,Gana,80,70,20,18,70,70,0,0,0,0,0,0,1
+1003,Enchantress,328,Huntress,112,Gana,80,70,20,18,70,70,50,1,1,5,5,50,1
+1004,Enchantress,328,Incubus,201,Gana,80,70,20,18,70,70,55,30,6,30,50,30,1
+1005,Enchantress,328,Joker,133,Gana,80,70,20,18,70,70,65,1,7,5,10,45,1
+1006,Enchantress,328,Jor-El,187,Gana,80,70,20,18,70,70,80,1,6,10,10,80,1
+1007,Enchantress,328,Judomaster,192,Gana,80,70,20,18,70,70,60,1,6,15,10,100,1
+1008,Enchantress,328,Kalypso,0,Gana,80,70,20,18,70,70,0,0,0,0,0,0,1
+1009,Enchantress,328,Karathen,335,Pierde,80,70,20,18,70,70,75,95,25,50,60,30,0
+1010,Enchantress,328,Katana,167,Gana,80,70,20,18,70,70,55,1,7,9,15,80,1
+1011,Enchantress,328,Killer Croc,174,Gana,80,70,20,18,70,70,45,25,14,20,30,40,1
+1012,Enchantress,328,King Nereus,290,Gana,80,70,20,18,70,70,70,45,30,25,45,75,1
+1013,Enchantress,328,King Shark,202,Gana,80,70,20,18,70,70,50,30,17,25,40,40,1
+1014,Enchantress,328,Ladon,0,Gana,80,70,20,18,70,70,0,0,0,0,0,0,1
+1015,Envy,360,Faora,425,Pierde,65,65,65,40,60,65,70,95,60,45,70,85,0
+1016,Envy,360,Freddy Freeman,0,Gana,65,65,65,40,60,65,0,0,0,0,0,0,1
+1017,Envy,360,General Zod,420,Pierde,65,65,65,40,60,65,70,100,50,40,75,85,0
+1018,Envy,360,Gluttony,360,Empata,65,65,65,40,60,65,65,65,65,40,60,65,2
+1019,Envy,360,Green Lantern,340,Gana,65,65,65,40,60,65,65,75,25,40,65,70,1
+1020,Envy,360,Harley Quinn,173,Gana,65,65,65,40,60,65,60,5,8,10,10,80,1
+1021,Envy,360,Hawkman,275,Gana,65,65,65,40,60,65,65,30,25,25,50,80,1
+1022,Envy,360,Hespera,0,Gana,65,65,65,40,60,65,0,0,0,0,0,0,1
+1023,Envy,360,Huntress,112,Gana,65,65,65,40,60,65,50,1,1,5,5,50,1
+1024,Envy,360,Incubus,201,Gana,65,65,65,40,60,65,55,30,6,30,50,30,1
+1025,Envy,360,Joker,133,Gana,65,65,65,40,60,65,65,1,7,5,10,45,1
+1026,Envy,360,Jor-El,187,Gana,65,65,65,40,60,65,80,1,6,10,10,80,1
+1027,Envy,360,Judomaster,192,Gana,65,65,65,40,60,65,60,1,6,15,10,100,1
+1028,Envy,360,Kalypso,0,Gana,65,65,65,40,60,65,0,0,0,0,0,0,1
+1029,Envy,360,Karathen,335,Gana,65,65,65,40,60,65,75,95,25,50,60,30,1
+1030,Envy,360,Katana,167,Gana,65,65,65,40,60,65,55,1,7,9,15,80,1
+1031,Envy,360,Killer Croc,174,Gana,65,65,65,40,60,65,45,25,14,20,30,40,1
+1032,Envy,360,King Nereus,290,Gana,65,65,65,40,60,65,70,45,30,25,45,75,1
+1033,Envy,360,King Shark,202,Gana,65,65,65,40,60,65,50,30,17,25,40,40,1
+1034,Envy,360,Ladon,0,Gana,65,65,65,40,60,65,0,0,0,0,0,0,1
+1035,Faora,425,Freddy Freeman,0,Gana,70,95,60,45,70,85,0,0,0,0,0,0,1
+1036,Faora,425,General Zod,420,Gana,70,95,60,45,70,85,70,100,50,40,75,85,1
+1037,Faora,425,Gluttony,360,Gana,70,95,60,45,70,85,65,65,65,40,60,65,1
+1038,Faora,425,Green Lantern,340,Gana,70,95,60,45,70,85,65,75,25,40,65,70,1
+1039,Faora,425,Harley Quinn,173,Gana,70,95,60,45,70,85,60,5,8,10,10,80,1
+1040,Faora,425,Hawkman,275,Gana,70,95,60,45,70,85,65,30,25,25,50,80,1
+1041,Faora,425,Hespera,0,Gana,70,95,60,45,70,85,0,0,0,0,0,0,1
+1042,Faora,425,Huntress,112,Gana,70,95,60,45,70,85,50,1,1,5,5,50,1
+1043,Faora,425,Incubus,201,Gana,70,95,60,45,70,85,55,30,6,30,50,30,1
+1044,Faora,425,Joker,133,Gana,70,95,60,45,70,85,65,1,7,5,10,45,1
+1045,Faora,425,Jor-El,187,Gana,70,95,60,45,70,85,80,1,6,10,10,80,1
+1046,Faora,425,Judomaster,192,Gana,70,95,60,45,70,85,60,1,6,15,10,100,1
+1047,Faora,425,Kalypso,0,Gana,70,95,60,45,70,85,0,0,0,0,0,0,1
+1048,Faora,425,Karathen,335,Gana,70,95,60,45,70,85,75,95,25,50,60,30,1
+1049,Faora,425,Katana,167,Gana,70,95,60,45,70,85,55,1,7,9,15,80,1
+1050,Faora,425,Killer Croc,174,Gana,70,95,60,45,70,85,45,25,14,20,30,40,1
+1051,Faora,425,King Nereus,290,Gana,70,95,60,45,70,85,70,45,30,25,45,75,1
+1052,Faora,425,King Shark,202,Gana,70,95,60,45,70,85,50,30,17,25,40,40,1
+1053,Faora,425,Ladon,0,Gana,70,95,60,45,70,85,0,0,0,0,0,0,1
+1054,Freddy Freeman,0,General Zod,420,Pierde,0,0,0,0,0,0,70,100,50,40,75,85,0
+1055,Freddy Freeman,0,Gluttony,360,Pierde,0,0,0,0,0,0,65,65,65,40,60,65,0
+1056,Freddy Freeman,0,Green Lantern,340,Pierde,0,0,0,0,0,0,65,75,25,40,65,70,0
+1057,Freddy Freeman,0,Harley Quinn,173,Pierde,0,0,0,0,0,0,60,5,8,10,10,80,0
+1058,Freddy Freeman,0,Hawkman,275,Pierde,0,0,0,0,0,0,65,30,25,25,50,80,0
+1059,Freddy Freeman,0,Hespera,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+1060,Freddy Freeman,0,Huntress,112,Pierde,0,0,0,0,0,0,50,1,1,5,5,50,0
+1061,Freddy Freeman,0,Incubus,201,Pierde,0,0,0,0,0,0,55,30,6,30,50,30,0
+1062,Freddy Freeman,0,Joker,133,Pierde,0,0,0,0,0,0,65,1,7,5,10,45,0
+1063,Freddy Freeman,0,Jor-El,187,Pierde,0,0,0,0,0,0,80,1,6,10,10,80,0
+1064,Freddy Freeman,0,Judomaster,192,Pierde,0,0,0,0,0,0,60,1,6,15,10,100,0
+1065,Freddy Freeman,0,Kalypso,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+1066,Freddy Freeman,0,Karathen,335,Pierde,0,0,0,0,0,0,75,95,25,50,60,30,0
+1067,Freddy Freeman,0,Katana,167,Pierde,0,0,0,0,0,0,55,1,7,9,15,80,0
+1068,Freddy Freeman,0,Killer Croc,174,Pierde,0,0,0,0,0,0,45,25,14,20,30,40,0
+1069,Freddy Freeman,0,King Nereus,290,Pierde,0,0,0,0,0,0,70,45,30,25,45,75,0
+1070,Freddy Freeman,0,King Shark,202,Pierde,0,0,0,0,0,0,50,30,17,25,40,40,0
+1071,Freddy Freeman,0,Ladon,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+1072,General Zod,420,Gluttony,360,Gana,70,100,50,40,75,85,65,65,65,40,60,65,1
+1073,General Zod,420,Green Lantern,340,Gana,70,100,50,40,75,85,65,75,25,40,65,70,1
+1074,General Zod,420,Harley Quinn,173,Gana,70,100,50,40,75,85,60,5,8,10,10,80,1
+1075,General Zod,420,Hawkman,275,Gana,70,100,50,40,75,85,65,30,25,25,50,80,1
+1076,General Zod,420,Hespera,0,Gana,70,100,50,40,75,85,0,0,0,0,0,0,1
+1077,General Zod,420,Huntress,112,Gana,70,100,50,40,75,85,50,1,1,5,5,50,1
+1078,General Zod,420,Incubus,201,Gana,70,100,50,40,75,85,55,30,6,30,50,30,1
+1079,General Zod,420,Joker,133,Gana,70,100,50,40,75,85,65,1,7,5,10,45,1
+1080,General Zod,420,Jor-El,187,Gana,70,100,50,40,75,85,80,1,6,10,10,80,1
+1081,General Zod,420,Judomaster,192,Gana,70,100,50,40,75,85,60,1,6,15,10,100,1
+1082,General Zod,420,Kalypso,0,Gana,70,100,50,40,75,85,0,0,0,0,0,0,1
+1083,General Zod,420,Karathen,335,Gana,70,100,50,40,75,85,75,95,25,50,60,30,1
+1084,General Zod,420,Katana,167,Gana,70,100,50,40,75,85,55,1,7,9,15,80,1
+1085,General Zod,420,Killer Croc,174,Gana,70,100,50,40,75,85,45,25,14,20,30,40,1
+1086,General Zod,420,King Nereus,290,Gana,70,100,50,40,75,85,70,45,30,25,45,75,1
+1087,General Zod,420,King Shark,202,Gana,70,100,50,40,75,85,50,30,17,25,40,40,1
+1088,General Zod,420,Ladon,0,Gana,70,100,50,40,75,85,0,0,0,0,0,0,1
+1089,Gluttony,360,Green Lantern,340,Gana,65,65,65,40,60,65,65,75,25,40,65,70,1
+1090,Gluttony,360,Harley Quinn,173,Gana,65,65,65,40,60,65,60,5,8,10,10,80,1
+1091,Gluttony,360,Hawkman,275,Gana,65,65,65,40,60,65,65,30,25,25,50,80,1
+1092,Gluttony,360,Hespera,0,Gana,65,65,65,40,60,65,0,0,0,0,0,0,1
+1093,Gluttony,360,Huntress,112,Gana,65,65,65,40,60,65,50,1,1,5,5,50,1
+1094,Gluttony,360,Incubus,201,Gana,65,65,65,40,60,65,55,30,6,30,50,30,1
+1095,Gluttony,360,Joker,133,Gana,65,65,65,40,60,65,65,1,7,5,10,45,1
+1096,Gluttony,360,Jor-El,187,Gana,65,65,65,40,60,65,80,1,6,10,10,80,1
+1097,Gluttony,360,Judomaster,192,Gana,65,65,65,40,60,65,60,1,6,15,10,100,1
+1098,Gluttony,360,Kalypso,0,Gana,65,65,65,40,60,65,0,0,0,0,0,0,1
+1099,Gluttony,360,Karathen,335,Gana,65,65,65,40,60,65,75,95,25,50,60,30,1
+1100,Gluttony,360,Katana,167,Gana,65,65,65,40,60,65,55,1,7,9,15,80,1
+1101,Gluttony,360,Killer Croc,174,Gana,65,65,65,40,60,65,45,25,14,20,30,40,1
+1102,Gluttony,360,King Nereus,290,Gana,65,65,65,40,60,65,70,45,30,25,45,75,1
+1103,Gluttony,360,King Shark,202,Gana,65,65,65,40,60,65,50,30,17,25,40,40,1
+1104,Gluttony,360,Ladon,0,Gana,65,65,65,40,60,65,0,0,0,0,0,0,1
+1105,Green Lantern,340,Harley Quinn,173,Gana,65,75,25,40,65,70,60,5,8,10,10,80,1
+1106,Green Lantern,340,Hawkman,275,Gana,65,75,25,40,65,70,65,30,25,25,50,80,1
+1107,Green Lantern,340,Hespera,0,Gana,65,75,25,40,65,70,0,0,0,0,0,0,1
+1108,Green Lantern,340,Huntress,112,Gana,65,75,25,40,65,70,50,1,1,5,5,50,1
+1109,Green Lantern,340,Incubus,201,Gana,65,75,25,40,65,70,55,30,6,30,50,30,1
+1110,Green Lantern,340,Joker,133,Gana,65,75,25,40,65,70,65,1,7,5,10,45,1
+1111,Green Lantern,340,Jor-El,187,Gana,65,75,25,40,65,70,80,1,6,10,10,80,1
+1112,Green Lantern,340,Judomaster,192,Gana,65,75,25,40,65,70,60,1,6,15,10,100,1
+1113,Green Lantern,340,Kalypso,0,Gana,65,75,25,40,65,70,0,0,0,0,0,0,1
+1114,Green Lantern,340,Karathen,335,Gana,65,75,25,40,65,70,75,95,25,50,60,30,1
+1115,Green Lantern,340,Katana,167,Gana,65,75,25,40,65,70,55,1,7,9,15,80,1
+1116,Green Lantern,340,Killer Croc,174,Gana,65,75,25,40,65,70,45,25,14,20,30,40,1
+1117,Green Lantern,340,King Nereus,290,Gana,65,75,25,40,65,70,70,45,30,25,45,75,1
+1118,Green Lantern,340,King Shark,202,Gana,65,75,25,40,65,70,50,30,17,25,40,40,1
+1119,Green Lantern,340,Ladon,0,Gana,65,75,25,40,65,70,0,0,0,0,0,0,1
+1120,Harley Quinn,173,Hawkman,275,Pierde,60,5,8,10,10,80,65,30,25,25,50,80,0
+1121,Harley Quinn,173,Hespera,0,Gana,60,5,8,10,10,80,0,0,0,0,0,0,1
+1122,Harley Quinn,173,Huntress,112,Gana,60,5,8,10,10,80,50,1,1,5,5,50,1
+1123,Harley Quinn,173,Incubus,201,Pierde,60,5,8,10,10,80,55,30,6,30,50,30,0
+1124,Harley Quinn,173,Joker,133,Gana,60,5,8,10,10,80,65,1,7,5,10,45,1
+1125,Harley Quinn,173,Jor-El,187,Pierde,60,5,8,10,10,80,80,1,6,10,10,80,0
+1126,Harley Quinn,173,Judomaster,192,Pierde,60,5,8,10,10,80,60,1,6,15,10,100,0
+1127,Harley Quinn,173,Kalypso,0,Gana,60,5,8,10,10,80,0,0,0,0,0,0,1
+1128,Harley Quinn,173,Karathen,335,Pierde,60,5,8,10,10,80,75,95,25,50,60,30,0
+1129,Harley Quinn,173,Katana,167,Gana,60,5,8,10,10,80,55,1,7,9,15,80,1
+1130,Harley Quinn,173,Killer Croc,174,Pierde,60,5,8,10,10,80,45,25,14,20,30,40,0
+1131,Harley Quinn,173,King Nereus,290,Pierde,60,5,8,10,10,80,70,45,30,25,45,75,0
+1132,Harley Quinn,173,King Shark,202,Pierde,60,5,8,10,10,80,50,30,17,25,40,40,0
+1133,Harley Quinn,173,Ladon,0,Gana,60,5,8,10,10,80,0,0,0,0,0,0,1
+1134,Hawkman,275,Hespera,0,Gana,65,30,25,25,50,80,0,0,0,0,0,0,1
+1135,Hawkman,275,Huntress,112,Gana,65,30,25,25,50,80,50,1,1,5,5,50,1
+1136,Hawkman,275,Incubus,201,Gana,65,30,25,25,50,80,55,30,6,30,50,30,1
+1137,Hawkman,275,Joker,133,Gana,65,30,25,25,50,80,65,1,7,5,10,45,1
+1138,Hawkman,275,Jor-El,187,Gana,65,30,25,25,50,80,80,1,6,10,10,80,1
+1139,Hawkman,275,Judomaster,192,Gana,65,30,25,25,50,80,60,1,6,15,10,100,1
+1140,Hawkman,275,Kalypso,0,Gana,65,30,25,25,50,80,0,0,0,0,0,0,1
+1141,Hawkman,275,Karathen,335,Pierde,65,30,25,25,50,80,75,95,25,50,60,30,0
+1142,Hawkman,275,Katana,167,Gana,65,30,25,25,50,80,55,1,7,9,15,80,1
+1143,Hawkman,275,Killer Croc,174,Gana,65,30,25,25,50,80,45,25,14,20,30,40,1
+1144,Hawkman,275,King Nereus,290,Pierde,65,30,25,25,50,80,70,45,30,25,45,75,0
+1145,Hawkman,275,King Shark,202,Gana,65,30,25,25,50,80,50,30,17,25,40,40,1
+1146,Hawkman,275,Ladon,0,Gana,65,30,25,25,50,80,0,0,0,0,0,0,1
+1147,Hespera,0,Huntress,112,Pierde,0,0,0,0,0,0,50,1,1,5,5,50,0
+1148,Hespera,0,Incubus,201,Pierde,0,0,0,0,0,0,55,30,6,30,50,30,0
+1149,Hespera,0,Joker,133,Pierde,0,0,0,0,0,0,65,1,7,5,10,45,0
+1150,Hespera,0,Jor-El,187,Pierde,0,0,0,0,0,0,80,1,6,10,10,80,0
+1151,Hespera,0,Judomaster,192,Pierde,0,0,0,0,0,0,60,1,6,15,10,100,0
+1152,Hespera,0,Kalypso,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+1153,Hespera,0,Karathen,335,Pierde,0,0,0,0,0,0,75,95,25,50,60,30,0
+1154,Hespera,0,Katana,167,Pierde,0,0,0,0,0,0,55,1,7,9,15,80,0
+1155,Hespera,0,Killer Croc,174,Pierde,0,0,0,0,0,0,45,25,14,20,30,40,0
+1156,Hespera,0,King Nereus,290,Pierde,0,0,0,0,0,0,70,45,30,25,45,75,0
+1157,Hespera,0,King Shark,202,Pierde,0,0,0,0,0,0,50,30,17,25,40,40,0
+1158,Hespera,0,Ladon,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+1159,Huntress,112,Incubus,201,Pierde,50,1,1,5,5,50,55,30,6,30,50,30,0
+1160,Huntress,112,Joker,133,Pierde,50,1,1,5,5,50,65,1,7,5,10,45,0
+1161,Huntress,112,Jor-El,187,Pierde,50,1,1,5,5,50,80,1,6,10,10,80,0
+1162,Huntress,112,Judomaster,192,Pierde,50,1,1,5,5,50,60,1,6,15,10,100,0
+1163,Huntress,112,Kalypso,0,Gana,50,1,1,5,5,50,0,0,0,0,0,0,1
+1164,Huntress,112,Karathen,335,Pierde,50,1,1,5,5,50,75,95,25,50,60,30,0
+1165,Huntress,112,Katana,167,Pierde,50,1,1,5,5,50,55,1,7,9,15,80,0
+1166,Huntress,112,Killer Croc,174,Pierde,50,1,1,5,5,50,45,25,14,20,30,40,0
+1167,Huntress,112,King Nereus,290,Pierde,50,1,1,5,5,50,70,45,30,25,45,75,0
+1168,Huntress,112,King Shark,202,Pierde,50,1,1,5,5,50,50,30,17,25,40,40,0
+1169,Huntress,112,Ladon,0,Gana,50,1,1,5,5,50,0,0,0,0,0,0,1
+1170,Incubus,201,Joker,133,Gana,55,30,6,30,50,30,65,1,7,5,10,45,1
+1171,Incubus,201,Jor-El,187,Gana,55,30,6,30,50,30,80,1,6,10,10,80,1
+1172,Incubus,201,Judomaster,192,Gana,55,30,6,30,50,30,60,1,6,15,10,100,1
+1173,Incubus,201,Kalypso,0,Gana,55,30,6,30,50,30,0,0,0,0,0,0,1
+1174,Incubus,201,Karathen,335,Pierde,55,30,6,30,50,30,75,95,25,50,60,30,0
+1175,Incubus,201,Katana,167,Gana,55,30,6,30,50,30,55,1,7,9,15,80,1
+1176,Incubus,201,Killer Croc,174,Gana,55,30,6,30,50,30,45,25,14,20,30,40,1
+1177,Incubus,201,King Nereus,290,Pierde,55,30,6,30,50,30,70,45,30,25,45,75,0
+1178,Incubus,201,King Shark,202,Pierde,55,30,6,30,50,30,50,30,17,25,40,40,0
+1179,Incubus,201,Ladon,0,Gana,55,30,6,30,50,30,0,0,0,0,0,0,1
+1180,Joker,133,Jor-El,187,Pierde,65,1,7,5,10,45,80,1,6,10,10,80,0
+1181,Joker,133,Judomaster,192,Pierde,65,1,7,5,10,45,60,1,6,15,10,100,0
+1182,Joker,133,Kalypso,0,Gana,65,1,7,5,10,45,0,0,0,0,0,0,1
+1183,Joker,133,Karathen,335,Pierde,65,1,7,5,10,45,75,95,25,50,60,30,0
+1184,Joker,133,Katana,167,Pierde,65,1,7,5,10,45,55,1,7,9,15,80,0
+1185,Joker,133,Killer Croc,174,Pierde,65,1,7,5,10,45,45,25,14,20,30,40,0
+1186,Joker,133,King Nereus,290,Pierde,65,1,7,5,10,45,70,45,30,25,45,75,0
+1187,Joker,133,King Shark,202,Pierde,65,1,7,5,10,45,50,30,17,25,40,40,0
+1188,Joker,133,Ladon,0,Gana,65,1,7,5,10,45,0,0,0,0,0,0,1
+1189,Jor-El,187,Judomaster,192,Pierde,80,1,6,10,10,80,60,1,6,15,10,100,0
+1190,Jor-El,187,Kalypso,0,Gana,80,1,6,10,10,80,0,0,0,0,0,0,1
+1191,Jor-El,187,Karathen,335,Pierde,80,1,6,10,10,80,75,95,25,50,60,30,0
+1192,Jor-El,187,Katana,167,Gana,80,1,6,10,10,80,55,1,7,9,15,80,1
+1193,Jor-El,187,Killer Croc,174,Gana,80,1,6,10,10,80,45,25,14,20,30,40,1
+1194,Jor-El,187,King Nereus,290,Pierde,80,1,6,10,10,80,70,45,30,25,45,75,0
+1195,Jor-El,187,King Shark,202,Pierde,80,1,6,10,10,80,50,30,17,25,40,40,0
+1196,Jor-El,187,Ladon,0,Gana,80,1,6,10,10,80,0,0,0,0,0,0,1
+1197,Judomaster,192,Kalypso,0,Gana,60,1,6,15,10,100,0,0,0,0,0,0,1
+1198,Judomaster,192,Karathen,335,Pierde,60,1,6,15,10,100,75,95,25,50,60,30,0
+1199,Judomaster,192,Katana,167,Gana,60,1,6,15,10,100,55,1,7,9,15,80,1
+1200,Judomaster,192,Killer Croc,174,Gana,60,1,6,15,10,100,45,25,14,20,30,40,1
+1201,Judomaster,192,King Nereus,290,Pierde,60,1,6,15,10,100,70,45,30,25,45,75,0
+1202,Judomaster,192,King Shark,202,Pierde,60,1,6,15,10,100,50,30,17,25,40,40,0
+1203,Judomaster,192,Ladon,0,Gana,60,1,6,15,10,100,0,0,0,0,0,0,1
+1204,Kalypso,0,Karathen,335,Pierde,0,0,0,0,0,0,75,95,25,50,60,30,0
+1205,Kalypso,0,Katana,167,Pierde,0,0,0,0,0,0,55,1,7,9,15,80,0
+1206,Kalypso,0,Killer Croc,174,Pierde,0,0,0,0,0,0,45,25,14,20,30,40,0
+1207,Kalypso,0,King Nereus,290,Pierde,0,0,0,0,0,0,70,45,30,25,45,75,0
+1208,Kalypso,0,King Shark,202,Pierde,0,0,0,0,0,0,50,30,17,25,40,40,0
+1209,Kalypso,0,Ladon,0,Empata,0,0,0,0,0,0,0,0,0,0,0,0,2
+1210,Karathen,335,Katana,167,Gana,75,95,25,50,60,30,55,1,7,9,15,80,1
+1211,Karathen,335,Killer Croc,174,Gana,75,95,25,50,60,30,45,25,14,20,30,40,1
+1212,Karathen,335,King Nereus,290,Gana,75,95,25,50,60,30,70,45,30,25,45,75,1
+1213,Karathen,335,King Shark,202,Gana,75,95,25,50,60,30,50,30,17,25,40,40,1
+1214,Karathen,335,Ladon,0,Gana,75,95,25,50,60,30,0,0,0,0,0,0,1
+1215,Katana,167,Killer Croc,174,Pierde,55,1,7,9,15,80,45,25,14,20,30,40,0
+1216,Katana,167,King Nereus,290,Pierde,55,1,7,9,15,80,70,45,30,25,45,75,0
+1217,Katana,167,King Shark,202,Pierde,55,1,7,9,15,80,50,30,17,25,40,40,0
+1218,Katana,167,Ladon,0,Gana,55,1,7,9,15,80,0,0,0,0,0,0,1
+1219,Killer Croc,174,King Nereus,290,Pierde,45,25,14,20,30,40,70,45,30,25,45,75,0
+1220,Killer Croc,174,King Shark,202,Pierde,45,25,14,20,30,40,50,30,17,25,40,40,0
+1221,Killer Croc,174,Ladon,0,Gana,45,25,14,20,30,40,0,0,0,0,0,0,1
+1222,King Nereus,290,King Shark,202,Gana,70,45,30,25,45,75,50,30,17,25,40,40,1
+1223,King Nereus,290,Ladon,0,Gana,70,45,30,25,45,75,0,0,0,0,0,0,1
+1224,King Shark,202,Ladon,0,Gana,50,30,17,25,40,40,0,0,0,0,0,0,1
