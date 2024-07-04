@@ -1,0 +1,87 @@
+,nombre_completo,nombre,universo,url,Intelligence,Strength,Speed,Durability,Power,Combat,Tier,Tier2,heroe
+0,Alfred Pennyworth,Alfred,DC Extended Universe,https://www.superherodb.com/alfred/10-14275/#shdb,65,1,1,5,1,20,0,,Alfred
+1,Amanda Blake Waller,Amanda Waller,DC Extended Universe,https://www.superherodb.com/amanda-waller/10-33322/,65,1,1,5,10,30,0,,Amanda Waller
+2,,Anthea,DC Extended Universe,https://www.superherodb.com/anthea/10-54768/#user,0,0,0,0,0,0,0,,Anthea
+3,Arthur Curry,Aquaman,DC Extended Universe,https://www.superherodb.com/aquaman/10-12533/,65,50,25,30,45,80,3,,Aquaman
+4,Ares,Ares,DC Extended Universe,https://www.superherodb.com/ares/10-12597/,90,100,50,50,70,100,4,4,Ares
+5,Albert Rothstein,Atom Smasher,DC Extended Universe,https://www.superherodb.com/atom-smasher/10-27865/,60,30,25,25,40,20,2,,Atom Smasher
+6,Bruce Wayne,Batman,DC Extended Universe,https://www.superherodb.com/batman/10-12530/,80,13,11,15,20,95,1,,Batman
+7,Teth-Adam,Black Adam,DC Extended Universe,https://www.superherodb.com/black-adam/10-21003/,65,100,75,45,75,75,3,3,Black Adam
+8,Dinah Lance,Black Canary,DC Extended Universe,https://www.superherodb.com/black-canary/10-18617/,55,1,6,5,35,40,1,,Black Canary
+9,David Kane,Black Manta,DC Extended Universe,https://www.superherodb.com/black-manta/10-15579/,70,25,25,20,40,60,2,,Black Manta
+10,Roman Sionis,Black Mask,DC Extended Universe,https://www.superherodb.com/black-mask/10-18619/,60,1,6,5,5,30,0,,Black Mask
+11,Robert DuBois,Bloodsport,DC Extended Universe,https://www.superherodb.com/bloodsport/10-21321/,70,1,8,15,20,85,1,,Bloodsport
+12,Digger Harkness,Captain Boomerang,DC Extended Universe,https://www.superherodb.com/captain-boomerang/10-15413/,45,1,6,7,10,40,0,,Captain Boomerang
+13,,Cassandra Cain,DC Extended Universe,https://www.superherodb.com/cassandra-cain/10-18637/,45,1,1,1,1,30,0,,Cassandra Cain
+14,Barbara Ann Minerva,Cheetah,DC Extended Universe,https://www.superherodb.com/cheetah/10-20281/,60,50,14,15,30,65,1,,Cheetah
+15,Victor Stone,Cyborg,DC Extended Universe,https://www.superherodb.com/cyborg/10-12532/,70,40,30,35,65,50,2,,Cyborg
+16,Maxine Hunkel,Cyclone,DC Extended Universe,https://www.superherodb.com/cyclone/10-27871/,80,1,25,15,50,40,1,,Cyclone
+17,Barry Allen,Dark Flash,DC Extended Universe,https://www.superherodb.com/dark-flash/10-58454/,80,25,100,35,85,50,5,,Dark Flash
+18,Uxas,Darkseid,DC Extended Universe,https://www.superherodb.com/darkseid/10-21002/,95,100,30,55,90,95,4,4,Darkseid
+19,,Darla Dudley,DC Extended Universe,https://www.superherodb.com/darla-dudley/10-19150/#user,0,0,0,0,0,0,0,,Darla Dudley
+20,Floyd Lawton,Deadshot,DC Extended Universe,https://www.superherodb.com/deadshot/10-12599/,60,1,6,7,17,45,1,0++,Deadshot
+21,Slade Wilson,Deathstroke,DC Extended Universe,https://www.superherodb.com/deathstroke/10-12590/#user,0,0,0,0,0,0,0,,Deathstroke
+22,Kent Nelson,Doctor Fate,DC Extended Universe,https://www.superherodb.com/doctor-fate/10-27717/,85,75,60,45,85,70,3,3+,Doctor Fate
+23,Thaddeus Sivana,Doctor Sivana,DC Extended Universe,https://www.superherodb.com/doctor-sivana/10-17484/,70,95,60,40,70,55,3,,Doctor Sivana
+24,,Doomsday,DC Extended Universe,https://www.superherodb.com/doomsday/10-12587/,35,100,45,45,75,25,3,,Doomsday
+25,,Dr. Maru,DC Extended Universe,https://www.superherodb.com/dr-maru/10-40291/#user,0,0,0,0,0,0,0,,Dr. Maru
+26,Chato Santana,El Diablo,DC Extended Universe,https://www.superherodb.com/el-diablo/10-13967/,55,25,6,10,35,45,1,,El Diablo
+27,Emilia Harcourt,Emilia Harcourt,DC Extended Universe,https://www.superherodb.com/emilia-harcourt/10-44245/,65,1,1,8,10,70,1,,Emilia Harcourt
+28,June Moone,Enchantress,DC Extended Universe,https://www.superherodb.com/enchantress/10-13885/,80,70,20,18,70,70,3,,Enchantress
+29,Envy,Envy,DC Extended Universe,https://www.superherodb.com/envy/10-27552/,65,65,65,40,60,65,3,,Envy
+30,Faora-Ul,Faora,DC Extended Universe,https://www.superherodb.com/faora/10-15086/,70,95,60,45,70,85,3,,Faora
+31,Frederick Christopher Freeman,Freddy Freeman,DC Extended Universe,https://www.superherodb.com/freddy-freeman/10-16682/#user,0,0,0,0,0,0,0,,Freddy Freeman
+32,Dru-Zod,General Zod,DC Extended Universe,https://www.superherodb.com/general-zod/10-12609/,70,100,50,40,75,85,3,,General Zod
+33,Gluttony,Gluttony,DC Extended Universe,https://www.superherodb.com/gluttony/10-27553/,65,65,65,40,60,65,3,,Gluttony
+34,Yalan Gur,Green Lantern,DC Extended Universe,https://www.superherodb.com/green-lantern/10-27159/,65,75,25,40,65,70,3,,Green Lantern
+35,Harleen Quinzel,Harley Quinn,DC Extended Universe,https://www.superherodb.com/harley-quinn/10-12608/,60,5,8,10,10,80,1,,Harley Quinn
+36,Carter Hall,Hawkman,DC Extended Universe,https://www.superherodb.com/hawkman/10-27879/,65,30,25,25,50,80,2,,Hawkman
+37,,Hespera,DC Extended Universe,https://www.superherodb.com/hespera/10-27883/#user,0,0,0,0,0,0,0,,Hespera
+38,Helena Bertinelli,Huntress,DC Extended Universe,https://www.superherodb.com/huntress/10-18621/,50,1,1,5,5,50,1,,Huntress
+39,Incubus,Incubus,DC Extended Universe,https://www.superherodb.com/incubus/10-15960/,55,30,6,30,50,30,2,,Incubus
+40,,Joker,DC Extended Universe,https://www.superherodb.com/joker/10-12707/,65,1,7,5,10,45,1,,Joker
+41,,Jor-El,DC Extended Universe,https://www.superherodb.com/jor-el/10-29663/,80,1,6,10,10,80,1,,Jor-El
+42,,Judomaster,DC Extended Universe,https://www.superherodb.com/judomaster/10-44243/,60,1,6,15,10,100,1,,Judomaster
+43,Kalypso,Kalypso,DC Extended Universe,https://www.superherodb.com/kalypso/10-32522/#user,0,0,0,0,0,0,0,,Kalypso
+44,Karathen,Karathen,DC Extended Universe,https://www.superherodb.com/karathen/10-16145/,75,95,25,50,60,30,3,,Karathen
+45,Tatsu Yamashiro,Katana,DC Extended Universe,https://www.superherodb.com/katana/10-13966/,55,1,7,9,15,80,1,,Katana
+46,Waylon Jones,Killer Croc,DC Extended Universe,https://www.superherodb.com/killer-croc/10-13849/,45,25,14,20,30,40,1,,Killer Croc
+47,,King Nereus,DC Extended Universe,https://www.superherodb.com/king-nereus/10-19144/,70,45,30,25,45,75,2,,King Nereus
+48,Nanaue,King Shark,DC Extended Universe,https://www.superherodb.com/king-shark/10-27933/,50,30,17,25,40,40,1,1+,King Shark
+49,,Ladon,DC Extended Universe,https://www.superherodb.com/ladon/10-55928/#user,0,0,0,0,0,0,0,,Ladon
+50,Alexander Joseph Luthor,Lex Luthor,DC Extended Universe,https://www.superherodb.com/lex-luthor/10-12706/,80,1,1,5,1,15,1,,Lex Luthor
+51,Lois Lane,Lois Lane,DC Extended Universe,https://www.superherodb.com/lois-lane/10-19234/,60,1,1,1,1,10,0,,Lois Lane
+52,Lust,Lust,DC Extended Universe,https://www.superherodb.com/lust/10-27555/,65,65,65,40,60,65,3,,Lust
+53,Mera,Mera,DC Extended Universe,https://www.superherodb.com/mera/10-12709/,65,30,25,30,45,70,2,,Mera
+54,Maxwell Lord,Max Lord,DC Extended Universe,https://www.superherodb.com/max-lord/10-20297/,65,1,6,7,65,1,1,,Max Lord
+55,Victor Zsasz,Mister Zsasz,DC Extended Universe,https://www.superherodb.com/mister-zsasz/10-25224/,50,1,1,5,5,30,0,,Mister Zsasz
+56,Nam-Ek,Nam-Ek,DC Extended Universe,https://www.superherodb.com/nam-ek/10-15087/,65,95,50,40,70,65,3,,Nam-Ek
+57,,Nuidis Vulko,DC Extended Universe,https://www.superherodb.com/nuidis-vulko/10-19152/,65,30,25,20,40,90,1,,Nuidis Vulko
+58,Orm Marius,Ocean Master,DC Extended Universe,https://www.superherodb.com/ocean-master/10-15630/,65,55,30,35,50,90,3,,Ocean Master
+59,,Parademon,DC Extended Universe,https://www.superherodb.com/parademon/10-26635/,55,25,17,10,20,60,1,,Parademon
+60,Christopher Smith,Peacemaker,DC Extended Universe,https://www.superherodb.com/peacemaker/10-21441/,65,5,7,15,20,80,1,,Peacemaker
+61,Penthesileia,Penthesileia,DC Extended Universe,https://www.superherodb.com/penthesileia/10-22549/,60,65,50,35,50,95,2,,Penthesileia
+62,Philippus,Philippus,DC Extended Universe,https://www.superherodb.com/philippus/10-22550/,55,75,50,35,35,75,2,,Philippus
+63,Abner Krill,Polka-Dot Man,DC Extended Universe,https://www.superherodb.com/polka-dot-man/10-27931/,60,1,6,10,35,35,1,,Polka-Dot Man
+64,Atlanna,Queen Atlanna,DC Extended Universe,https://www.superherodb.com/queen-atlanna/10-19143/,70,30,25,30,50,75,2,,Queen Atlanna
+65,Hippolyta,Queen Hippolyta,DC Extended Universe,https://www.superherodb.com/queen-hippolyta/10-31302/,85,30,25,30,40,100,2,,Queen Hippolyta
+66,Cleo Cazo,Ratcatcher,DC Extended Universe,https://www.superherodb.com/ratcatcher/10-27930/,65,1,6,5,10,20,1,,Ratcatcher
+67,,Rick Flag,DC Extended Universe,https://www.superherodb.com/rick-flag/10-19136/,55,1,6,10,10,70,1,,Rick Flag
+68,Ishmael Gregor,Sabbac,DC Extended Universe,https://www.superherodb.com/sabbac/10-51472/,70,100,50,45,75,70,3,,Sabbac
+69,Brian Durlin,Savant,DC Extended Universe,https://www.superherodb.com/savant/10-27928/,55,1,1,5,10,40,1,,Savant
+70,Billy Batson,Shazam,DC Extended Universe,https://www.superherodb.com/shazam/10-14488/,60,95,60,40,70,30,3,3,Shazam
+71,Christopher Weiss,Slipknot,DC Extended Universe,https://www.superherodb.com/slipknot/10-15959/,45,1,1,5,5,30,0,,Slipknot
+72,,Sol Soria,DC Extended Universe,https://www.superherodb.com/sol-soria/10-25376/,55,1,1,5,5,40,0,,Sol Soria
+73,,Starro,DC Extended Universe,https://www.superherodb.com/starro/10-27927/,65,70,25,25,60,30,2,,Starro
+74,Steppenwolf,Steppenwolf,DC Extended Universe,https://www.superherodb.com/steppenwolf/10-12579/,90,90,25,45,65,100,3,,Steppenwolf
+75,,Steve Trevor,DC Extended Universe,https://www.superherodb.com/steve-trevor/10-19111/,65,1,1,5,5,40,0,,Steve Trevor
+76,Kara Zor-El,Supergirl,DC Extended Universe,https://www.superherodb.com/supergirl/10-25935/,60,75,50,40,75,45,3,,Supergirl
+77,Kal-El,Superman,DC Extended Universe,https://www.superherodb.com/superman/10-12528/,80,100,85,45,80,50,3,4,Superman
+78,Floyd Belkin,T.D.K.,DC Extended Universe,https://www.superherodb.com/tdk/10-27926/,50,1,6,10,30,40,1,,T.D.K.
+79,Barry Allen,The Flash,DC Extended Universe,https://www.superherodb.com/the-flash/10-12531/,80,25,100,30,85,40,5,,The Flash
+80,Turner Hayes,Turner Hayes,DC Extended Universe,https://www.superherodb.com/turner-hayes/10-59802/,70,5,10,5,20,80,1,,Turner Hayes
+81,Adrian Chase,Vigilante,DC Extended Universe,https://www.superherodb.com/vigilante/10-38997/,60,1,7,10,10,70,1,,Vigilante
+82,Auggie Smith,White Dragon,DC Extended Universe,https://www.superherodb.com/white-dragon/10-44241/,65,13,25,10,20,40,1,,White Dragon
+83,Diana Prince,Wonder Woman (Armor of Asteria),DC Extended Universe,https://www.superherodb.com/wonder-woman-armor-of-asteria/10-31269/,80,95,70,60,55,100,3,,Wonder Woman
+84,Wrath,Wrath,DC Extended Universe,https://www.superherodb.com/wrath/10-27556/,65,65,65,40,60,65,3,,Wrath
+85,Zeus,Zeus,DC Extended Universe,https://www.superherodb.com/zeus/10-27185/,95,100,25,50,80,85,4,4,Zeus
