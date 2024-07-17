@@ -95,11 +95,18 @@ else:
         tabs = st.tabs(["EDA", "Simulador"])
 
         # Pestaña EDA
+        num_var = [
+    'Intelligence_1', 'Intelligence_2', 'Strength_1', 'Strength_2', 
+    'Speed_1', 'Speed_2', 'Durability_1', 'Durability_2', 
+    'Power_1', 'Power_2', 'Combat_1', 'Combat_2', 
+    'Tier_1', 'Tier_2', 'Tier2_1', 'Tier2_2'
+]
+
         with tabs[0]:
             st.title('Análisis Exploratorio de Datos (EDA)')
 
             # Selector para el tipo de análisis
-            analisis_tipo = st.selectbox('Seleccione el tipo de análisis', ['Análisis de targets', 'Analisis univariante', 'Hipotesis'])
+            analisis_tipo = st.selectbox('Seleccione el tipo de análisis', ['Análisis de targets', 'Analisis', 'Hipotesis'])
 
             if analisis_tipo == 'Análisis de targets':
                 st.write('Seleccione el target a analizar:')
@@ -125,16 +132,53 @@ else:
                 plt.tight_layout()
                 st.pyplot(fig)
 
+            elif analisis_tipo == 'Analisis':
+                st.write('Seleccione el tipo de análisis:')
+                tipo_analisis = st.selectbox('Tipo de análisis', ['Numerico', 'Categorico'])
+
+                if tipo_analisis == 'Numerico':
+                    st.write('Análisis numérico...')
+                    
+                    # Mostrar estadísticas descriptivas de las variables numéricas
+                    st.write('Estadísticas descriptivas de las variables numéricas:')
+                    st.write(df_pred_battles[num_var].describe())
+
+
+                    # Ejemplo de gráficos para variables numéricas
+                    # Ejemplo de gráficos para variables numéricas
+                    st.write('Ejemplo de gráficos para variables numéricas:')
+
+                    # Definir cuántos gráficos quieres por fila
+                    graficos_por_fila = 3
+                    num_vars = len(num_var)
+
+                    # Iterar sobre las variables numéricas y crear los gráficos
+                    for i in range(0, num_vars, graficos_por_fila):
+                        fig, axes = plt.subplots(1, graficos_por_fila, figsize=(18, 6))
+                        
+                        for j, var in enumerate(num_var[i:i + graficos_por_fila]):
+                            sns.histplot(df_pred_battles[var], bins=20, kde=True, ax=axes[j])
+                            axes[j].set_title(f'Histograma de {var}')
+                            axes[j].set_xlabel(var)
+                            axes[j].set_ylabel('Frecuencia')
+                        
+                        plt.tight_layout()
+                        st.pyplot(fig)
+
+                elif tipo_analisis == 'Categorico':
+                    st.write('Análisis categórico...')
+                    # Aquí puedes agregar el código para el análisis categórico
+
             elif analisis_tipo == 'Hipotesis':
                 st.write('Seleccione la hipótesis a analizar:')
-                hipotesis_analisis = st.selectbox('Hipótesis', ['Atributos', 'Fuerza vs Poder', 'Mas fuerte'])
+                hipotesis_analisis = st.selectbox('Hipótesis', ['Atributos', 'Fuerza vs Poder', 'Más fuerte'])
 
                 # Aquí puedes agregar el código para cada hipótesis que deseas analizar
                 if hipotesis_analisis == 'Atributos':
                     st.write('Análisis de atributos...')
                 elif hipotesis_analisis == 'Fuerza vs Poder':
                     st.write('Comparación de fuerza vs poder...')
-                elif hipotesis_analisis == 'Mas fuerte':
+                elif hipotesis_analisis == 'Más fuerte':
                     st.write('Análisis del más fuerte...')
 
         # Pestaña Simulador
