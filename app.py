@@ -25,13 +25,13 @@ else:
     df_pred_battles['Heroe_2_encoded'] = label_encoder.fit_transform(df_pred_battles['Heroe 2'])
 
     # Función para simular una batalla
-    def simular_batalla(features, model):
+    def simular_batalla(features, model, heroe1, heroe2):
         features_df = pd.DataFrame(features, index=[0])
         prediction = model.predict(features_df)
         if prediction[0] == 1:
-            return "Heroe 1 gana"
+            return f"{heroe1} gana"
         else:
-            return "Heroe 2 gana"
+            return f"{heroe2} gana"
 
     # Función para obtener atributos del héroe
     def obtener_atributos(heroe, heroe_col):
@@ -181,5 +181,5 @@ else:
                 }
 
                 # Realizar la simulación
-                resultado = simular_batalla(nuevo_combate, model)
+                resultado = simular_batalla(nuevo_combate, model, heroe1, heroe2)
                 st.write(f'El resultado del combate es: {resultado}')
