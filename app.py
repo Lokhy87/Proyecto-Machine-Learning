@@ -5,6 +5,8 @@ import os
 from PIL import Image
 import random
 from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Ruta del archivo del modelo
 rf_mod = './best_rf_model.pkl'
@@ -96,18 +98,44 @@ else:
         with tabs[0]:
             st.title('Análisis Exploratorio de Datos (EDA)')
 
-            # Mostrar el dataframe
-            st.write('Datos de las batallas:')
-            st.dataframe(df_pred_battles)
+            # Selector para el tipo de análisis
+            analisis_tipo = st.selectbox('Seleccione el tipo de análisis', ['Análisis de targets', 'Analisis univariante', 'Hipotesis'])
 
-            # Ejemplo de gráficos
-            st.write('Distribución de inteligencia de los héroes:')
-            intelligence_fig = df_pred_battles[['Intelligence_1', 'Intelligence_2']].plot(kind='hist', bins=20, alpha=0.5).get_figure()
-            st.pyplot(intelligence_fig)
+            if analisis_tipo == 'Análisis de targets':
+                st.write('Seleccione el target a analizar:')
+                target_analisis = st.selectbox('Target', ['Resultado_Combinado', 'Resultado_Peliculas', 'Resultado_Comics'])
 
-            st.write('Distribución de fuerza de los héroes:')
-            strength_fig = df_pred_battles[['Strength_1', 'Strength_2']].plot(kind='hist', bins=20, alpha=0.5).get_figure()
-            st.pyplot(strength_fig)
+                # Mostrar el dataframe filtrado por el target seleccionado
+                st.write(f'Datos de las batallas filtrado por {target_analisis}:')
+                st.dataframe(df_pred_battles[[target_analisis]])
+
+                # Ejemplo de gráficos
+                st.write(f'Distribución de {target_analisis}:')
+                fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+                sns.countplot(x=target_analisis, data=df_pred_battles, ax=axes[0])
+                axes[0].set_title(f'Distribución de {target_analisis}')
+                axes[0].set_xlabel(target_analisis)
+                axes[0].set_ylabel('Frecuencia')
+
+                sns.histplot(df_pred_battles[target_analisis], bins=20, kde=True, ax=axes[1])
+                axes[1].set_title(f'Histograma de {target_analisis}')
+                axes[1].set_xlabel(target_analisis)
+                axes[1].set_ylabel('Frecuencia')
+
+                plt.tight_layout()
+                st.pyplot(fig)
+
+            elif analisis_tipo == 'Hipotesis':
+                st.write('Seleccione la hipótesis a analizar:')
+                hipotesis_analisis = st.selectbox('Hipótesis', ['Atributos', 'Fuerza vs Poder', 'Mas fuerte'])
+
+                # Aquí puedes agregar el código para cada hipótesis que deseas analizar
+                if hipotesis_analisis == 'Atributos':
+                    st.write('Análisis de atributos...')
+                elif hipotesis_analisis == 'Fuerza vs Poder':
+                    st.write('Comparación de fuerza vs poder...')
+                elif hipotesis_analisis == 'Mas fuerte':
+                    st.write('Análisis del más fuerte...')
 
         # Pestaña Simulador
         with tabs[1]:
@@ -183,4 +211,3 @@ else:
                 # Realizar la simulación
                 resultado = simular_batalla(nuevo_combate, model)
                 st.write(f'El resultado del combate es: {resultado}')
-
