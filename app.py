@@ -6,6 +6,8 @@ from PIL import Image
 import random
 from sklearn.preprocessing import LabelEncoder
 import base64
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Ruta del archivo del modelo
 rf_mod = './best_rf_model.pkl'
@@ -130,6 +132,54 @@ else:
             st.write('<p class="text">Distribución de fuerza de los héroes:</p>', unsafe_allow_html=True)
             strength_fig = df_pred_battles[['Strength_1', 'Strength_2']].plot(kind='hist', bins=20, alpha=0.5).get_figure()
             st.pyplot(strength_fig)
+
+            # Análisis de los targets
+            st.write('<p class="text">Distribución de los targets:</p>', unsafe_allow_html=True)
+            targets = ['Resultado_Combinado', 'Resultado_Peliculas', 'Resultado_Comics']  
+            fig, axes = plt.subplots(1, len(targets), figsize=(16, 5))
+            for i, target in enumerate(targets):
+                sns.countplot(x=df_pred_battles[target], ax=axes[i])
+                axes[i].set_title(f'Distribución de {target}')
+                axes[i].set_xlabel(target)
+                axes[i].set_ylabel('Frecuencia')
+            plt.tight_layout()
+            st.pyplot(fig)
+
+            # Visualización de variables numéricas
+            st.write('<p class="text">Visualización de variables numéricas:</p>', unsafe_allow_html=True)
+            num_var = ['Intelligence_1', 'Strength_1', 'Speed_1', 'Durability_1', 'Power_1', 'Combat_1',
+                    'Intelligence_2', 'Strength_2', 'Speed_2', 'Durability_2', 'Power_2', 'Combat_2']
+
+            plt.figure(figsize=(16, 40))
+            for i, column in enumerate(num_var, 1):
+                plt.subplot(len(num_var), 2, 2*i-1)
+                sns.histplot(df_pred_battles[column], bins=20, kde=True)
+                plt.title(f'Histograma de {column}')
+                plt.xlabel(column)
+                plt.ylabel('Frecuencia')
+
+                plt.subplot(len(num_var), 2, 2*i)
+                sns.boxplot(y=df_pred_battles[column])
+                plt.title(f'Boxplot de {column}')
+                plt.ylabel(column)
+
+            plt.tight_layout()
+            st.pyplot(plt.gcf())
+
+            # Plot bar plot for 'Heroe 1'
+            st.write('<p class="text">Distribución de Heroe 1:</p>', unsafe_allow_html=True)
+            plt.figure(figsize=(14, 6))
+            serie = df_comics_pelis['Heroe 1'].value_counts()
+            sns.barplot(x=serie.index, y=serie, palette='viridis')
+            plt.title('Distribución de Heroe 1')
+            plt.xlabel('Heroe 1')
+            plt.ylabel('Frecuencia')
+            plt.xticks(rotation=90)
+            plt.tight_layout()
+            st.pyplot(plt.gcf())
+
+
+
 
         # Pestaña Simulador
         with tabs[1]:
