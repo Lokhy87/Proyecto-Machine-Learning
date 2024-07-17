@@ -5,11 +5,48 @@ import os
 from PIL import Image
 import random
 from sklearn.preprocessing import LabelEncoder
+import base64
 
 # Ruta del archivo del modelo
 rf_mod = './best_rf_model.pkl'
 
-# Verificar si el archivo del modelo existe
+# Aplicar estilo CSS para el fondo y el texto
+def set_background(image_file):
+    with open(image_file, "rb") as image_file:
+        image_data = image_file.read()
+    encoded_image = base64.b64encode(image_data).decode()
+
+    background_style = f"""
+    <style>
+    .stApp {{
+        background-color: #323236;  /* Color de fondo para toda la aplicación */
+    }}
+    .portada {{
+        background-image: url(data:image/jpeg;base64,{encoded_image});
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 50px;
+        text-align: center;
+    }}
+    .title {{
+        color: #1f77b4;  /* Color del título */
+        text-align: center;
+    }}
+    .subtitle {{
+        color: #ff7f0e;  /* Color del subtítulo */
+        text-align: center;
+    }}
+    .text {{
+        color: #2ca02c;  /* Color del texto */
+    }}
+    </style>
+    """
+    st.markdown(background_style, unsafe_allow_html=True)
+
+# Llama a la función set_background con la ruta de tu imagen
+set_background('./assets/portada_app.jpg')
+
+# Resto del código de tu aplicación
 if not os.path.isfile(rf_mod):
     st.error(f"El archivo del modelo '{rf_mod}' no se encuentra en el directorio especificado.")
 else:
@@ -54,64 +91,49 @@ else:
         else:
             st.warning(f'No se encontró la imagen para {heroe}')
 
-    # Aplicar estilo CSS para centrar el contenido
-    st.markdown(
-        """
-        <style>
-        .centered {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 80vh;
-            text-align: center;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
     if 'entrar' not in st.session_state:
         st.session_state.entrar = False
 
     if not st.session_state.entrar:
-        with st.container():
-            st.markdown('<div class="centered">', unsafe_allow_html=True)
-            st.title('⚡ Superhero Battle Arena: The Ultimate Showdown ⚡')
-            st.write("""
-            **¡Bienvenido a la Superhero Battle Arena!** 🦸‍♂️🦸‍♀️ Sumérgete en el emocionante mundo de los superhéroes con esta innovadora aplicación.
-            Utilizamos técnicas avanzadas de Machine Learning y un completo Análisis Exploratorio de Datos (EDA) para ofrecerte una experiencia única. 
-            Explora datos detallados de tus héroes favoritos y simula batallas épicas para descubrir quién se alzará con la victoria en el combate definitivo.
-            ¡Prepárate para vivir la ciencia detrás de cada enfrentamiento y disfruta de la emoción de la Superhero Battle Arena!
-            """)
-            if st.button('Entrar'):
-                st.session_state.entrar = True
-            st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown('<div class="portada">', unsafe_allow_html=True)
+        st.markdown('<h1 class="title">⚡ Superhero Battle Arena: The Ultimate Showdown ⚡</h1>', unsafe_allow_html=True)
+        st.markdown("""
+        <p class="text">
+        **¡Bienvenido a la Superhero Battle Arena!** Sumérgete en el emocionante mundo de los superhéroes con esta innovadora aplicación.
+        Utilizamos técnicas avanzadas de Machine Learning y un completo Análisis Exploratorio de Datos (EDA) para ofrecerte una experiencia única. 
+        Explora datos detallados de tus héroes favoritos y simula batallas épicas para descubrir quién se alzará con la victoria en el combate definitivo.
+        ¡Prepárate para vivir la ciencia detrás de cada enfrentamiento y disfruta de la emoción de la Superhero Battle Arena!
+        </p>
+        """, unsafe_allow_html=True)
+        if st.button('Entrar'):
+            st.session_state.entrar = True
+        st.markdown('</div>', unsafe_allow_html=True)
     else:
-        st.title('⚡ Superhero Battle Arena: The Ultimate Showdown ⚡')
+        st.markdown('<h1 class="title">⚡ Superhero Battle Arena: The Ultimate Showdown ⚡</h1>', unsafe_allow_html=True)
 
         # Crear pestañas
         tabs = st.tabs(["EDA", "Simulador"])
 
         # Pestaña EDA
         with tabs[0]:
-            st.title('Análisis Exploratorio de Datos (EDA)')
+            st.markdown('<h2 class="subtitle">Análisis Exploratorio de Datos (EDA)</h2>', unsafe_allow_html=True)
 
             # Mostrar el dataframe
-            st.write('Datos de las batallas:')
+            st.write('<p class="text">Datos de las batallas:</p>', unsafe_allow_html=True)
             st.dataframe(df_pred_battles)
 
             # Ejemplo de gráficos
-            st.write('Distribución de inteligencia de los héroes:')
+            st.write('<p class="text">Distribución de inteligencia de los héroes:</p>', unsafe_allow_html=True)
             intelligence_fig = df_pred_battles[['Intelligence_1', 'Intelligence_2']].plot(kind='hist', bins=20, alpha=0.5).get_figure()
             st.pyplot(intelligence_fig)
 
-            st.write('Distribución de fuerza de los héroes:')
+            st.write('<p class="text">Distribución de fuerza de los héroes:</p>', unsafe_allow_html=True)
             strength_fig = df_pred_battles[['Strength_1', 'Strength_2']].plot(kind='hist', bins=20, alpha=0.5).get_figure()
             st.pyplot(strength_fig)
 
         # Pestaña Simulador
         with tabs[1]:
-            st.title('Simulador de batallas de superhéroes')
+            st.markdown('<h2 class="subtitle">Simulador de batallas de superhéroes</h2>', unsafe_allow_html=True)
 
             # Selección de héroes
             heroe1 = st.selectbox('Selecciona el Héroe 1', ['Aleatorio'] + list(df_pred_battles['Heroe 1'].unique()))
@@ -119,7 +141,7 @@ else:
 
             # Obtener atributos del Héroe 1
             if heroe1 == 'Aleatorio':
-                st.header('Atributos de Héroe 1')
+                st.markdown('<h3 class="subtitle">Atributos de Héroe 1</h3>', unsafe_allow_html=True)
                 intelligence_1 = st.slider('Inteligencia', 0, 100, 50, key='intelligence_1')
                 strength_1 = st.slider('Fuerza', 0, 100, 50, key='strength_1')
                 speed_1 = st.slider('Velocidad', 0, 100, 50, key='speed_1')
@@ -128,7 +150,7 @@ else:
                 combat_1 = st.slider('Combate', 0, 100, 50, key='combat_1')
                 heroe1_encoded = random.randint(0, 500)  # Asignar un valor aleatorio
             else:
-                st.header(f'Atributos de {heroe1}')
+                st.markdown(f'<h3 class="subtitle">Atributos de {heroe1}</h3>', unsafe_allow_html=True)
                 atributos_1 = obtener_atributos(heroe1, 'Heroe 1')
                 intelligence_1 = st.slider('Inteligencia', 0, 100, atributos_1['intelligence'], key='intelligence_1', disabled=True)
                 strength_1 = st.slider('Fuerza', 0, 100, atributos_1['strength'], key='strength_1', disabled=True)
@@ -141,7 +163,7 @@ else:
 
             # Obtener atributos del Héroe 2
             if heroe2 == 'Aleatorio':
-                st.header('Atributos de Héroe 2')
+                st.markdown('<h3 class="subtitle">Atributos de Héroe 2</h3>', unsafe_allow_html=True)
                 intelligence_2 = st.slider('Inteligencia', 0, 100, 50, key='intelligence_2')
                 strength_2 = st.slider('Fuerza', 0, 100, 50, key='strength_2')
                 speed_2 = st.slider('Velocidad', 0, 100, 50, key='speed_2')
@@ -150,7 +172,7 @@ else:
                 combat_2 = st.slider('Combate', 0, 100, 50, key='combat_2')
                 heroe2_encoded = random.randint(0, 500)  # Asignar un valor aleatorio
             else:
-                st.header(f'Atributos de {heroe2}')
+                st.markdown(f'<h3 class="subtitle">Atributos de {heroe2}</h3>', unsafe_allow_html=True)
                 atributos_2 = obtener_atributos(heroe2, 'Heroe 2')
                 intelligence_2 = st.slider('Inteligencia', 0, 100, atributos_2['intelligence'], key='intelligence_2', disabled=True)
                 strength_2 = st.slider('Fuerza', 0, 100, atributos_2['strength'], key='strength_2', disabled=True)
