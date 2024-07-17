@@ -57,7 +57,7 @@ else:
 
     # Cargar el dataset
     df_pred_battles = pd.read_csv('./data/MCU_DC_final_limpio.csv')
-
+    
     # Label Encoder Heroe 1 y Heroe 2
     label_encoder = LabelEncoder()
     df_pred_battles['Heroe_1_encoded'] = label_encoder.fit_transform(df_pred_battles['Heroe 1'])
@@ -116,6 +116,7 @@ else:
         # Crear pestañas
         tabs = st.tabs(["EDA", "Simulador"])
 
+
         # Pestaña EDA
         with tabs[0]:
             st.markdown('<h2 class="subtitle">Análisis Exploratorio de Datos (EDA)</h2>', unsafe_allow_html=True)
@@ -123,15 +124,6 @@ else:
             # Mostrar el dataframe
             st.write('<p class="text">Datos de las batallas:</p>', unsafe_allow_html=True)
             st.dataframe(df_pred_battles)
-
-            # Ejemplo de gráficos
-            st.write('<p class="text">Distribución de inteligencia de los héroes:</p>', unsafe_allow_html=True)
-            intelligence_fig = df_pred_battles[['Intelligence_1', 'Intelligence_2']].plot(kind='hist', bins=20, alpha=0.5).get_figure()
-            st.pyplot(intelligence_fig)
-
-            st.write('<p class="text">Distribución de fuerza de los héroes:</p>', unsafe_allow_html=True)
-            strength_fig = df_pred_battles[['Strength_1', 'Strength_2']].plot(kind='hist', bins=20, alpha=0.5).get_figure()
-            st.pyplot(strength_fig)
 
             # Análisis de los targets
             st.write('<p class="text">Distribución de los targets:</p>', unsafe_allow_html=True)
@@ -167,16 +159,63 @@ else:
             st.pyplot(plt.gcf())
 
             # Plot bar plot for 'Heroe 1'
-            st.write('<p class="text">Distribución de Heroe 1:</p>', unsafe_allow_html=True)
+            st.write('<p class="text">Distribución de Heroe:</p>', unsafe_allow_html=True)
             plt.figure(figsize=(14, 6))
-            serie = df_comics_pelis['Heroe 1'].value_counts()
+            serie = df_pred_battles['Heroe 1'].value_counts()
             sns.barplot(x=serie.index, y=serie, palette='viridis')
             plt.title('Distribución de Heroe 1')
-            plt.xlabel('Heroe 1')
+            plt.xlabel('Heroe')
             plt.ylabel('Frecuencia')
             plt.xticks(rotation=90)
             plt.tight_layout()
             st.pyplot(plt.gcf())
+
+
+
+            # Definir los atributos y las variables objetivo
+            atributos = ['Intelligence_1', 'Strength_1', 'Speed_1', 'Durability_1', 'Power_1', 'Combat_1',
+                        'Intelligence_2', 'Strength_2', 'Speed_2', 'Durability_2', 'Power_2', 'Combat_2']
+            targets_comics = 'Resultado_Comics'
+            targets_peliculas = 'Resultado_Peliculas'
+
+            # Separar los datos en ganadores y perdedores para cómics y películas
+            ganadores_comics = df_comics_pelis[df_comics_pelis[targets_comics] == 1]
+            perdedores_comics = df_comics_pelis[df_comics_pelis[targets_comics] == 2]
+
+            ganadores_peliculas = df_comics_pelis[df_comics_pelis[targets_peliculas] == 1]
+            perdedores_peliculas = df_comics_pelis[df_comics_pelis[targets_peliculas] == 2]
+
+            # Visualización de atributos para cómics
+            def visualizar_atributos_bar(ganadores, perdedores, atributos, titulo):
+                fig, axes = plt.subplots(6, 2, figsize=(10, 20))
+                fig.suptitle(f'Comparación de Atributos entre Ganadores y Perdedores ({titulo})', fontsize=16)
+                
+                for i, atributo in enumerate(atributos):
+                    mean_ganadores = ganadores[atributo].mean()
+                    mean_perdedores = perdedores[atributo].mean()
+                    
+                    sns.barplot(x=['Ganadores', 'Perdedores'], y=[mean_ganadores, mean_perdedores], ax=axes[i//2, i%2])
+                    axes[i//2, i%2].set_title(f'{atributo}')
+                    axes[i//2, i%2].set_ylabel('Media')
+                
+                plt.tight_layout(rect=[0, 0, 1, 0.96])
+                st.pyplot(fig)  # Utiliza st.pyplot en Streamlit en lugar de plt.show() para mostrar gráficos
+
+            # Visualizar atributos para cómics
+            visualizar_atributos_bar(ganadores_comics, perdedores_comics, atributos, 'Cómics')
+
+            # Visualizar atributos para películas
+            visualizar_atributos_bar(ganadores_peliculas, perdedores_peliculas, atributos, 'Películas')
+
+
+
+
+
+
+
+
+
+
 
 
 
