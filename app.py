@@ -7,6 +7,8 @@ import random
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns
+from funciones import *
+
 
 # Ruta del archivo del modelo
 rf_mod = './best_rf_model.pkl'
@@ -95,12 +97,46 @@ else:
         tabs = st.tabs(["EDA", "Simulador"])
 
         # Pestaña EDA
+        df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
+
         num_var = [
     'Intelligence_1', 'Intelligence_2', 'Strength_1', 'Strength_2', 
     'Speed_1', 'Speed_2', 'Durability_1', 'Durability_2', 
     'Power_1', 'Power_2', 'Combat_1', 'Combat_2', 
-    'Tier_1', 'Tier_2', 'Tier2_1', 'Tier2_2'
-]
+    'Tier_1', 'Tier_2', 'Tier2_1', 'Tier2_2']
+
+        # Definir los atributos y las variables objetivo
+        atributos = ['Intelligence_1', 'Strength_1', 'Speed_1', 'Durability_1', 'Power_1', 'Combat_1',
+                    'Intelligence_2', 'Strength_2', 'Speed_2', 'Durability_2', 'Power_2', 'Combat_2']
+        targets_comics = 'Resultado_Comics'
+        targets_peliculas = 'Resultado_Peliculas'
+
+        # Separar los datos en ganadores y perdedores para películas
+        ganadores_peliculas = df_comics_pelis[df_comics_pelis[targets_peliculas] == 1]
+        perdedores_peliculas = df_comics_pelis[df_comics_pelis[targets_peliculas] == 2]
+    
+        # Función para visualizar atributos entre ganadores y perdedores
+        def visualizar_atributos_bar(ganadores, perdedores, atributos, titulo):
+            fig, axes = plt.subplots(6, 2, figsize=(10, 20))
+            fig.suptitle(f'Comparación de Atributos entre Ganadores y Perdedores ({titulo})', fontsize=16)
+            
+            for i, atributo in enumerate(atributos):
+                mean_ganadores = ganadores[atributo].mean()
+                mean_perdedores = perdedores[atributo].mean()
+                
+                sns.barplot(x=['Ganadores', 'Perdedores'], y=[mean_ganadores, mean_perdedores], ax=axes[i//2, i%2])
+                axes[i//2, i%2].set_title(f'{atributo}')
+                axes[i//2, i%2].set_ylabel('Media')
+            
+            plt.tight_layout(rect=[0, 0, 1, 0.96])
+            st.pyplot(fig)  # Renderizar el gráfico en Streamlit
+
+        # Cargar datos (ejemplo)
+        df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
+
+        # Separar los datos en ganadores y perdedores para cómics
+        ganadores_comics = df_comics_pelis[df_comics_pelis['Resultado_Comics'] == 1]
+        perdedores_comics = df_comics_pelis[df_comics_pelis['Resultado_Comics'] == 2]
 
         with tabs[0]:
             st.title('Análisis Exploratorio de Datos (EDA)')
@@ -166,20 +202,60 @@ else:
                         st.pyplot(fig)
 
                 elif tipo_analisis == 'Categorico':
-                    st.write('Análisis categórico...')
-                    # Aquí puedes agregar el código para el análisis categórico
+                    df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
+
+                    st.write('Seleccione la variable categórica a analizar:')
+                    variable_categorica = st.selectbox('Variable categórica', ['Universe_1', 'Universe_2'])
+                    # Generar las series de valores contados
+                    serie = df_comics_pelis[variable_categorica].value_counts()
+
+                    # Calcular los porcentajes
+                    total = serie.sum()
+                    percentages = (serie / total) * 100
+
+                    # Crear el gráfico de barras
+                    plt.figure(figsize=(12, 8))
+
+                    # Gráfico de barras para la variable seleccionada
+                    sns.barplot(x=percentages.index, y=percentages, palette='viridis')
+                    plt.title(f'Distribución de {variable_categorica}')
+                    plt.xlabel(variable_categorica)
+                    plt.ylabel('Porcentaje')
+                    plt.xticks(rotation=60)
+
+                    # Añadir etiquetas de porcentaje encima de las barras
+                    for index, value in enumerate(percentages):
+                        plt.text(index, value + 0.5, f'{value:.1f}%', ha='center')
+
+                    plt.tight_layout()
+                    st.pyplot(plt.gcf())
 
             elif analisis_tipo == 'Hipotesis':
                 st.write('Seleccione la hipótesis a analizar:')
-                hipotesis_analisis = st.selectbox('Hipótesis', ['Atributos', 'Fuerza vs Poder', 'Más fuerte'])
+                hipotesis_analisis = st.selectbox('Hipótesis', ['Atributos de ganadores y perdedores', 'Distribucion comics vs peliculas', 'Fuerza y Poder relacionados con la victoria', 'Similitud heroes del mismo universo'])
 
                 # Aquí puedes agregar el código para cada hipótesis que deseas analizar
-                if hipotesis_analisis == 'Atributos':
-                    st.write('Análisis de atributos...')
-                elif hipotesis_analisis == 'Fuerza vs Poder':
+                if hipotesis_analisis == 'Atributos de ganadores y perdedores':
+                    st.write('Análisis de atributos entre ganadores y perdedores')
+                    st.subheader('Comparación de atributos entre ganadores y perdedores')
+
+                    # Visualizar atributos para cómics
+                    st.subheader('Para Cómics:')
+                    visualizar_atributos_bar(ganadores_comics, perdedores_comics, atributos, 'Cómics')
+
+                    # Visualizar atributos para películas
+                    st.subheader('Para Películas:')
+                    visualizar_atributos_bar(ganadores_peliculas, perdedores_peliculas, atributos, 'Películas')
+
+                elif hipotesis_analisis == 'Distribucion comics vs peliculas':
                     st.write('Comparación de fuerza vs poder...')
-                elif hipotesis_analisis == 'Más fuerte':
+
+                elif hipotesis_analisis == 'Fuerza y Poder relacionados con la victoria':
                     st.write('Análisis del más fuerte...')
+
+                elif hipotesis_analisis == 'Similitud heroes del mismo universo':
+                    st.write('Análisis del más fuerte para héroes del mismo universo...')
+
 
         # Pestaña Simulador
         with tabs[1]:
