@@ -48,10 +48,7 @@ Para instalar y ejecutar esta aplicación en tu máquina local utilizando Visual
     ```
 
 2. **Navega al directorio del proyecto**:
-    - En la terminal integrada de VSCode, navega al directorio del proyecto con el siguiente comando:
-    ```bash
-    cd Proyecto-Machine-Learing
-    ```
+    - En la terminal integrada de VSCode, busca el archivo que contiene app.py
 
 3. **Instala las dependencias necesarias**:
     - Asegúrate de tener `pip` instalado.
