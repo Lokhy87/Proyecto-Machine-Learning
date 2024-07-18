@@ -360,7 +360,6 @@ else:
                     st.write("Tabla esperada para películas:")
                     st.write(expected_peliculas)
 
-
         # Pestaña Simulador
         with tabs[1]:
             st.title('Simulador de batallas de superhéroes')
