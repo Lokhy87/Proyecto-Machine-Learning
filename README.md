@@ -10,12 +10,12 @@ Prepárate para experimentar la ciencia detrás de cada batalla y disfruta de la
 
 La aplicacion utiliza un conjunto de datos detallados que incluye caracteristica clave de los superheroes. A continuacion, se presenta un pequeño resumen de los datos disponibles:
 
-**Nombre**: Nombre del superheroe. 
-**Strength**: Valor que representa la fuerza del superheroe. 
-**Speed**: Valor que representa la velocidad del superhéroe.
-**Durability**: Valor que representa la armadura del superhéroe.
-**Power**: Valor que representa el poder general del superhéroe.
-**Combat**: Valor que representa las habilidades de combate del superhéroe.
+- **Nombre**: Nombre del superheroe. 
+- **Strength**: Valor que representa la fuerza del superheroe. 
+- **Speed**: Valor que representa la velocidad del superhéroe.
+- **Durability**: Valor que representa la armadura del superhéroe.
+- **Power**: Valor que representa el poder general del superhéroe.
+- **Combat**: Valor que representa las habilidades de combate del superhéroe.
 
 A continuacion, se presenta una muestra de los datos:
 
