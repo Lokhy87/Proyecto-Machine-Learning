@@ -74,38 +74,19 @@ else:
         else:
             st.warning(f'No se encontró la imagen para {heroe}')
 
-    # Aplicar estilo CSS para centrar el contenido
-    st.markdown(
-        """
-        <style>
-        .centered {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 80vh;
-            text-align: center;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
     if 'entrar' not in st.session_state:
         st.session_state.entrar = False
 
     if not st.session_state.entrar:
-        with st.container():
-            st.markdown('<div class="centered">', unsafe_allow_html=True)
-            st.title('⚡ Superhero Battle Arena: The Ultimate Showdown ⚡')
-            st.write("""
-            **¡Bienvenido a la Superhero Battle Arena!** Sumérgete en el emocionante mundo de los superhéroes con esta innovadora aplicación.
-            Utilizamos técnicas avanzadas de Machine Learning y un completo Análisis Exploratorio de Datos (EDA) para ofrecerte una experiencia única. 
-            Explora datos detallados de tus héroes favoritos y simula batallas épicas para descubrir quién se alzará con la victoria en el combate definitivo.
-            ¡Prepárate para vivir la ciencia detrás de cada enfrentamiento y disfruta de la emoción de la Superhero Battle Arena!
-            """)
-            if st.button('Entrar'):
-                st.session_state.entrar = True
-            st.markdown('</div>', unsafe_allow_html=True)
+        st.title('⚡ Superhero Battle Arena: The Ultimate Showdown ⚡')
+        st.write("""
+        **¡Bienvenido a la Superhero Battle Arena!** Sumérgete en el emocionante mundo de los superhéroes con esta innovadora aplicación.
+        Utilizamos técnicas avanzadas de Machine Learning y un completo Análisis Exploratorio de Datos (EDA) para ofrecerte una experiencia única. 
+        Explora datos detallados de tus héroes favoritos y simula batallas épicas para descubrir quién se alzará con la victoria en el combate definitivo.
+        ¡Prepárate para vivir la ciencia detrás de cada enfrentamiento y disfruta de la emoción de la Superhero Battle Arena!
+        """)
+        if st.button('Entrar'):
+            st.session_state.entrar = True
     else:
         st.title('⚡ Superhero Battle Arena: The Ultimate Showdown ⚡')
 
@@ -150,6 +131,10 @@ else:
 
         with tabs[0]:
             st.title('Análisis Exploratorio de Datos (EDA)')
+
+            # Mostrar el head del dataframe
+            st.write("Primeras filas del dataset:")
+            st.dataframe(df_comics_pelis.head())
 
             # Selector para el tipo de análisis
             analisis_tipo = st.selectbox('Seleccione el tipo de análisis', ['Análisis de targets', 'Analisis', 'Hipotesis'])
