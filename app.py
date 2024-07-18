@@ -61,15 +61,16 @@ else:
                 'combat': atributos[f'Combat_{col_suffix}']
             }
 
-    # Función para mostrar la imagen del héroe
-    def mostrar_imagen_heroe(heroe, col):
+    # Función para mostrar la imagen del héroe con tamaño fijo
+    def mostrar_imagen_heroe(heroe, col, width=200, height=200):
         if heroe == "Aleatorio":
             image_path = './images/Aleatorio.jpeg'
         else:
             image_path = f'./images/{heroe}.jpeg'
         if os.path.isfile(image_path):
             imagen = Image.open(image_path)
-            st.image(imagen, caption=f'Imagen de {heroe}', use_column_width=True)
+            imagen = imagen.resize((width, height))  # Redimensionar la imagen
+            st.image(imagen, caption=f'Imagen de {heroe}', use_column_width=False)
         else:
             st.warning(f'No se encontró la imagen para {heroe}')
 
