@@ -19,15 +19,12 @@ La aplicacion utiliza un conjunto de datos detallados que incluye caracteristica
 
 A continuacion, se presenta una muestra de los datos:
 
-import pandas as pd
+### Datos de Muestra
 
-# Cargar el archivo CSV
-df = './data/Data_final_MCU_vs_DC.csv'
-data = pd.read_csv(file_path)
-
-# Mostrar las primeras filas del dataframe
-data_head = data.head()
-
-# Generar la tabla en formato Markdown
-markdown_table = data_head.to_markdown(index=False)
-markdown_table
+| Name              |   Strength |   Speed |   Durability |   Power |   Combat |
+|:------------------|-----------:|--------:|-------------:|--------:|---------:|
+| Captain America   |         19 |      17 |           16 |      16 |       17 |
+| Thor              |         78 |      83 |           60 |      84 |       56 |
+| Iron Man          |         88 |      63 |           80 |      90 |       64 |
+| Black Widow       |         13 |      27 |           10 |      17 |       16 |
+| Spider-Man        |         55 |      57 |           55 |      60 |       55 |
