@@ -10,8 +10,6 @@ import seaborn as sns
 from scipy.stats import chi2_contingency
 from scipy import stats
 
-
-
 # Ruta del archivo del modelo
 rf_mod = './best_rf_model.pkl'
 
@@ -36,26 +34,39 @@ else:
         features_df = pd.DataFrame(features, index=[0])
         prediction = model.predict(features_df)
         if prediction[0] == 1:
-            return "Heroe 1 gana"
+            return "Heroe 1"
         else:
-            return "Heroe 2 gana"
+            return "Heroe 2"
 
     # Función para obtener atributos del héroe
     def obtener_atributos(heroe, heroe_col):
-        atributos = df_pred_battles[df_pred_battles[heroe_col] == heroe].iloc[0]
-        col_suffix = heroe_col.split()[-1]  # Obtener el sufijo de la columna ('1' o '2')
-        return {
-            'intelligence': atributos[f'Intelligence_{col_suffix}'],
-            'strength': atributos[f'Strength_{col_suffix}'],
-            'speed': atributos[f'Speed_{col_suffix}'],
-            'durability': atributos[f'Durability_{col_suffix}'],
-            'power': atributos[f'Power_{col_suffix}'],
-            'combat': atributos[f'Combat_{col_suffix}']
-        }
+        if heroe == "Aleatorio":
+            return {
+                'intelligence': random.randint(0, 100),
+                'strength': random.randint(0, 100),
+                'speed': random.randint(0, 100),
+                'durability': random.randint(0, 100),
+                'power': random.randint(0, 100),
+                'combat': random.randint(0, 100)
+            }
+        else:
+            atributos = df_pred_battles[df_pred_battles[heroe_col] == heroe].iloc[0]
+            col_suffix = heroe_col.split()[-1]  # Obtener el sufijo de la columna ('1' o '2')
+            return {
+                'intelligence': atributos[f'Intelligence_{col_suffix}'],
+                'strength': atributos[f'Strength_{col_suffix}'],
+                'speed': atributos[f'Speed_{col_suffix}'],
+                'durability': atributos[f'Durability_{col_suffix}'],
+                'power': atributos[f'Power_{col_suffix}'],
+                'combat': atributos[f'Combat_{col_suffix}']
+            }
 
     # Función para mostrar la imagen del héroe
     def mostrar_imagen_heroe(heroe, col):
-        image_path = f'./images/{heroe}.jpeg'
+        if heroe == "Aleatorio":
+            image_path = './images/Aleatorio.jpeg'
+        else:
+            image_path = f'./images/{heroe}.jpeg'
         if os.path.isfile(image_path):
             imagen = Image.open(image_path)
             st.image(imagen, caption=f'Imagen de {heroe}', use_column_width=True)
@@ -248,7 +259,7 @@ else:
                     # Visualizar atributos para películas
                     st.subheader('Para Películas:')
                     visualizar_atributos_bar(ganadores_peliculas, perdedores_peliculas, atributos, 'Películas')
-                    
+
                 elif hipotesis_analisis == 'Distribucion comics vs peliculas':
                     st.write('Distribución de resultados en cómics vs películas')
 
@@ -364,13 +375,26 @@ else:
         with tabs[1]:
             st.title('Simulador de batallas de superhéroes')
 
+            col1, col2 = st.columns([1, 3])
+            col3, col4 = st.columns([1, 3])
+
             # Selección de héroes
-            heroe1 = st.selectbox('Selecciona el Héroe 1', ['Aleatorio'] + list(df_pred_battles['Heroe 1'].unique()))
-            heroe2 = st.selectbox('Selecciona el Héroe 2', ['Aleatorio'] + list(df_pred_battles['Heroe 2'].unique()))
+            with col1:
+                heroe1 = st.selectbox('Selecciona el Héroe 1', ['Aleatorio'] + list(df_pred_battles['Heroe 1'].unique()))
+            with col3:
+                heroe2 = st.selectbox('Selecciona el Héroe 2', ['Aleatorio'] + list(df_pred_battles['Heroe 2'].unique()))
+
+            # Mostrar imagen del Héroe 1
+            with col2:
+                mostrar_imagen_heroe(heroe1, 'Heroe 1')
+
+            # Mostrar imagen del Héroe 2
+            with col4:
+                mostrar_imagen_heroe(heroe2, 'Heroe 2')
 
             # Obtener atributos del Héroe 1
+            st.header('Atributos de Héroe 1')
             if heroe1 == 'Aleatorio':
-                st.header('Atributos de Héroe 1')
                 intelligence_1 = st.slider('Inteligencia', 0, 100, 50, key='intelligence_1')
                 strength_1 = st.slider('Fuerza', 0, 100, 50, key='strength_1')
                 speed_1 = st.slider('Velocidad', 0, 100, 50, key='speed_1')
@@ -379,7 +403,6 @@ else:
                 combat_1 = st.slider('Combate', 0, 100, 50, key='combat_1')
                 heroe1_encoded = random.randint(0, 500)  # Asignar un valor aleatorio
             else:
-                st.header(f'Atributos de {heroe1}')
                 atributos_1 = obtener_atributos(heroe1, 'Heroe 1')
                 intelligence_1 = st.slider('Inteligencia', 0, 100, atributos_1['intelligence'], key='intelligence_1', disabled=True)
                 strength_1 = st.slider('Fuerza', 0, 100, atributos_1['strength'], key='strength_1', disabled=True)
@@ -388,11 +411,10 @@ else:
                 power_1 = st.slider('Poder', 0, 100, atributos_1['power'], key='power_1', disabled=True)
                 combat_1 = st.slider('Combate', 0, 100, atributos_1['combat'], key='combat_1', disabled=True)
                 heroe1_encoded = df_pred_battles.loc[df_pred_battles['Heroe 1'] == heroe1, 'Heroe_1_encoded'].values[0]
-                mostrar_imagen_heroe(heroe1, 'Heroe 1')
 
             # Obtener atributos del Héroe 2
+            st.header('Atributos de Héroe 2')
             if heroe2 == 'Aleatorio':
-                st.header('Atributos de Héroe 2')
                 intelligence_2 = st.slider('Inteligencia', 0, 100, 50, key='intelligence_2')
                 strength_2 = st.slider('Fuerza', 0, 100, 50, key='strength_2')
                 speed_2 = st.slider('Velocidad', 0, 100, 50, key='speed_2')
@@ -401,7 +423,6 @@ else:
                 combat_2 = st.slider('Combate', 0, 100, 50, key='combat_2')
                 heroe2_encoded = random.randint(0, 500)  # Asignar un valor aleatorio
             else:
-                st.header(f'Atributos de {heroe2}')
                 atributos_2 = obtener_atributos(heroe2, 'Heroe 2')
                 intelligence_2 = st.slider('Inteligencia', 0, 100, atributos_2['intelligence'], key='intelligence_2', disabled=True)
                 strength_2 = st.slider('Fuerza', 0, 100, atributos_2['strength'], key='strength_2', disabled=True)
@@ -410,7 +431,6 @@ else:
                 power_2 = st.slider('Poder', 0, 100, atributos_2['power'], key='power_2', disabled=True)
                 combat_2 = st.slider('Combate', 0, 100, atributos_2['combat'], key='combat_2', disabled=True)
                 heroe2_encoded = df_pred_battles.loc[df_pred_battles['Heroe 2'] == heroe2, 'Heroe_2_encoded'].values[0]
-                mostrar_imagen_heroe(heroe2, 'Heroe 2')
 
             # Botón para iniciar el combate
             if st.button('Iniciar Combate'):
@@ -432,5 +452,11 @@ else:
                 }
 
                 # Realizar la simulación
-                resultado = simular_batalla(nuevo_combate, model)
-                st.write(f'El resultado del combate es: {resultado}')
+                ganador = simular_batalla(nuevo_combate, model)
+                if ganador == "Heroe 1":
+                    heroe_ganador = heroe1
+                else:
+                    heroe_ganador = heroe2
+
+                st.write(f'El ganador es: {heroe_ganador}')
+                mostrar_imagen_heroe(heroe_ganador, ganador)
