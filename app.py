@@ -7,7 +7,9 @@ import random
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns
-from funciones import *
+from scipy.stats import chi2_contingency
+from scipy import stats
+
 
 
 # Ruta del archivo del modelo
@@ -22,6 +24,7 @@ else:
 
     # Cargar el dataset
     df_pred_battles = pd.read_csv('./data/MCU_DC_final_limpio.csv')
+    df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
 
     # Label Encoder Heroe 1 y Heroe 2
     label_encoder = LabelEncoder()
@@ -40,13 +43,14 @@ else:
     # Función para obtener atributos del héroe
     def obtener_atributos(heroe, heroe_col):
         atributos = df_pred_battles[df_pred_battles[heroe_col] == heroe].iloc[0]
+        col_suffix = heroe_col.split()[-1]  # Obtener el sufijo de la columna ('1' o '2')
         return {
-            'intelligence': atributos[f'Intelligence_{heroe_col[-1]}'],
-            'strength': atributos[f'Strength_{heroe_col[-1]}'],
-            'speed': atributos[f'Speed_{heroe_col[-1]}'],
-            'durability': atributos[f'Durability_{heroe_col[-1]}'],
-            'power': atributos[f'Power_{heroe_col[-1]}'],
-            'combat': atributos[f'Combat_{heroe_col[-1]}']
+            'intelligence': atributos[f'Intelligence_{col_suffix}'],
+            'strength': atributos[f'Strength_{col_suffix}'],
+            'speed': atributos[f'Speed_{col_suffix}'],
+            'durability': atributos[f'Durability_{col_suffix}'],
+            'power': atributos[f'Power_{col_suffix}'],
+            'combat': atributos[f'Combat_{col_suffix}']
         }
 
     # Función para mostrar la imagen del héroe
@@ -97,23 +101,24 @@ else:
         tabs = st.tabs(["EDA", "Simulador"])
 
         # Pestaña EDA
-        df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
-
         num_var = [
-    'Intelligence_1', 'Intelligence_2', 'Strength_1', 'Strength_2', 
-    'Speed_1', 'Speed_2', 'Durability_1', 'Durability_2', 
-    'Power_1', 'Power_2', 'Combat_1', 'Combat_2', 
-    'Tier_1', 'Tier_2', 'Tier2_1', 'Tier2_2']
+            'Intelligence_1', 'Intelligence_2', 'Strength_1', 'Strength_2', 
+            'Speed_1', 'Speed_2', 'Durability_1', 'Durability_2', 
+            'Power_1', 'Power_2', 'Combat_1', 'Combat_2', 
+            'Tier_1', 'Tier_2', 'Tier2_1', 'Tier2_2'
+        ]
 
         # Definir los atributos y las variables objetivo
-        atributos = ['Intelligence_1', 'Strength_1', 'Speed_1', 'Durability_1', 'Power_1', 'Combat_1',
-                    'Intelligence_2', 'Strength_2', 'Speed_2', 'Durability_2', 'Power_2', 'Combat_2']
+        atributos = [
+            'Intelligence_1', 'Strength_1', 'Speed_1', 'Durability_1', 'Power_1', 'Combat_1',
+            'Intelligence_2', 'Strength_2', 'Speed_2', 'Durability_2', 'Power_2', 'Combat_2'
+        ]
         targets_comics = 'Resultado_Comics'
         targets_peliculas = 'Resultado_Peliculas'
 
         # Separar los datos en ganadores y perdedores para películas
-        ganadores_peliculas = df_comics_pelis[df_comics_pelis[targets_peliculas] == 1]
-        perdedores_peliculas = df_comics_pelis[df_comics_pelis[targets_peliculas] == 2]
+        ganadores_peliculas = df_pred_battles[df_pred_battles[targets_peliculas] == 1]
+        perdedores_peliculas = df_pred_battles[df_pred_battles[targets_peliculas] == 2]
     
         # Función para visualizar atributos entre ganadores y perdedores
         def visualizar_atributos_bar(ganadores, perdedores, atributos, titulo):
@@ -130,13 +135,6 @@ else:
             
             plt.tight_layout(rect=[0, 0, 1, 0.96])
             st.pyplot(fig)  # Renderizar el gráfico en Streamlit
-
-        # Cargar datos (ejemplo)
-        df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
-
-        # Separar los datos en ganadores y perdedores para cómics
-        ganadores_comics = df_comics_pelis[df_comics_pelis['Resultado_Comics'] == 1]
-        perdedores_comics = df_comics_pelis[df_comics_pelis['Resultado_Comics'] == 2]
 
         with tabs[0]:
             st.title('Análisis Exploratorio de Datos (EDA)')
@@ -179,8 +177,6 @@ else:
                     st.write('Estadísticas descriptivas de las variables numéricas:')
                     st.write(df_pred_battles[num_var].describe())
 
-
-                    # Ejemplo de gráficos para variables numéricas
                     # Ejemplo de gráficos para variables numéricas
                     st.write('Ejemplo de gráficos para variables numéricas:')
 
@@ -202,12 +198,11 @@ else:
                         st.pyplot(fig)
 
                 elif tipo_analisis == 'Categorico':
-                    df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
-
                     st.write('Seleccione la variable categórica a analizar:')
                     variable_categorica = st.selectbox('Variable categórica', ['Universe_1', 'Universe_2'])
+
                     # Generar las series de valores contados
-                    serie = df_comics_pelis[variable_categorica].value_counts()
+                    serie = df_pred_battles[variable_categorica].value_counts()
 
                     # Calcular los porcentajes
                     total = serie.sum()
@@ -239,6 +234,13 @@ else:
                     st.write('Análisis de atributos entre ganadores y perdedores')
                     st.subheader('Comparación de atributos entre ganadores y perdedores')
 
+                    # Cargar datos para cómics (asegurando que estén cargados antes de usarlos)
+                    df_comics_pelis = pd.read_csv('./data/MCU_DC_final_limpio.csv')
+
+                    # Separar los datos en ganadores y perdedores para cómics
+                    ganadores_comics = df_comics_pelis[df_comics_pelis['Resultado_Comics'] == 1]
+                    perdedores_comics = df_comics_pelis[df_comics_pelis['Resultado_Comics'] == 2]
+
                     # Visualizar atributos para cómics
                     st.subheader('Para Cómics:')
                     visualizar_atributos_bar(ganadores_comics, perdedores_comics, atributos, 'Cómics')
@@ -246,15 +248,117 @@ else:
                     # Visualizar atributos para películas
                     st.subheader('Para Películas:')
                     visualizar_atributos_bar(ganadores_peliculas, perdedores_peliculas, atributos, 'Películas')
-
+                    
                 elif hipotesis_analisis == 'Distribucion comics vs peliculas':
-                    st.write('Comparación de fuerza vs poder...')
+                    st.write('Distribución de resultados en cómics vs películas')
+
+                    # Crear un subset de los datos con los resultados de enfrentamientos en cómics y películas
+                    resultados = df_pred_battles[['Resultado_Comics', 'Resultado_Peliculas']]
+
+                    # Visualizar las distribuciones de los resultados
+                    fig, axes = plt.subplots(1, 2, figsize=(14, 6))
+
+                    sns.countplot(data=df_pred_battles, x='Resultado_Comics', palette='viridis', ax=axes[0])
+                    axes[0].set_title('Distribución de Resultados en Cómics')
+                    axes[0].set_xlabel('Resultado')
+                    axes[0].set_ylabel('Frecuencia')
+
+                    sns.countplot(data=df_pred_battles, x='Resultado_Peliculas', palette='viridis', ax=axes[1])
+                    axes[1].set_title('Distribución de Resultados en Películas')
+                    axes[1].set_xlabel('Resultado')
+                    axes[1].set_ylabel('Frecuencia')
+
+                    plt.tight_layout()
+                    st.pyplot(fig)
+
+                    # Análisis Comparativo
+                    # Crear una tabla de contingencia
+                    tabla_contingencia = pd.crosstab(df_pred_battles['Resultado_Comics'], df_pred_battles['Resultado_Peliculas'])
+
+                    # Prueba de chi-cuadrado
+                    chi2, p, dof, expected = chi2_contingency(tabla_contingencia)
+
+                    st.write("Tabla de contingencia entre resultados en cómics y películas:")
+                    st.write(tabla_contingencia)
+                    st.write(f"Chi-cuadrado: {chi2}")
+                    st.write(f"P-valor: {p}")
+                    st.write(f"Grados de libertad: {dof}")
+                    st.write("Frecuencias esperadas:")
+                    st.write(expected)
 
                 elif hipotesis_analisis == 'Fuerza y Poder relacionados con la victoria':
-                    st.write('Análisis del más fuerte...')
+                    st.write('Fuerza y Poder relacionados con la victoria')
+
+                    # Datos de fuerza y poder para ganadores y perdedores
+                    strength_winner_1 = df_comics_pelis[df_comics_pelis['Resultado_Combinado'] == 1]['Strength_1']
+                    strength_loser_2 = df_comics_pelis[df_comics_pelis['Resultado_Combinado'] == 0]['Strength_2']
+                    power_winner_1 = df_comics_pelis[df_comics_pelis['Resultado_Combinado'] == 1]['Power_1']
+                    power_loser_2 = df_comics_pelis[df_comics_pelis['Resultado_Combinado'] == 0]['Power_2']
+
+                    # Test t de Student para Strength
+                    t_stat_strength_1, p_val_strength_1 = stats.ttest_ind(strength_winner_1, strength_loser_2)
+                    st.write(f"Test t para Strength (Heroe 1 vs Heroe 2): t-stat = {t_stat_strength_1}, p-value = {p_val_strength_1}")
+
+                    # Test t de Student para Power
+                    t_stat_power_1, p_val_power_1 = stats.ttest_ind(power_winner_1, power_loser_2)
+                    st.write(f"Test t para Power (Heroe 1 vs Heroe 2): t-stat = {t_stat_power_1}, p-value = {p_val_power_1}")
 
                 elif hipotesis_analisis == 'Similitud heroes del mismo universo':
-                    st.write('Análisis del más fuerte para héroes del mismo universo...')
+                    st.write('Similitud heroes del mismo universo')
+
+                    # Crear una columna que indique si ambos héroes en un enfrentamiento pertenecen al mismo universo
+                    df_comics_pelis['Mismo_Universo'] = df_comics_pelis['Universe_1'] == df_comics_pelis['Universe_2']
+
+                    # Crear variables binarias para indicar si un héroe ganó en cómics y películas
+                    df_comics_pelis['Ganador_Comics'] = (df_comics_pelis['Resultado_Comics'] == 1).astype(int)
+                    df_comics_pelis['Ganador_Peliculas'] = (df_comics_pelis['Resultado_Peliculas'] == 1).astype(int)
+
+                    # Visualizar las distribuciones de los patrones de victorias y derrotas
+                    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+
+                    sns.countplot(data=df_comics_pelis[df_comics_pelis['Mismo_Universo']], x='Ganador_Comics', palette='viridis', ax=axes[0, 0])
+                    axes[0, 0].set_title('Distribución de Resultados en Cómics (Mismo Universo)')
+                    axes[0, 0].set_xlabel('Ganador en Cómics')
+                    axes[0, 0].set_ylabel('Frecuencia')
+
+                    sns.countplot(data=df_comics_pelis[~df_comics_pelis['Mismo_Universo']], x='Ganador_Comics', palette='viridis', ax=axes[0, 1])
+                    axes[0, 1].set_title('Distribución de Resultados en Cómics (Diferente Universo)')
+                    axes[0, 1].set_xlabel('Ganador en Cómics')
+                    axes[0, 1].set_ylabel('Frecuencia')
+
+                    sns.countplot(data=df_comics_pelis[df_comics_pelis['Mismo_Universo']], x='Ganador_Peliculas', palette='viridis', ax=axes[1, 0])
+                    axes[1, 0].set_title('Distribución de Resultados en Películas (Mismo Universo)')
+                    axes[1, 0].set_xlabel('Ganador en Películas')
+                    axes[1, 0].set_ylabel('Frecuencia')
+
+                    sns.countplot(data=df_comics_pelis[~df_comics_pelis['Mismo_Universo']], x='Ganador_Peliculas', palette='viridis', ax=axes[1, 1])
+                    axes[1, 1].set_title('Distribución de Resultados en Películas (Diferente Universo)')
+                    axes[1, 1].set_xlabel('Ganador en Películas')
+                    axes[1, 1].set_ylabel('Frecuencia')
+
+                    plt.tight_layout()
+                    st.pyplot(fig)
+
+                    # Análisis Comparativo
+                    # Crear tablas de contingencia
+                    contingencia_comics = pd.crosstab(df_comics_pelis['Mismo_Universo'], df_comics_pelis['Ganador_Comics'])
+                    contingencia_peliculas = pd.crosstab(df_comics_pelis['Mismo_Universo'], df_comics_pelis['Ganador_Peliculas'])
+
+                    # Realizar el test chi-cuadrado
+                    chi2_comics, p_comics, dof_comics, expected_comics = chi2_contingency(contingencia_comics)
+                    chi2_peliculas, p_peliculas, dof_peliculas, expected_peliculas = chi2_contingency(contingencia_peliculas)
+
+                    st.write(f"Chi-cuadrado para cómics: {chi2_comics}")
+                    st.write(f"p-valor para cómics: {p_comics}")
+                    st.write(f"Grados de libertad para cómics: {dof_comics}")
+                    st.write("Tabla esperada para cómics:")
+                    st.write(expected_comics)
+
+                    st.write(f"Chi-cuadrado para películas: {chi2_peliculas}")
+                    st.write(f"p-valor para películas: {p_peliculas}")
+                    st.write(f"Grados de libertad para películas: {dof_peliculas}")
+                    st.write("Tabla esperada para películas:")
+                    st.write(expected_peliculas)
 
 
         # Pestaña Simulador
