@@ -31,6 +31,9 @@ A continuacion, se presenta una muestra de los datos:
 | Black Widow       |         13 |      27 |           10 |      17 |       16 |
 | Spider-Man        |         55 |      57 |           55 |      60 |       55 |
 
+## Fuentes
+- https://www.superherodb.com/
+- https://www.kaggle.com/
 
 ## Instalación
 
@@ -59,7 +62,5 @@ Para iniciar la aplicación, ejecuta el siguiente comando en la terminal integra
 ```bash
 streamlit run app.py
 
-### Fuentes
 
-- https://www.superherodb.com/#
-- https://www.kaggle.com/
+
