@@ -28,3 +28,32 @@ A continuacion, se presenta una muestra de los datos:
 | Iron Man          |         88 |      63 |           80 |      90 |       64 |
 | Black Widow       |         13 |      27 |           10 |      17 |       16 |
 | Spider-Man        |         55 |      57 |           55 |      60 |       55 |
+
+
+## Instalación
+
+Para instalar y ejecutar esta aplicación en tu máquina local utilizando Visual Studio Code (VSCode), sigue estos pasos:
+
+1. **Clona este repositorio**:
+    - Abre VSCode.
+    - Abre la terminal integrada con ``Ctrl+` `` (Control + tecla de acento grave) o desde el menú: `View -> Terminal`.
+    - Ejecuta el siguiente comando en la terminal:
+    ```bash
+    git clone https://github.com/Lokhy87/Proyecto-Machine-Learning.git
+    ```
+
+2. **Navega al directorio del proyecto**:
+    - En la terminal integrada de VSCode, navega al directorio del proyecto con el siguiente comando:
+    ```bash
+    cd Proyecto-Machine-Learing
+    ```
+
+3. **Instala las dependencias necesarias**:
+    - Asegúrate de tener `pip` instalado.
+
+## Uso
+
+Para iniciar la aplicación, ejecuta el siguiente comando en la terminal integrada de VSCode:
+```bash
+streamlit run app.py
+
