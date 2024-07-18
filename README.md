@@ -1,11 +1,23 @@
 <div style="position: relative; text-align: center; color: white;">
+    <!-- Fondo de gradiente -->
     <div style="background: linear-gradient(to right, #ff7e5f, #feb47b); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
-  <h1 align="center" style="position: relative; z-index: 1;">SIMULADOR DE BATALLAS</h1>
-  <img src="images/README.jpg" alt="Superhero Battle Arena" style="width: 100%; opacity: 0.3; position: relative;">
-  <div style="position: absolute; top: 0; left: 0; width: 100%; padding-top: 50px;">
-
-  <h2>Bienvenido a <strong>SUPERHERO BATTLE ARENA: THE ULTIMATE SHOWDOWN</strong></h2>
-  <p>Esta innovadora aplicación te permite sumergirte en el fascinante mundo de los superhéroes, combinando el poder del análisis de datos y el machine learning.<br> Con esta herramienta, podrás explorar detalladamente las características de tus héroes favoritos de Marvel y DC, simular enfrentamientos épicos y descubrir quién sería el vencedor en el combate definitivo.<br> Nuestra aplicación utiliza técnicas avanzadas de Machine Learning y un exhaustivo Análisis Exploratorio de Datos (EDA) para brindarte una experiencia única y emocionante.<br> Prepárate para experimentar la ciencia detrás de cada batalla y disfruta de la adrenalina de cada enfrentamiento en la Superhero Battle Arena.</p>
+    
+    <!-- Título principal -->
+    <h1 align="center" style="position: relative; z-index: 1;">SIMULADOR DE BATALLAS</h1>
+    
+    <!-- Imagen con opacidad -->
+    <img src="images/README.jpg" alt="Superhero Battle Arena" style="width: 100%; opacity: 0.3; position: relative; z-index: -1;">
+    
+    <!-- Contenido superpuesto -->
+    <div style="position: relative; z-index: 1; padding-top: 20px;">
+        <h2>Bienvenido a <strong>SUPERHERO BATTLE ARENA: THE ULTIMATE SHOWDOWN</strong></h2>
+        <p>
+            Esta innovadora aplicación te permite sumergirte en el fascinante mundo de los superhéroes, combinando el poder del análisis de datos y el machine learning.<br>
+            Con esta herramienta, podrás explorar detalladamente las características de tus héroes favoritos de Marvel y DC, simular enfrentamientos épicos y descubrir quién sería el vencedor en el combate definitivo.<br>
+            Nuestra aplicación utiliza técnicas avanzadas de Machine Learning y un exhaustivo Análisis Exploratorio de Datos (EDA) para brindarte una experiencia única y emocionante.<br>
+            Prepárate para experimentar la ciencia detrás de cada batalla y disfruta de la adrenalina de cada enfrentamiento en la Superhero Battle Arena.
+        </p>
+    </div>
 </div>
 
 ## Resumen de datos 
