@@ -59,3 +59,7 @@ Para iniciar la aplicación, ejecuta el siguiente comando en la terminal integra
 ```bash
 streamlit run app.py
 
+## Fuentes 
+
+- https://www.superherodb.com/#
+- https://www.kaggle.com/
