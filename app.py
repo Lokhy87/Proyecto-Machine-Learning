@@ -85,6 +85,15 @@ else:
         Explora datos detallados de tus héroes favoritos y simula batallas épicas para descubrir quién se alzará con la victoria en el combate definitivo.
         ¡Prepárate para vivir la ciencia detrás de cada enfrentamiento y disfruta de la emoción de la Superhero Battle Arena!
         """)
+        
+        # Añadir imagen de portada
+        portada_path = './images/portada_app.jpg'
+        if os.path.isfile(portada_path):
+            portada_imagen = Image.open(portada_path)
+            st.image(portada_imagen, caption='Portada de la Aplicación', use_column_width=True)
+        else:
+            st.warning('No se encontró la imagen de portada')
+
         if st.button('Entrar'):
             st.session_state.entrar = True
     else:
