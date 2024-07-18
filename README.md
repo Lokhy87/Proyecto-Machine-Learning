@@ -1,5 +1,3 @@
-# SIMULADOR DE BATALLAS 
-
 <div style="position: relative; text-align: center; color: white;">
   <img src="images/README.jpg" alt="Superhero Battle Arena" style="width: 100%; opacity: 0.3; position: absolute; top: 0; left: 0; z-index: -1;">
   <h1 align="center"> SIMULADOR DE BATALLAS </h1>
