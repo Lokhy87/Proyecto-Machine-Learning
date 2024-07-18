@@ -1,4 +1,5 @@
 <div style="position: relative; text-align: center; color: white;">
+    <div style="background: linear-gradient(to right, #ff7e5f, #feb47b); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
   <h1 align="center" style="position: relative; z-index: 1;">SIMULADOR DE BATALLAS</h1>
   <img src="images/README.jpg" alt="Superhero Battle Arena" style="width: 100%; opacity: 0.3; position: relative;">
   <div style="position: absolute; top: 0; left: 0; width: 100%; padding-top: 50px;">
